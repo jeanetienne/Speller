@@ -24,6 +24,10 @@
 		F78F93191DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
 		F78F931A1DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
 		F78F931B1DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
+		F78F931E1DD1F83B005E6100 /* International_Radiotelephony.plist in Resources */ = {isa = PBXBuildFile; fileRef = F78F931D1DD1F83B005E6100 /* International_Radiotelephony.plist */; };
+		F78F931F1DD1F83B005E6100 /* International_Radiotelephony.plist in Resources */ = {isa = PBXBuildFile; fileRef = F78F931D1DD1F83B005E6100 /* International_Radiotelephony.plist */; };
+		F78F93201DD1F83B005E6100 /* International_Radiotelephony.plist in Resources */ = {isa = PBXBuildFile; fileRef = F78F931D1DD1F83B005E6100 /* International_Radiotelephony.plist */; };
+		F78F93211DD1F83B005E6100 /* International_Radiotelephony.plist in Resources */ = {isa = PBXBuildFile; fileRef = F78F931D1DD1F83B005E6100 /* International_Radiotelephony.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,7 @@
 		F78F930E1DD0AAAD005E6100 /* Speller_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_watchOS.h; sourceTree = "<group>"; };
 		F78F930F1DD0AAAD005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78F93181DD1F667005E6100 /* SpellerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellerTests.swift; sourceTree = "<group>"; };
+		F78F931D1DD1F83B005E6100 /* International_Radiotelephony.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = International_Radiotelephony.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				F78F92AE1DD0AA41005E6100 /* Speller.swift */,
+				F78F931C1DD1F83B005E6100 /* Alphabets */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -239,6 +245,14 @@
 				F78F930F1DD0AAAD005E6100 /* Info.plist */,
 			);
 			path = Speller_watchOS;
+			sourceTree = "<group>";
+		};
+		F78F931C1DD1F83B005E6100 /* Alphabets */ = {
+			isa = PBXGroup;
+			children = (
+				F78F931D1DD1F83B005E6100 /* International_Radiotelephony.plist */,
+			);
+			path = Alphabets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +487,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F931E1DD1F83B005E6100 /* International_Radiotelephony.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +502,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F931F1DD1F83B005E6100 /* International_Radiotelephony.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +517,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F93201DD1F83B005E6100 /* International_Radiotelephony.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F93211DD1F83B005E6100 /* International_Radiotelephony.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
