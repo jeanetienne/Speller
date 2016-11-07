@@ -7,3 +7,39 @@
 //
 
 import Foundation
+
+class Speller {
+
+    public func spell(phrase: String,
+                      withAlphabet alphabet: Alphabet = Alphabet.InternationalRadiotelephony) -> [SpelledCharacter] {
+        var spelling = [SpelledCharacter]()
+        for character in phrase.characters {
+            if let codeWord = self.codeWord(forCharacter: character, withAlphabet: alphabet) {
+                spelling.append(SpelledCharacter.Match(character, codeWord))
+            } else {
+                spelling.append(SpelledCharacter.Unknown(character))
+            }
+        }
+
+        return spelling
+    }
+
+    // MARK: - Private methods
+
+    private func codeWord(forCharacter character: Character, withAlphabet alphabet: Alphabet) -> String? {
+        var reference = [Character: String]()
+        do {
+            reference = try alphabet.load()
+        } catch {
+            reference = Alphabet.loadFallback()
+        }
+
+        var codeWord = reference[character]
+        if (codeWord == nil) {
+            codeWord = reference[Character("\(character)".uppercased())]
+        }
+
+        return codeWord
+    }
+    
+}
