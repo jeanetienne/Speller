@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F78F92C11DD0AA8A005E6100 /* Speller_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78F92B81DD0AA8A005E6100 /* Speller_macOS.framework */; };
+		F78F92C61DD0AA8A005E6100 /* Speller_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92C51DD0AA8A005E6100 /* Speller_macOSTests.swift */; };
+		F78F92C81DD0AA8A005E6100 /* Speller_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F92BA1DD0AA8A005E6100 /* Speller_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F78F92DD1DD0AA98005E6100 /* Speller_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78F92D41DD0AA98005E6100 /* Speller_iOS.framework */; };
+		F78F92E21DD0AA98005E6100 /* Speller_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92E11DD0AA98005E6100 /* Speller_iOSTests.swift */; };
+		F78F92E41DD0AA98005E6100 /* Speller_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F92D61DD0AA98005E6100 /* Speller_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F78F92F91DD0AAA3005E6100 /* Speller_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78F92F01DD0AAA3005E6100 /* Speller_tvOS.framework */; };
+		F78F92FE1DD0AAA3005E6100 /* Speller_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92FD1DD0AAA3005E6100 /* Speller_tvOSTests.swift */; };
+		F78F93001DD0AAA3005E6100 /* Speller_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F92F21DD0AAA3005E6100 /* Speller_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F78F93101DD0AAAD005E6100 /* Speller_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F930E1DD0AAAD005E6100 /* Speller_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F78F93141DD0AAFF005E6100 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92AE1DD0AA41005E6100 /* Speller.swift */; };
+		F78F93151DD0AB00005E6100 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92AE1DD0AA41005E6100 /* Speller.swift */; };
+		F78F93161DD0AB00005E6100 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92AE1DD0AA41005E6100 /* Speller.swift */; };
+		F78F93171DD0AB01005E6100 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92AE1DD0AA41005E6100 /* Speller.swift */; };
+		F78F93191DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
+		F78F931A1DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
+		F78F931B1DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F78F92C21DD0AA8A005E6100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78F92281DD0A8AD005E6100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78F92B71DD0AA8A005E6100;
+			remoteInfo = Speller_macOS;
+		};
+		F78F92DE1DD0AA98005E6100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78F92281DD0A8AD005E6100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78F92D31DD0AA98005E6100;
+			remoteInfo = Speller_iOS;
+		};
+		F78F92FA1DD0AAA3005E6100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78F92281DD0A8AD005E6100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78F92EF1DD0AAA3005E6100;
+			remoteInfo = Speller_tvOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F78F92AE1DD0AA41005E6100 /* Speller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speller.swift; sourceTree = "<group>"; };
+		F78F92B81DD0AA8A005E6100 /* Speller_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78F92BA1DD0AA8A005E6100 /* Speller_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_macOS.h; sourceTree = "<group>"; };
+		F78F92BB1DD0AA8A005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78F92C01DD0AA8A005E6100 /* Speller_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Speller_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78F92C51DD0AA8A005E6100 /* Speller_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speller_macOSTests.swift; sourceTree = "<group>"; };
+		F78F92C71DD0AA8A005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78F92D41DD0AA98005E6100 /* Speller_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78F92D61DD0AA98005E6100 /* Speller_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_iOS.h; sourceTree = "<group>"; };
+		F78F92D71DD0AA98005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78F92DC1DD0AA98005E6100 /* Speller_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Speller_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78F92E11DD0AA98005E6100 /* Speller_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speller_iOSTests.swift; sourceTree = "<group>"; };
+		F78F92E31DD0AA98005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78F92F01DD0AAA3005E6100 /* Speller_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78F92F21DD0AAA3005E6100 /* Speller_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_tvOS.h; sourceTree = "<group>"; };
+		F78F92F31DD0AAA3005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78F92F81DD0AAA3005E6100 /* Speller_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Speller_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78F92FD1DD0AAA3005E6100 /* Speller_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speller_tvOSTests.swift; sourceTree = "<group>"; };
+		F78F92FF1DD0AAA3005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78F930C1DD0AAAD005E6100 /* Speller_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78F930E1DD0AAAD005E6100 /* Speller_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_watchOS.h; sourceTree = "<group>"; };
+		F78F930F1DD0AAAD005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78F93181DD1F667005E6100 /* SpellerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78F92B41DD0AA8A005E6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92BD1DD0AA8A005E6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F92C11DD0AA8A005E6100 /* Speller_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92D01DD0AA98005E6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92D91DD0AA98005E6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F92DD1DD0AA98005E6100 /* Speller_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92EC1DD0AAA3005E6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92F51DD0AAA3005E6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F92F91DD0AAA3005E6100 /* Speller_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F93081DD0AAAD005E6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F78F92271DD0A8AD005E6100 = {
+			isa = PBXGroup;
+			children = (
+				F78F92AC1DD0AA1D005E6100 /* Source */,
+				F78F92AD1DD0AA1D005E6100 /* Tests */,
+				F78F92B91DD0AA8A005E6100 /* Speller_macOS */,
+				F78F92C41DD0AA8A005E6100 /* Speller_macOSTests */,
+				F78F92D51DD0AA98005E6100 /* Speller_iOS */,
+				F78F92E01DD0AA98005E6100 /* Speller_iOSTests */,
+				F78F92F11DD0AAA3005E6100 /* Speller_tvOS */,
+				F78F92FC1DD0AAA3005E6100 /* Speller_tvOSTests */,
+				F78F930D1DD0AAAD005E6100 /* Speller_watchOS */,
+				F78F92321DD0A8AD005E6100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F78F92321DD0A8AD005E6100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78F92B81DD0AA8A005E6100 /* Speller_macOS.framework */,
+				F78F92C01DD0AA8A005E6100 /* Speller_macOSTests.xctest */,
+				F78F92D41DD0AA98005E6100 /* Speller_iOS.framework */,
+				F78F92DC1DD0AA98005E6100 /* Speller_iOSTests.xctest */,
+				F78F92F01DD0AAA3005E6100 /* Speller_tvOS.framework */,
+				F78F92F81DD0AAA3005E6100 /* Speller_tvOSTests.xctest */,
+				F78F930C1DD0AAAD005E6100 /* Speller_watchOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78F92AC1DD0AA1D005E6100 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F78F92AE1DD0AA41005E6100 /* Speller.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F78F92AD1DD0AA1D005E6100 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F78F93181DD1F667005E6100 /* SpellerTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F78F92B91DD0AA8A005E6100 /* Speller_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F78F92BA1DD0AA8A005E6100 /* Speller_macOS.h */,
+				F78F92BB1DD0AA8A005E6100 /* Info.plist */,
+			);
+			path = Speller_macOS;
+			sourceTree = "<group>";
+		};
+		F78F92C41DD0AA8A005E6100 /* Speller_macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F78F92C51DD0AA8A005E6100 /* Speller_macOSTests.swift */,
+				F78F92C71DD0AA8A005E6100 /* Info.plist */,
+			);
+			path = Speller_macOSTests;
+			sourceTree = "<group>";
+		};
+		F78F92D51DD0AA98005E6100 /* Speller_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F78F92D61DD0AA98005E6100 /* Speller_iOS.h */,
+				F78F92D71DD0AA98005E6100 /* Info.plist */,
+			);
+			path = Speller_iOS;
+			sourceTree = "<group>";
+		};
+		F78F92E01DD0AA98005E6100 /* Speller_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F78F92E11DD0AA98005E6100 /* Speller_iOSTests.swift */,
+				F78F92E31DD0AA98005E6100 /* Info.plist */,
+			);
+			path = Speller_iOSTests;
+			sourceTree = "<group>";
+		};
+		F78F92F11DD0AAA3005E6100 /* Speller_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				F78F92F21DD0AAA3005E6100 /* Speller_tvOS.h */,
+				F78F92F31DD0AAA3005E6100 /* Info.plist */,
+			);
+			path = Speller_tvOS;
+			sourceTree = "<group>";
+		};
+		F78F92FC1DD0AAA3005E6100 /* Speller_tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F78F92FD1DD0AAA3005E6100 /* Speller_tvOSTests.swift */,
+				F78F92FF1DD0AAA3005E6100 /* Info.plist */,
+			);
+			path = Speller_tvOSTests;
+			sourceTree = "<group>";
+		};
+		F78F930D1DD0AAAD005E6100 /* Speller_watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F78F930E1DD0AAAD005E6100 /* Speller_watchOS.h */,
+				F78F930F1DD0AAAD005E6100 /* Info.plist */,
+			);
+			path = Speller_watchOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F78F92B51DD0AA8A005E6100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F92C81DD0AA8A005E6100 /* Speller_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92D11DD0AA98005E6100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F92E41DD0AA98005E6100 /* Speller_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92ED1DD0AAA3005E6100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F93001DD0AAA3005E6100 /* Speller_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F93091DD0AAAD005E6100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F93101DD0AAAD005E6100 /* Speller_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F78F92B71DD0AA8A005E6100 /* Speller_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78F92C91DD0AA8A005E6100 /* Build configuration list for PBXNativeTarget "Speller_macOS" */;
+			buildPhases = (
+				F78F92B31DD0AA8A005E6100 /* Sources */,
+				F78F92B41DD0AA8A005E6100 /* Frameworks */,
+				F78F92B51DD0AA8A005E6100 /* Headers */,
+				F78F92B61DD0AA8A005E6100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speller_macOS;
+			productName = Speller_macOS;
+			productReference = F78F92B81DD0AA8A005E6100 /* Speller_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F78F92BF1DD0AA8A005E6100 /* Speller_macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78F92CC1DD0AA8A005E6100 /* Build configuration list for PBXNativeTarget "Speller_macOSTests" */;
+			buildPhases = (
+				F78F92BC1DD0AA8A005E6100 /* Sources */,
+				F78F92BD1DD0AA8A005E6100 /* Frameworks */,
+				F78F92BE1DD0AA8A005E6100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78F92C31DD0AA8A005E6100 /* PBXTargetDependency */,
+			);
+			name = Speller_macOSTests;
+			productName = Speller_macOSTests;
+			productReference = F78F92C01DD0AA8A005E6100 /* Speller_macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F78F92D31DD0AA98005E6100 /* Speller_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78F92E51DD0AA98005E6100 /* Build configuration list for PBXNativeTarget "Speller_iOS" */;
+			buildPhases = (
+				F78F92CF1DD0AA98005E6100 /* Sources */,
+				F78F92D01DD0AA98005E6100 /* Frameworks */,
+				F78F92D11DD0AA98005E6100 /* Headers */,
+				F78F92D21DD0AA98005E6100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speller_iOS;
+			productName = Speller_iOS;
+			productReference = F78F92D41DD0AA98005E6100 /* Speller_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F78F92DB1DD0AA98005E6100 /* Speller_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78F92E81DD0AA98005E6100 /* Build configuration list for PBXNativeTarget "Speller_iOSTests" */;
+			buildPhases = (
+				F78F92D81DD0AA98005E6100 /* Sources */,
+				F78F92D91DD0AA98005E6100 /* Frameworks */,
+				F78F92DA1DD0AA98005E6100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78F92DF1DD0AA98005E6100 /* PBXTargetDependency */,
+			);
+			name = Speller_iOSTests;
+			productName = Speller_iOSTests;
+			productReference = F78F92DC1DD0AA98005E6100 /* Speller_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F78F92EF1DD0AAA3005E6100 /* Speller_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78F93011DD0AAA3005E6100 /* Build configuration list for PBXNativeTarget "Speller_tvOS" */;
+			buildPhases = (
+				F78F92EB1DD0AAA3005E6100 /* Sources */,
+				F78F92EC1DD0AAA3005E6100 /* Frameworks */,
+				F78F92ED1DD0AAA3005E6100 /* Headers */,
+				F78F92EE1DD0AAA3005E6100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speller_tvOS;
+			productName = Speller_tvOS;
+			productReference = F78F92F01DD0AAA3005E6100 /* Speller_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F78F92F71DD0AAA3005E6100 /* Speller_tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78F93041DD0AAA3005E6100 /* Build configuration list for PBXNativeTarget "Speller_tvOSTests" */;
+			buildPhases = (
+				F78F92F41DD0AAA3005E6100 /* Sources */,
+				F78F92F51DD0AAA3005E6100 /* Frameworks */,
+				F78F92F61DD0AAA3005E6100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78F92FB1DD0AAA3005E6100 /* PBXTargetDependency */,
+			);
+			name = Speller_tvOSTests;
+			productName = Speller_tvOSTests;
+			productReference = F78F92F81DD0AAA3005E6100 /* Speller_tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F78F930B1DD0AAAD005E6100 /* Speller_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78F93111DD0AAAD005E6100 /* Build configuration list for PBXNativeTarget "Speller_watchOS" */;
+			buildPhases = (
+				F78F93071DD0AAAD005E6100 /* Sources */,
+				F78F93081DD0AAAD005E6100 /* Frameworks */,
+				F78F93091DD0AAAD005E6100 /* Headers */,
+				F78F930A1DD0AAAD005E6100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speller_watchOS;
+			productName = Speller_watchOS;
+			productReference = F78F930C1DD0AAAD005E6100 /* Speller_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78F92281DD0A8AD005E6100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jean-Étienne";
+				TargetAttributes = {
+					F78F92B71DD0AA8A005E6100 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F78F92BF1DD0AA8A005E6100 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F78F92D31DD0AA98005E6100 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F78F92DB1DD0AA98005E6100 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F78F92EF1DD0AAA3005E6100 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F78F92F71DD0AAA3005E6100 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F78F930B1DD0AAAD005E6100 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F78F922B1DD0A8AD005E6100 /* Build configuration list for PBXProject "Speller" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F78F92271DD0A8AD005E6100;
+			productRefGroup = F78F92321DD0A8AD005E6100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78F92B71DD0AA8A005E6100 /* Speller_macOS */,
+				F78F92BF1DD0AA8A005E6100 /* Speller_macOSTests */,
+				F78F92D31DD0AA98005E6100 /* Speller_iOS */,
+				F78F92DB1DD0AA98005E6100 /* Speller_iOSTests */,
+				F78F92EF1DD0AAA3005E6100 /* Speller_tvOS */,
+				F78F92F71DD0AAA3005E6100 /* Speller_tvOSTests */,
+				F78F930B1DD0AAAD005E6100 /* Speller_watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78F92B61DD0AA8A005E6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92BE1DD0AA8A005E6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92D21DD0AA98005E6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92DA1DD0AA98005E6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92EE1DD0AAA3005E6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92F61DD0AAA3005E6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F930A1DD0AAAD005E6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78F92B31DD0AA8A005E6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F93141DD0AAFF005E6100 /* Speller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92BC1DD0AA8A005E6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F92C61DD0AA8A005E6100 /* Speller_macOSTests.swift in Sources */,
+				F78F93191DD1F667005E6100 /* SpellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92CF1DD0AA98005E6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F93151DD0AB00005E6100 /* Speller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92D81DD0AA98005E6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F92E21DD0AA98005E6100 /* Speller_iOSTests.swift in Sources */,
+				F78F931A1DD1F667005E6100 /* SpellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92EB1DD0AAA3005E6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F93161DD0AB00005E6100 /* Speller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F92F41DD0AAA3005E6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F92FE1DD0AAA3005E6100 /* Speller_tvOSTests.swift in Sources */,
+				F78F931B1DD1F667005E6100 /* SpellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F93071DD0AAAD005E6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F93171DD0AB01005E6100 /* Speller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F78F92C31DD0AA8A005E6100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78F92B71DD0AA8A005E6100 /* Speller_macOS */;
+			targetProxy = F78F92C21DD0AA8A005E6100 /* PBXContainerItemProxy */;
+		};
+		F78F92DF1DD0AA98005E6100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78F92D31DD0AA98005E6100 /* Speller_iOS */;
+			targetProxy = F78F92DE1DD0AA98005E6100 /* PBXContainerItemProxy */;
+		};
+		F78F92FB1DD0AAA3005E6100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78F92EF1DD0AAA3005E6100 /* Speller_tvOS */;
+			targetProxy = F78F92FA1DD0AAA3005E6100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F78F92431DD0A8AD005E6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F78F92441DD0A8AD005E6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F78F92CA1DD0AA8A005E6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Speller_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F78F92CB1DD0AA8A005E6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Speller_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F78F92CD1DD0AA8A005E6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = Speller_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F78F92CE1DD0AA8A005E6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = Speller_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F78F92E61DD0AA98005E6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Speller_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78F92E71DD0AA98005E6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Speller_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78F92E91DD0AA98005E6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = Speller_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F78F92EA1DD0AA98005E6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = Speller_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78F93021DD0AAA3005E6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Speller_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F78F93031DD0AAA3005E6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Speller_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78F93051DD0AAA3005E6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = Speller_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F78F93061DD0AAA3005E6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = Speller_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78F93121DD0AAAD005E6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Speller_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F78F93131DD0AAAD005E6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Speller_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78F922B1DD0A8AD005E6100 /* Build configuration list for PBXProject "Speller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78F92431DD0A8AD005E6100 /* Debug */,
+				F78F92441DD0A8AD005E6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78F92C91DD0AA8A005E6100 /* Build configuration list for PBXNativeTarget "Speller_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78F92CA1DD0AA8A005E6100 /* Debug */,
+				F78F92CB1DD0AA8A005E6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78F92CC1DD0AA8A005E6100 /* Build configuration list for PBXNativeTarget "Speller_macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78F92CD1DD0AA8A005E6100 /* Debug */,
+				F78F92CE1DD0AA8A005E6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78F92E51DD0AA98005E6100 /* Build configuration list for PBXNativeTarget "Speller_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78F92E61DD0AA98005E6100 /* Debug */,
+				F78F92E71DD0AA98005E6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78F92E81DD0AA98005E6100 /* Build configuration list for PBXNativeTarget "Speller_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78F92E91DD0AA98005E6100 /* Debug */,
+				F78F92EA1DD0AA98005E6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78F93011DD0AAA3005E6100 /* Build configuration list for PBXNativeTarget "Speller_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78F93021DD0AAA3005E6100 /* Debug */,
+				F78F93031DD0AAA3005E6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78F93041DD0AAA3005E6100 /* Build configuration list for PBXNativeTarget "Speller_tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78F93051DD0AAA3005E6100 /* Debug */,
+				F78F93061DD0AAA3005E6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78F93111DD0AAAD005E6100 /* Build configuration list for PBXNativeTarget "Speller_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78F93121DD0AAAD005E6100 /* Debug */,
+				F78F93131DD0AAAD005E6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F78F92281DD0A8AD005E6100 /* Project object */;
+}
