@@ -1,5 +1,5 @@
 //
-//  Alphabet.swift
+//  SpellingAlphabet.swift
 //  Speller
 //
 //  Created by Jean-Étienne on 7/11/16.
@@ -8,51 +8,9 @@
 
 import Foundation
 
-typealias AlphabetContent = [Character: CodeWordCollection]
+typealias SpellingAlphabetContent = [Character: CodeWordCollection]
 
-internal final class CodeWordCollection {
-
-    var mainCodeWord: String {
-        return codeWords[0]
-    }
-
-    var codeWords: [String] = []
-
-    internal init(codeWord: String) {
-        codeWords = [codeWord]
-    }
-
-    internal init(codeWords: [String]) {
-        self.codeWords = codeWords
-    }
-
-}
-
-extension CodeWordCollection: ExpressibleByStringLiteral {
-
-    convenience init(stringLiteral value: StringLiteralType) {
-        self.init(codeWord: value)
-    }
-
-    convenience init(extendedGraphemeClusterLiteral value: StringLiteralType) {
-        self.init(codeWord: value)
-    }
-
-    convenience init(unicodeScalarLiteral value: StringLiteralType) {
-        self.init(codeWord: value)
-    }
-
-}
-
-extension CodeWordCollection: ExpressibleByArrayLiteral {
-
-    convenience init(arrayLiteral elements: String...) {
-        self.init(codeWords: elements)
-    }
-
-}
-
-enum Alphabet {
+public enum SpellingAlphabet {
 
     case InternationalRadiotelephony
 
@@ -73,7 +31,7 @@ enum Alphabet {
     case LatinExtendedB
 
 
-    func load() -> AlphabetContent {
+    internal func load() -> SpellingAlphabetContent {
         switch self {
         case .LatinExtendedB:
             return self.loadLatinExtendedB()
@@ -99,7 +57,7 @@ enum Alphabet {
     }
 
     // MARK: - Private methods
-    private func loadInternationalRadiotelephony() -> AlphabetContent {
+    private func loadInternationalRadiotelephony() -> SpellingAlphabetContent {
         return ["A": "Alfa",        "B": "Bravo",
                 "C": "Charlie",     "D": "Delta",
                 "E": "Echo",        "F": "Foxtrot",
@@ -115,7 +73,7 @@ enum Alphabet {
                 "Y": "Yankee",      "Z": "Zulu"]
     }
 
-    private func loadInternationalRadiotelephonyNumbers() -> AlphabetContent {
+    private func loadInternationalRadiotelephonyNumbers() -> SpellingAlphabetContent {
         return ["1": "Unaone",      "2": "Bissotwo",
                 "3": "Terrathree",  "4": "Kartefour",
                 "5": "Pantafive",   "6": "Soxisix",
@@ -123,7 +81,7 @@ enum Alphabet {
                 "9": "Novenine",    "0": "Nadazero"]
     }
 
-    private func loadUSFinancial() -> AlphabetContent {
+    private func loadUSFinancial() -> SpellingAlphabetContent {
         return ["A": "Adam",    "B": "Bob",
                 "C": "Carol",   "D": "David",
                 "E": "Eddie",   "F": "Frank",
@@ -139,7 +97,7 @@ enum Alphabet {
                 "Y": "Yogi",    "Z": "Zachary"]
     }
 
-    private func loadLAPD() -> AlphabetContent {
+    private func loadLAPD() -> SpellingAlphabetContent {
         return ["A": "Adam",    "B": "Boy",
                 "C": "Charles", "D": "David",
                 "E": "Edward",  "F": "Frank",
@@ -155,7 +113,7 @@ enum Alphabet {
                 "Y": "Young",   "Z": "Zebra"]
     }
 
-    private func loadFrench() -> AlphabetContent {
+    private func loadFrench() -> SpellingAlphabetContent {
         return ["A": "Anatole",     "B": "Berthe",
                 "C": "Célestin",    "D": "Désiré",
                 "E": "Eugène",      "F": "François",
@@ -171,7 +129,7 @@ enum Alphabet {
                 "Y": "Yvonne",      "Z": "Zoé"]
     }
 
-    private func loadBasicLatin() -> AlphabetContent {
+    private func loadBasicLatin() -> SpellingAlphabetContent {
         return [" " : "Space",
                 "!" : "Exclamation mark",
                 "\"": "Quotation mark",
@@ -269,7 +227,7 @@ enum Alphabet {
                 "~" : "Tilde"]
     }
 
-    private func loadLatin1Supplement() -> AlphabetContent {
+    private func loadLatin1Supplement() -> SpellingAlphabetContent {
         return ["¡": "Inverted Exclamation Mark",
                 "¢": "Cent sign",
                 "£": "Pound sign",
@@ -367,7 +325,7 @@ enum Alphabet {
                 "ÿ": "Latin small letter Y with diaeresis"]
     }
 
-    private func loadLatinExtendedA() -> AlphabetContent {
+    private func loadLatinExtendedA() -> SpellingAlphabetContent {
         return ["Ā": "Latin capital letter A with macron",
                 "ā": "Latin small letter A with macron",
                 "Ă": "Latin capital letter A with breve",
@@ -498,7 +456,7 @@ enum Alphabet {
                 "ſ": "Latin small letter long S"]
     }
 
-    private func loadLatinExtendedB() -> AlphabetContent {
+    private func loadLatinExtendedB() -> SpellingAlphabetContent {
         return ["ƀ": "Latin small letter B with stroke",
                 "Ɓ": "Latin capital letter B with hook",
                 "Ƃ": "Latin capital letter B with top bar",

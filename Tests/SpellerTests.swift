@@ -23,14 +23,14 @@ class SpellerTests: XCTestCase {
     }
     
     func testSpellingWorks() {
-        let spelling = self.speller.spell(phrase: "Bagpipe", withAlphabet: Alphabet.InternationalRadiotelephony)
+        let spelling = self.speller.spell(phrase: "Bagpipe", withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
 
         XCTAssertNotNil(spelling)
     }
 
     func testSpellingAllLetters() {
         let word = "Bagpipe"
-        let spelling = self.speller.spell(phrase: word, withAlphabet: Alphabet.InternationalRadiotelephony)
+        let spelling = self.speller.spell(phrase: word, withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
 
         XCTAssertEqual(spelling.count, word.characters.count)
     }

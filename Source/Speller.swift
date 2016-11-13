@@ -8,12 +8,12 @@
 
 import Foundation
 
-class Speller {
+public class Speller {
 
-    public func spell(phrase: String, withAlphabet alphabet: Alphabet) -> [SpelledCharacter] {
+    func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
         var spelling = [SpelledCharacter]()
         for character in phrase.characters {
-            if let codeWord = self.codeWord(forCharacter: character, withAlphabet: alphabet) {
+            if let codeWord = self.codeWord(forCharacter: character, withSpellingAlphabet: alphabet) {
                 spelling.append(SpelledCharacter.Match(character, codeWord))
             } else {
                 spelling.append(SpelledCharacter.Unknown(character))
@@ -24,7 +24,7 @@ class Speller {
     }
 
     // MARK: - Private methods
-    private func codeWord(forCharacter character: Character, withAlphabet alphabet: Alphabet) -> String? {
+    private func codeWord(forCharacter character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> String? {
         var reference = alphabet.load()
 
         var codeWord = reference[character]
