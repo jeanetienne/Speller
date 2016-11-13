@@ -8,74 +8,65 @@
 
 import Foundation
 
-enum Alphabet {
+typealias AlphabetContent = [Character: CodeWordCollection]
 
-    case InternationalRadiotelephony
+internal final class CodeWordCollection {
 
-    // MARK: - Static methods
-
-    static func loadFallback() -> [Character: String] {
-        return [Character("A"): "Alfa",     Character("B"): "Bravo",
-                Character("C"): "Charlie",  Character("D"): "Delta",
-                Character("E"): "Echo",     Character("F"): "Foxtrot",
-                Character("G"): "Golf",     Character("H"): "Hotel",
-                Character("I"): "India",    Character("J"): "Juliett",
-                Character("K"): "Kilo",     Character("L"): "Lima",
-                Character("M"): "Mike",     Character("N"): "November",
-                Character("O"): "Oscar",    Character("P"): "Papa",
-                Character("Q"): "Quebec",   Character("R"): "Romeo",
-                Character("S"): "Sierra",   Character("T"): "Tango",
-                Character("U"): "Uniform",  Character("V"): "Victor",
-                Character("W"): "Whiskey",  Character("X"): "X-ray",
-                Character("Y"): "Yankee",   Character("Z"): "Zulu"]
+    var mainCodeWord: String {
+        return codeWords[0]
     }
 
-    // MARK: - Public methods
+    var codeWords: [String] = []
 
-    func load() throws -> [Character: String] {
-        let propertyListPath = try self.PropertyListPath()
-
-        var dictionary = [String: String]()
-        var baseFormat = PropertyListSerialization.PropertyListFormat.xml
-        if let data = FileManager.default.contents(atPath: propertyListPath) {
-            do {
-                dictionary = try withUnsafeMutablePointer(to: &baseFormat)
-                { (format: UnsafeMutablePointer<PropertyListSerialization.PropertyListFormat>) -> [String : String] in
-                    return try PropertyListSerialization.propertyList(from: data, options: [], format: format) as! [String : String]
-                }
-            } catch {
-                throw AlphabetLoadingError.PropertyListDeserializationError
-            }
-        }
-
-        var finalDictionary = [Character: String]()
-
-        for key in dictionary.keys {
-            finalDictionary[Character(key)] = dictionary[key]
-        }
-
-        return finalDictionary
+    internal init(codeWord: String) {
+        codeWords = [codeWord]
     }
 
-    // MARK: - Private methods
-
-    private func PropertyListPath() throws -> String {
-        switch self {
-        case .InternationalRadiotelephony:
-            if let path = Bundle.main.path(forResource: "International_Radiotelephony", ofType: "plist") {
-                return path
-            } else {
-                throw AlphabetLoadingError.PropertyListNotFoundInMainBundle
-            }
-        }
+    internal init(codeWords: [String]) {
+        self.codeWords = codeWords
     }
 
 }
 
-enum AlphabetLoadingError: Error {
+extension CodeWordCollection: ExpressibleByStringLiteral {
 
-    case PropertyListNotFoundInMainBundle
+    convenience init(stringLiteral value: StringLiteralType) {
+        self.init(codeWord: value)
+    }
 
-    case PropertyListDeserializationError
+    convenience init(extendedGraphemeClusterLiteral value: StringLiteralType) {
+        self.init(codeWord: value)
+    }
+
+    convenience init(unicodeScalarLiteral value: StringLiteralType) {
+        self.init(codeWord: value)
+    }
+
+}
+
+extension CodeWordCollection: ExpressibleByArrayLiteral {
+
+    convenience init(arrayLiteral elements: String...) {
+        self.init(codeWords: elements)
+    }
+
+}
+
+enum Alphabet {
+
+    case InternationalRadiotelephony
+
+    func load() -> AlphabetContent {
+        switch self {
+        case .InternationalRadiotelephony:
+            fallthrough
+        default:
+            return self.loadInternationalRadiotelephony()
+        }
+    }
+
+
+
+
 
 }

@@ -10,8 +10,7 @@ import Foundation
 
 class Speller {
 
-    public func spell(phrase: String,
-                      withAlphabet alphabet: Alphabet = Alphabet.InternationalRadiotelephony) -> [SpelledCharacter] {
+    public func spell(phrase: String, withAlphabet alphabet: Alphabet) -> [SpelledCharacter] {
         var spelling = [SpelledCharacter]()
         for character in phrase.characters {
             if let codeWord = self.codeWord(forCharacter: character, withAlphabet: alphabet) {
@@ -25,21 +24,15 @@ class Speller {
     }
 
     // MARK: - Private methods
-
     private func codeWord(forCharacter character: Character, withAlphabet alphabet: Alphabet) -> String? {
-        var reference = [Character: String]()
-        do {
-            reference = try alphabet.load()
-        } catch {
-            reference = Alphabet.loadFallback()
-        }
+        var reference = alphabet.load()
 
         var codeWord = reference[character]
         if (codeWord == nil) {
             codeWord = reference[Character("\(character)".uppercased())]
         }
 
-        return codeWord
+        return codeWord?.mainCodeWord
     }
     
 }
