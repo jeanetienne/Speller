@@ -1,5 +1,4 @@
 # Travis CI config for Speller
-os: osx
 language: objective-c
 osx_image: xcode8.1
 xcode_project: Speller.xcodeproj
