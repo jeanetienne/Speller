@@ -24,15 +24,15 @@ public class Speller {
     }
 
     // MARK: - Private methods
-    private func codeWord(forCharacter character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> String? {
-        var reference = alphabet.load()
+    private func codeWord(forCharacter character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> CodeWordCollection? {
+        var alphabetContent = alphabet.load()
 
-        var codeWord = reference[character]
+        var codeWord = alphabetContent[character]
         if (codeWord == nil) {
-            codeWord = reference[Character("\(character)".uppercased())]
+            codeWord = alphabetContent[Character("\(character)".uppercased())]
         }
 
-        return codeWord?.mainCodeWord
+        return codeWord
     }
     
 }

@@ -10,7 +10,7 @@ import Foundation
 
 enum SpelledCharacter {
 
-    case Match(Character, String)
+    case Match(Character, CodeWordCollection)
 
     case Unknown(Character)
 
@@ -19,8 +19,8 @@ enum SpelledCharacter {
 extension SpelledCharacter: CustomDebugStringConvertible {
     var debugDescription: String {
         switch self {
-        case .Match(let character, let codeWord):
-            return "\(character): \(codeWord)"
+        case .Match(let character, let codeWordCollection):
+            return "\(character): \(codeWordCollection.mainCodeWord)"
         case .Unknown(let character):
             return "\(character): unknown code word"
         }
