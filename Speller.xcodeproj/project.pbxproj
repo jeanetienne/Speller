@@ -8,13 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F78F92C11DD0AA8A005E6100 /* Speller_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78F92B81DD0AA8A005E6100 /* Speller_macOS.framework */; };
-		F78F92C61DD0AA8A005E6100 /* Speller_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92C51DD0AA8A005E6100 /* Speller_macOSTests.swift */; };
 		F78F92C81DD0AA8A005E6100 /* Speller_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F92BA1DD0AA8A005E6100 /* Speller_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F78F92DD1DD0AA98005E6100 /* Speller_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78F92D41DD0AA98005E6100 /* Speller_iOS.framework */; };
-		F78F92E21DD0AA98005E6100 /* Speller_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92E11DD0AA98005E6100 /* Speller_iOSTests.swift */; };
 		F78F92E41DD0AA98005E6100 /* Speller_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F92D61DD0AA98005E6100 /* Speller_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F78F92F91DD0AAA3005E6100 /* Speller_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78F92F01DD0AAA3005E6100 /* Speller_tvOS.framework */; };
-		F78F92FE1DD0AAA3005E6100 /* Speller_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92FD1DD0AAA3005E6100 /* Speller_tvOSTests.swift */; };
 		F78F93001DD0AAA3005E6100 /* Speller_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F92F21DD0AAA3005E6100 /* Speller_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F78F93101DD0AAAD005E6100 /* Speller_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F930E1DD0AAAD005E6100 /* Speller_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F78F93141DD0AAFF005E6100 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92AE1DD0AA41005E6100 /* Speller.swift */; };
@@ -24,6 +21,33 @@
 		F78F93191DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
 		F78F931A1DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
 		F78F931B1DD1F667005E6100 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93181DD1F667005E6100 /* SpellerTests.swift */; };
+		F78F93241DD1F907005E6100 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */; };
+		F78F93251DD1F907005E6100 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */; };
+		F78F93261DD1F907005E6100 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */; };
+		F78F93271DD1F907005E6100 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */; };
+		F78F93281DD1F907005E6100 /* SpelledCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93231DD1F907005E6100 /* SpelledCharacter.swift */; };
+		F78F93291DD1F907005E6100 /* SpelledCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93231DD1F907005E6100 /* SpelledCharacter.swift */; };
+		F78F932A1DD1F907005E6100 /* SpelledCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93231DD1F907005E6100 /* SpelledCharacter.swift */; };
+		F78F932B1DD1F907005E6100 /* SpelledCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93231DD1F907005E6100 /* SpelledCharacter.swift */; };
+		F78F932C1DD1FD18005E6100 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92AE1DD0AA41005E6100 /* Speller.swift */; };
+		F78F932D1DD1FD18005E6100 /* SpelledCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93231DD1F907005E6100 /* SpelledCharacter.swift */; };
+		F78F932E1DD1FD18005E6100 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */; };
+		F78F932F1DD1FD19005E6100 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92AE1DD0AA41005E6100 /* Speller.swift */; };
+		F78F93301DD1FD19005E6100 /* SpelledCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93231DD1F907005E6100 /* SpelledCharacter.swift */; };
+		F78F93311DD1FD19005E6100 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */; };
+		F78F93321DD1FD1A005E6100 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F92AE1DD0AA41005E6100 /* Speller.swift */; };
+		F78F93331DD1FD1A005E6100 /* SpelledCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93231DD1F907005E6100 /* SpelledCharacter.swift */; };
+		F78F93341DD1FD1A005E6100 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */; };
+		F79A16A41DD8579F0032DA10 /* CodeWordCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */; };
+		F79A16A81DD859C90032DA10 /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A71DD859C90032DA10 /* SpellingAlphabetTests.swift */; };
+		F79A16A91DD859C90032DA10 /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A71DD859C90032DA10 /* SpellingAlphabetTests.swift */; };
+		F79A16AA1DD859C90032DA10 /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A71DD859C90032DA10 /* SpellingAlphabetTests.swift */; };
+		F79A16AB1DD85A470032DA10 /* CodeWordCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */; };
+		F79A16AC1DD85A480032DA10 /* CodeWordCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */; };
+		F79A16AD1DD85A4A0032DA10 /* CodeWordCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */; };
+		F79A16AE1DD85A4B0032DA10 /* CodeWordCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */; };
+		F79A16AF1DD85A4C0032DA10 /* CodeWordCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */; };
+		F79A16B01DD85A4C0032DA10 /* CodeWordCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,24 +80,25 @@
 		F78F92BA1DD0AA8A005E6100 /* Speller_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_macOS.h; sourceTree = "<group>"; };
 		F78F92BB1DD0AA8A005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78F92C01DD0AA8A005E6100 /* Speller_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Speller_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78F92C51DD0AA8A005E6100 /* Speller_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speller_macOSTests.swift; sourceTree = "<group>"; };
 		F78F92C71DD0AA8A005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78F92D41DD0AA98005E6100 /* Speller_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78F92D61DD0AA98005E6100 /* Speller_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_iOS.h; sourceTree = "<group>"; };
 		F78F92D71DD0AA98005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78F92DC1DD0AA98005E6100 /* Speller_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Speller_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78F92E11DD0AA98005E6100 /* Speller_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speller_iOSTests.swift; sourceTree = "<group>"; };
 		F78F92E31DD0AA98005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78F92F01DD0AAA3005E6100 /* Speller_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78F92F21DD0AAA3005E6100 /* Speller_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_tvOS.h; sourceTree = "<group>"; };
 		F78F92F31DD0AAA3005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78F92F81DD0AAA3005E6100 /* Speller_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Speller_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78F92FD1DD0AAA3005E6100 /* Speller_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speller_tvOSTests.swift; sourceTree = "<group>"; };
 		F78F92FF1DD0AAA3005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78F930C1DD0AAAD005E6100 /* Speller_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78F930E1DD0AAAD005E6100 /* Speller_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speller_watchOS.h; sourceTree = "<group>"; };
 		F78F930F1DD0AAAD005E6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78F93181DD1F667005E6100 /* SpellerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellerTests.swift; sourceTree = "<group>"; };
+		F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellingAlphabet.swift; sourceTree = "<group>"; };
+		F78F93231DD1F907005E6100 /* SpelledCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpelledCharacter.swift; sourceTree = "<group>"; };
+		F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordCollection.swift; sourceTree = "<group>"; };
+		F79A16A71DD859C90032DA10 /* SpellingAlphabetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellingAlphabetTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				F78F92AE1DD0AA41005E6100 /* Speller.swift */,
+				F78F93231DD1F907005E6100 /* SpelledCharacter.swift */,
+				F78F93221DD1F907005E6100 /* SpellingAlphabet.swift */,
+				F79A16A31DD8579F0032DA10 /* CodeWordCollection.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -174,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				F78F93181DD1F667005E6100 /* SpellerTests.swift */,
+				F79A16A71DD859C90032DA10 /* SpellingAlphabetTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -190,7 +219,6 @@
 		F78F92C41DD0AA8A005E6100 /* Speller_macOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				F78F92C51DD0AA8A005E6100 /* Speller_macOSTests.swift */,
 				F78F92C71DD0AA8A005E6100 /* Info.plist */,
 			);
 			path = Speller_macOSTests;
@@ -208,7 +236,6 @@
 		F78F92E01DD0AA98005E6100 /* Speller_iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				F78F92E11DD0AA98005E6100 /* Speller_iOSTests.swift */,
 				F78F92E31DD0AA98005E6100 /* Info.plist */,
 			);
 			path = Speller_iOSTests;
@@ -226,7 +253,6 @@
 		F78F92FC1DD0AAA3005E6100 /* Speller_tvOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				F78F92FD1DD0AAA3005E6100 /* Speller_tvOSTests.swift */,
 				F78F92FF1DD0AAA3005E6100 /* Info.plist */,
 			);
 			path = Speller_tvOSTests;
@@ -525,6 +551,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F93281DD1F907005E6100 /* SpelledCharacter.swift in Sources */,
+				F78F93241DD1F907005E6100 /* SpellingAlphabet.swift in Sources */,
+				F79A16A41DD8579F0032DA10 /* CodeWordCollection.swift in Sources */,
 				F78F93141DD0AAFF005E6100 /* Speller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,8 +562,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78F92C61DD0AA8A005E6100 /* Speller_macOSTests.swift in Sources */,
+				F78F93341DD1FD1A005E6100 /* SpellingAlphabet.swift in Sources */,
+				F79A16A81DD859C90032DA10 /* SpellingAlphabetTests.swift in Sources */,
+				F79A16AB1DD85A470032DA10 /* CodeWordCollection.swift in Sources */,
+				F78F93321DD1FD1A005E6100 /* Speller.swift in Sources */,
 				F78F93191DD1F667005E6100 /* SpellerTests.swift in Sources */,
+				F78F93331DD1FD1A005E6100 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +575,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F93291DD1F907005E6100 /* SpelledCharacter.swift in Sources */,
+				F78F93251DD1F907005E6100 /* SpellingAlphabet.swift in Sources */,
+				F79A16AC1DD85A480032DA10 /* CodeWordCollection.swift in Sources */,
 				F78F93151DD0AB00005E6100 /* Speller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,8 +586,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78F92E21DD0AA98005E6100 /* Speller_iOSTests.swift in Sources */,
+				F78F93311DD1FD19005E6100 /* SpellingAlphabet.swift in Sources */,
+				F79A16A91DD859C90032DA10 /* SpellingAlphabetTests.swift in Sources */,
+				F79A16AD1DD85A4A0032DA10 /* CodeWordCollection.swift in Sources */,
+				F78F932F1DD1FD19005E6100 /* Speller.swift in Sources */,
 				F78F931A1DD1F667005E6100 /* SpellerTests.swift in Sources */,
+				F78F93301DD1FD19005E6100 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +599,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F932A1DD1F907005E6100 /* SpelledCharacter.swift in Sources */,
+				F78F93261DD1F907005E6100 /* SpellingAlphabet.swift in Sources */,
+				F79A16AE1DD85A4B0032DA10 /* CodeWordCollection.swift in Sources */,
 				F78F93161DD0AB00005E6100 /* Speller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,8 +610,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78F92FE1DD0AAA3005E6100 /* Speller_tvOSTests.swift in Sources */,
+				F78F932E1DD1FD18005E6100 /* SpellingAlphabet.swift in Sources */,
+				F79A16AA1DD859C90032DA10 /* SpellingAlphabetTests.swift in Sources */,
+				F79A16AF1DD85A4C0032DA10 /* CodeWordCollection.swift in Sources */,
+				F78F932C1DD1FD18005E6100 /* Speller.swift in Sources */,
 				F78F931B1DD1F667005E6100 /* SpellerTests.swift in Sources */,
+				F78F932D1DD1FD18005E6100 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +623,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F932B1DD1F907005E6100 /* SpelledCharacter.swift in Sources */,
+				F78F93271DD1F907005E6100 /* SpellingAlphabet.swift in Sources */,
+				F79A16B01DD85A4C0032DA10 /* CodeWordCollection.swift in Sources */,
 				F78F93171DD0AB01005E6100 /* Speller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -896,6 +946,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = Speller_tvOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -911,6 +962,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = Speller_tvOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
