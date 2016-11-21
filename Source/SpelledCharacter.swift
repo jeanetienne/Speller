@@ -16,6 +16,21 @@ enum SpelledCharacter {
 
 }
 
+extension SpelledCharacter: Equatable {
+
+    static func ==(lhs: SpelledCharacter, rhs: SpelledCharacter) -> Bool {
+        switch (lhs, rhs) {
+        case (let .Match(lhsCharacter, lhsCodeWordCollection), let .Match(rhsCharacter, rhsCodeWordCollection)):
+            return lhsCharacter == rhsCharacter && lhsCodeWordCollection == rhsCodeWordCollection
+        case (let .Unknown(lhsCharacter), let .Unknown(rhsCharacter)):
+            return lhsCharacter == rhsCharacter
+        default:
+            return false
+        }
+    }
+
+}
+
 extension SpelledCharacter: CustomDebugStringConvertible {
     var debugDescription: String {
         switch self {

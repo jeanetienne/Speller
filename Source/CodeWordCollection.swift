@@ -26,6 +26,14 @@ final class CodeWordCollection {
 
 }
 
+extension CodeWordCollection: Equatable {
+
+    static func ==(lhs: CodeWordCollection, rhs: CodeWordCollection) -> Bool {
+        return lhs.codeWords == rhs.codeWords
+    }
+
+}
+
 extension CodeWordCollection: ExpressibleByStringLiteral {
 
     convenience init(stringLiteral value: StringLiteralType) {
