@@ -1,3 +1,35 @@
 # Travis CI config for Speller
-language: swift
+os: osx
+language: objective-c
 osx_image: xcode8.1
+xcode_project: Speller.xcodeproj
+
+env:
+  global:
+  - PROJECT=Speller.xcodeproj
+  - MACOS_SCHEME="Speller_macOS"
+  - MACOS_SDK=macosx10.12
+  - IOS_SCHEME="Speller_iOS"
+  - IOS_SDK=iphonesimulator10.1
+  - TVOS_SCHEME="Speller_tvOS"
+  - TVOS_SDK=appletvsimulator10.0
+  - WATCHOS_SCHEME="Speller_watchOS"
+  - WATCHOS_SDK=watchsimulator3.1
+
+  matrix:
+    - DESTINATION="arch=x86_64"                             SCHEME="$MACOS_SCHEME"    SDK="$MACOS_SDK"    RUN_TESTS="YES"
+    - DESTINATION="OS=10.1,name=iPhone 5"                   SCHEME="$IOS_SCHEME"      SDK="$IOS_SDK"      RUN_TESTS="YES"
+    - DESTINATION="OS=10.0,name=Apple TV 1080p"             SCHEME="$TVOS_SCHEME"     SDK="$TVOS_SDK"     RUN_TESTS="YES"
+    - DESTINATION="OS=3.1,name=Apple Watch Series 2 - 38mm" SCHEME="$WATCHOS_SCHEME"  SDK="$WATCHOS_SDK"  RUN_TESTS="NO"
+
+script:
+  - set -o pipefail
+  - xcodebuild -version
+  - xcodebuild -showsdks
+
+  # Build Framework in Debug and Run Tests if specified
+  - if [ $RUN_TESTS == "YES" ]; then
+      xcodebuild -project "$PROJECT" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test;
+    else
+      xcodebuild -project "$PROJECT" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build;
+    fi
