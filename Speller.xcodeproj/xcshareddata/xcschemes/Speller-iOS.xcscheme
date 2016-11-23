@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F78F930B1DD0AAAD005E6100"
-               BuildableName = "Speller_watchOS.framework"
-               BlueprintName = "Speller_watchOS"
+               BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+               BuildableName = "Speller.framework"
+               BlueprintName = "Speller-iOS"
                ReferencedContainer = "container:Speller.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,10 +26,28 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "52D6D9851BEFF229002C0205"
+               BuildableName = "Speller-iOS Tests.xctest"
+               BlueprintName = "Speller-iOS Tests"
+               ReferencedContainer = "container:Speller.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+            BuildableName = "Speller.framework"
+            BlueprintName = "Speller-iOS"
+            ReferencedContainer = "container:Speller.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -46,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F78F930B1DD0AAAD005E6100"
-            BuildableName = "Speller_watchOS.framework"
-            BlueprintName = "Speller_watchOS"
+            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+            BuildableName = "Speller.framework"
+            BlueprintName = "Speller-iOS"
             ReferencedContainer = "container:Speller.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F78F930B1DD0AAAD005E6100"
-            BuildableName = "Speller_watchOS.framework"
-            BlueprintName = "Speller_watchOS"
+            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+            BuildableName = "Speller.framework"
+            BlueprintName = "Speller-iOS"
             ReferencedContainer = "container:Speller.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

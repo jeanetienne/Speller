@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F78F92D31DD0AA98005E6100"
-               BuildableName = "Speller_iOS.framework"
-               BlueprintName = "Speller_iOS"
+               BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
+               BuildableName = "Speller.framework"
+               BlueprintName = "Speller-tvOS"
                ReferencedContainer = "container:Speller.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,16 +26,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F78F92DB1DD0AA98005E6100"
-               BuildableName = "Speller_iOSTests.xctest"
-               BlueprintName = "Speller_iOSTests"
+               BlueprintIdentifier = "DD75028C1C690C7A006590AF"
+               BuildableName = "Speller-tvOS Tests.xctest"
+               BlueprintName = "Speller-tvOS Tests"
                ReferencedContainer = "container:Speller.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F78F92D31DD0AA98005E6100"
-            BuildableName = "Speller_iOS.framework"
-            BlueprintName = "Speller_iOS"
+            BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
+            BuildableName = "Speller.framework"
+            BlueprintName = "Speller-tvOS"
             ReferencedContainer = "container:Speller.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F78F92D31DD0AA98005E6100"
-            BuildableName = "Speller_iOS.framework"
-            BlueprintName = "Speller_iOS"
+            BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
+            BuildableName = "Speller.framework"
+            BlueprintName = "Speller-tvOS"
             ReferencedContainer = "container:Speller.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F78F92D31DD0AA98005E6100"
-            BuildableName = "Speller_iOS.framework"
-            BlueprintName = "Speller_iOS"
+            BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
+            BuildableName = "Speller.framework"
+            BlueprintName = "Speller-tvOS"
             ReferencedContainer = "container:Speller.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
