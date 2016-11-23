@@ -22,9 +22,6 @@
 		F70D59AC1DE58CEE00FD5E66 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D59A21DE58CEE00FD5E66 /* SpellingAlphabet.swift */; };
 		F70D59AD1DE58CEE00FD5E66 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D59A21DE58CEE00FD5E66 /* SpellingAlphabet.swift */; };
 		F70D59AE1DE58CEE00FD5E66 /* SpellingAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D59A21DE58CEE00FD5E66 /* SpellingAlphabet.swift */; };
-		F70D59B01DE58D0000FD5E66 /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D59AF1DE58D0000FD5E66 /* SpellingAlphabetTests.swift */; };
-		F70D59B11DE58D0000FD5E66 /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D59AF1DE58D0000FD5E66 /* SpellingAlphabetTests.swift */; };
-		F70D59B21DE58D0000FD5E66 /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D59AF1DE58D0000FD5E66 /* SpellingAlphabetTests.swift */; };
 		F70D59B31DE58E2300FD5E66 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ACFE51DE58C0F00143FA9 /* Speller.swift */; };
 		F70D59B41DE58E2300FD5E66 /* CodeWordCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D59A01DE58CEE00FD5E66 /* CodeWordCollection.swift */; };
 		F70D59B51DE58E2300FD5E66 /* SpelledCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D59A11DE58CEE00FD5E66 /* SpelledCharacter.swift */; };
@@ -41,9 +38,12 @@
 		F77ACFEA1DE58C1400143FA9 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ACFE51DE58C0F00143FA9 /* Speller.swift */; };
 		F77ACFEB1DE58C1500143FA9 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ACFE51DE58C0F00143FA9 /* Speller.swift */; };
 		F77ACFEC1DE58C1500143FA9 /* Speller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ACFE51DE58C0F00143FA9 /* Speller.swift */; };
-		F77ACFED1DE58C1800143FA9 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ACFE71DE58C0F00143FA9 /* SpellerTests.swift */; };
-		F77ACFEE1DE58C1900143FA9 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ACFE71DE58C0F00143FA9 /* SpellerTests.swift */; };
-		F77ACFEF1DE58C1A00143FA9 /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ACFE71DE58C0F00143FA9 /* SpellerTests.swift */; };
+		F7E3DECC1DE5AC73005B550A /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DECA1DE5AC73005B550A /* SpellerTests.swift */; };
+		F7E3DECD1DE5AC73005B550A /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DECA1DE5AC73005B550A /* SpellerTests.swift */; };
+		F7E3DECE1DE5AC73005B550A /* SpellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DECA1DE5AC73005B550A /* SpellerTests.swift */; };
+		F7E3DECF1DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DECB1DE5AC73005B550A /* SpellingAlphabetTests.swift */; };
+		F7E3DED01DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DECB1DE5AC73005B550A /* SpellingAlphabetTests.swift */; };
+		F7E3DED11DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DECB1DE5AC73005B550A /* SpellingAlphabetTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,9 +83,9 @@
 		F70D59A01DE58CEE00FD5E66 /* CodeWordCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordCollection.swift; sourceTree = "<group>"; };
 		F70D59A11DE58CEE00FD5E66 /* SpelledCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpelledCharacter.swift; sourceTree = "<group>"; };
 		F70D59A21DE58CEE00FD5E66 /* SpellingAlphabet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellingAlphabet.swift; sourceTree = "<group>"; };
-		F70D59AF1DE58D0000FD5E66 /* SpellingAlphabetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellingAlphabetTests.swift; sourceTree = "<group>"; };
 		F77ACFE51DE58C0F00143FA9 /* Speller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speller.swift; sourceTree = "<group>"; };
-		F77ACFE71DE58C0F00143FA9 /* SpellerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellerTests.swift; sourceTree = "<group>"; };
+		F7E3DECA1DE5AC73005B550A /* SpellerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellerTests.swift; sourceTree = "<group>"; };
+		F7E3DECB1DE5AC73005B550A /* SpellingAlphabetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellingAlphabetTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,10 +191,18 @@
 		F77ACFE61DE58C0F00143FA9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F77ACFE71DE58C0F00143FA9 /* SpellerTests.swift */,
-				F70D59AF1DE58D0000FD5E66 /* SpellingAlphabetTests.swift */,
+				F7E3DEC91DE5AC73005B550A /* SpellerTests */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		F7E3DEC91DE5AC73005B550A /* SpellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7E3DECA1DE5AC73005B550A /* SpellerTests.swift */,
+				F7E3DECB1DE5AC73005B550A /* SpellingAlphabetTests.swift */,
+			);
+			path = SpellerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,11 +496,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E3DECC1DE5AC73005B550A /* SpellerTests.swift in Sources */,
 				F70D59BE1DE58E2400FD5E66 /* SpellingAlphabet.swift in Sources */,
-				F70D59B01DE58D0000FD5E66 /* SpellingAlphabetTests.swift in Sources */,
+				F7E3DECF1DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
 				F70D59BB1DE58E2400FD5E66 /* Speller.swift in Sources */,
 				F70D59BC1DE58E2400FD5E66 /* CodeWordCollection.swift in Sources */,
-				F77ACFED1DE58C1800143FA9 /* SpellerTests.swift in Sources */,
 				F70D59BD1DE58E2400FD5E66 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,11 +542,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E3DECD1DE5AC73005B550A /* SpellerTests.swift in Sources */,
 				F70D59BA1DE58E2300FD5E66 /* SpellingAlphabet.swift in Sources */,
-				F70D59B11DE58D0000FD5E66 /* SpellingAlphabetTests.swift in Sources */,
+				F7E3DED01DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
 				F70D59B71DE58E2300FD5E66 /* Speller.swift in Sources */,
 				F70D59B81DE58E2300FD5E66 /* CodeWordCollection.swift in Sources */,
-				F77ACFEE1DE58C1900143FA9 /* SpellerTests.swift in Sources */,
 				F70D59B91DE58E2300FD5E66 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,11 +555,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E3DECE1DE5AC73005B550A /* SpellerTests.swift in Sources */,
 				F70D59B61DE58E2300FD5E66 /* SpellingAlphabet.swift in Sources */,
-				F70D59B21DE58D0000FD5E66 /* SpellingAlphabetTests.swift in Sources */,
+				F7E3DED11DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
 				F70D59B31DE58E2300FD5E66 /* Speller.swift in Sources */,
 				F70D59B41DE58E2300FD5E66 /* CodeWordCollection.swift in Sources */,
-				F77ACFEF1DE58C1A00143FA9 /* SpellerTests.swift in Sources */,
 				F70D59B51DE58E2300FD5E66 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
