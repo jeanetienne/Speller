@@ -11,6 +11,10 @@ import Foundation
 /// A `Speller` provides an interface to spell out strings using `SpellingAlphabet`s
 public class Speller {
 
+    public init() {
+        
+    }
+
     /// Spells the given string using the
     ///
     /// - Parameters:
