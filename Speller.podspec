@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "Speller"
-  s.version          = "0.0.6"
+  s.version          = "0.0.7"
   s.summary          = "Framework to spell words using spelling alphabets"
 
   s.description      = <<-DESC
