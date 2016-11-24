@@ -1,6 +1,6 @@
 # Speller
 
-[![Build Status](https://travis-ci.org/jeanetienne/Speller.svg?branch=develop)](https://travis-ci.org/jeanetienne/Speller)
+[![Build Status](https://travis-ci.org/jeanetienne/Speller.svg?branch=master)](https://travis-ci.org/jeanetienne/Speller)
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/jeanetienne/Speller/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/jeanetienne/Speller.svg)](https://github.com/jeanetienne/Speller/releases)
 [![codecov.io](https://codecov.io/github/jeanetienne/Speller/coverage.svg?branch=master&style=flat)](https://codecov.io/github/jeanetienne/Speller/?branch=master)
