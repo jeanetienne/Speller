@@ -10,11 +10,11 @@ import Foundation
 
 public final class CodeWordCollection {
 
-    var mainCodeWord: String {
+    public var mainCodeWord: String {
         return codeWords[0]
     }
 
-    var codeWords: [String] = []
+    public var codeWords: [String] = []
 
     init(codeWord: String) {
         codeWords = [codeWord]

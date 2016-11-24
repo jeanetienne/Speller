@@ -17,7 +17,7 @@ public class Speller {
     ///   - phrase: The phrase to be spelled out
     ///   - alphabet: The spelling alphabet to be used to spell out the input phrase
     /// - Returns: An array of `SpelledCharacter`s describing each character of the input phrase
-    func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
+    public func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
         var spelling = [SpelledCharacter]()
         for character in phrase.characters {
             if let codeWord = self.codeWord(forCharacter: character, withSpellingAlphabet: alphabet) {
