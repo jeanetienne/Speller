@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum SpelledCharacter {
+public enum SpelledCharacter {
 
     case Match(Character, CodeWordCollection)
 
@@ -18,7 +18,7 @@ enum SpelledCharacter {
 
 extension SpelledCharacter: Equatable {
 
-    static func ==(lhs: SpelledCharacter, rhs: SpelledCharacter) -> Bool {
+    public static func ==(lhs: SpelledCharacter, rhs: SpelledCharacter) -> Bool {
         switch (lhs, rhs) {
         case (let .Match(lhsCharacter, lhsCodeWordCollection), let .Match(rhsCharacter, rhsCodeWordCollection)):
             return lhsCharacter == rhsCharacter && lhsCodeWordCollection == rhsCodeWordCollection
@@ -32,7 +32,8 @@ extension SpelledCharacter: Equatable {
 }
 
 extension SpelledCharacter: CustomDebugStringConvertible {
-    var debugDescription: String {
+
+    public var debugDescription: String {
         switch self {
         case .Match(let character, let codeWordCollection):
             return "\(character): \(codeWordCollection.mainCodeWord)"
@@ -40,4 +41,5 @@ extension SpelledCharacter: CustomDebugStringConvertible {
             return "\(character): unknown code word"
         }
     }
+    
 }

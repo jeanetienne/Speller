@@ -8,13 +8,13 @@
 
 import Foundation
 
-final class CodeWordCollection {
+public final class CodeWordCollection {
 
-    var mainCodeWord: String {
+    public var mainCodeWord: String {
         return codeWords[0]
     }
 
-    var codeWords: [String] = []
+    public var codeWords: [String] = []
 
     init(codeWord: String) {
         codeWords = [codeWord]
@@ -28,7 +28,7 @@ final class CodeWordCollection {
 
 extension CodeWordCollection: Equatable {
 
-    static func ==(lhs: CodeWordCollection, rhs: CodeWordCollection) -> Bool {
+    public static func ==(lhs: CodeWordCollection, rhs: CodeWordCollection) -> Bool {
         return lhs.codeWords == rhs.codeWords
     }
 
@@ -36,15 +36,15 @@ extension CodeWordCollection: Equatable {
 
 extension CodeWordCollection: ExpressibleByStringLiteral {
 
-    convenience init(stringLiteral value: StringLiteralType) {
+    convenience public init(stringLiteral value: StringLiteralType) {
         self.init(codeWord: value)
     }
 
-    convenience init(extendedGraphemeClusterLiteral value: StringLiteralType) {
+    convenience public init(extendedGraphemeClusterLiteral value: StringLiteralType) {
         self.init(codeWord: value)
     }
 
-    convenience init(unicodeScalarLiteral value: StringLiteralType) {
+    convenience public init(unicodeScalarLiteral value: StringLiteralType) {
         self.init(codeWord: value)
     }
 
@@ -52,7 +52,7 @@ extension CodeWordCollection: ExpressibleByStringLiteral {
 
 extension CodeWordCollection: ExpressibleByArrayLiteral {
 
-    convenience init(arrayLiteral elements: String...) {
+    convenience public init(arrayLiteral elements: String...) {
         self.init(codeWords: elements)
     }
     
