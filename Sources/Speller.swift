@@ -8,8 +8,15 @@
 
 import Foundation
 
+/// A `Speller` provides an interface to spell out strings using `SpellingAlphabet`s
 public class Speller {
 
+    /// Spells the given string using the
+    ///
+    /// - Parameters:
+    ///   - phrase: The phrase to be spelled out
+    ///   - alphabet: The spelling alphabet to be used to spell out the input phrase
+    /// - Returns: An array of `SpelledCharacter`s describing each character of the input phrase
     func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
         var spelling = [SpelledCharacter]()
         for character in phrase.characters {
