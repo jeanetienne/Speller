@@ -35,26 +35,32 @@ public enum SpellingAlphabet {
 
     internal func load() -> SpellingAlphabetContent {
         switch self {
-        case .LatinExtendedB:
-            return self.loadLatinExtendedB()
-        case .LatinExtendedA:
-            return self.loadLatinExtendedA()
-        case .Latin1Supplement:
-            return self.loadLatin1Supplement()
-        case .BasicLatin:
-            return self.loadBasicLatin()
-        case .French:
-            return self.loadFrench()
-        case .LAPD:
-            return self.loadLAPD()
-        case .USFinancial:
-            return self.loadUSFinancial()
+        case .InternationalRadiotelephony:
+            return self.loadInternationalRadiotelephony()
+
         case .InternationalRadiotelephonyNumbers:
             return self.loadInternationalRadiotelephonyNumbers()
-        case .InternationalRadiotelephony:
-            fallthrough
-        default:
-            return self.loadInternationalRadiotelephony()
+
+        case .USFinancial:
+            return self.loadUSFinancial()
+
+        case .LAPD:
+            return self.loadLAPD()
+
+        case .French:
+            return self.loadFrench()
+
+        case .BasicLatin:
+            return self.loadBasicLatin()
+
+        case .Latin1Supplement:
+            return self.loadLatin1Supplement()
+
+        case .LatinExtendedA:
+            return self.loadLatinExtendedA()
+
+        case .LatinExtendedB:
+            return self.loadLatinExtendedB()
         }
     }
 
