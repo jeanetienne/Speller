@@ -8,12 +8,17 @@
 
 import Foundation
 
+/// A `CodeWordCollection` represents a collection of all the code words 
+/// matching a spelled character. Often the collection only contains one code 
+/// word
 public final class CodeWordCollection {
 
+    /// The first code word of the collection
     public var mainCodeWord: String {
         return codeWords[0]
     }
 
+    /// An array of all the code words matching a given spelled character
     public var codeWords: [String] = []
 
     init(codeWord: String) {

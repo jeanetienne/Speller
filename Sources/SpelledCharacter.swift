@@ -8,6 +8,13 @@
 
 import Foundation
 
+/// A `SpelledCharacter` represents a character and its associated information 
+/// when used to spell a phrase
+///
+/// - Match: used when the character could be found in the target spelling 
+/// alphabet, and one or more code words were found
+/// - Unknown: used when the character could not be found in the target spelling 
+/// alphabet
 public enum SpelledCharacter {
 
     case Match(Character, CodeWordCollection)

@@ -15,7 +15,7 @@ public class Speller {
         
     }
 
-    /// Spells the given string using the
+    /// Spells the given string using a spelling alphabet
     ///
     /// - Parameters:
     ///   - phrase: The phrase to be spelled out

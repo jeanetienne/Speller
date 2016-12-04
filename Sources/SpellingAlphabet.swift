@@ -22,6 +22,8 @@ public enum SpellingAlphabet {
 
     case French
 
+    // Character description
+
     case BasicLatin
 
     case Latin1Supplement
