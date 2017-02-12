@@ -22,7 +22,7 @@ public class Speller {
     public func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
         return phrase.characters.map { character -> SpelledCharacter in
             return spell(character: character,
-                         withSpellingAlphabets: fallbackAlphabets(forAlphabet: alphabet))
+                         withSpellingAlphabets: [alphabet])
         }
     }
 
@@ -36,7 +36,7 @@ public class Speller {
     }
 
     private func codeWord(forCharacter character: Character, withSpellingAlphabets alphabets: [SpellingAlphabet]) -> CodeWordCollection? {
-        guard let alphabetContent = alphabets.first?.load() else {
+        guard let alphabetContent = alphabets.first?.content else {
             return nil
         }
 
@@ -55,18 +55,4 @@ public class Speller {
         return codeWord
     }
     
-    private func fallbackAlphabets(forAlphabet alphabet: SpellingAlphabet) -> [SpellingAlphabet] {
-        var alphabets = [SpellingAlphabet.BasicLatin,
-                         SpellingAlphabet.Latin1Supplement,
-                         SpellingAlphabet.LatinExtendedA,
-                         SpellingAlphabet.LatinExtendedB]
-
-        if alphabet == SpellingAlphabet.InternationalRadiotelephony {
-            alphabets.insert(SpellingAlphabet.InternationalRadiotelephonyNumbers, at: 0)
-        }
-
-        alphabets.insert(alphabet, at: 0)
-
-        return alphabets
-    }
 }
