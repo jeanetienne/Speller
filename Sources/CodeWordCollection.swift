@@ -62,3 +62,11 @@ extension CodeWordCollection: ExpressibleByArrayLiteral {
     }
     
 }
+
+extension CodeWordCollection: CustomDebugStringConvertible {
+
+    public var debugDescription: String {
+        return codeWords.debugDescription
+    }
+
+}
