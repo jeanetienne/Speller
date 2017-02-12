@@ -84,24 +84,4 @@ class SpellerTests: XCTestCase {
         XCTAssertEqual(spelling, control, "Spelling the latin alphabet with the International Radiotelephoney spelling alphabet has failed")
     }
 
-    func testSpellingWithFallbackAlphabets() {
-        let phrase = "~!@#$%^&*()_+"
-        let spelling = self.speller.spell(phrase: phrase, withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
-        let control = [SpelledCharacter.Match("~", "Tilde"),
-                       SpelledCharacter.Match("!", "Exclamation mark"),
-                       SpelledCharacter.Match("@", "At sign"),
-                       SpelledCharacter.Match("#", ["Number sign", "Hashtag", "Octothorpe", "Sharp"]),
-                       SpelledCharacter.Match("$", "Dollar sign"),
-                       SpelledCharacter.Match("%", "Percent sign"),
-                       SpelledCharacter.Match("^", "Circumflex accent"),
-                       SpelledCharacter.Match("&", "Ampersand"),
-                       SpelledCharacter.Match("*", "Asterisk"),
-                       SpelledCharacter.Match("(", "Left parenthesis"),
-                       SpelledCharacter.Match(")", "Right parenthesis"),
-                       SpelledCharacter.Match("_", ["Underscore", "Low line"]),
-                       SpelledCharacter.Match("+", "Plus sign")]
-
-        XCTAssertEqual(spelling, control, "Spelling unknown characters with the International Radiotelephoney spelling alphabet and using fallback alphabets has failed")
-    }
-
 }
