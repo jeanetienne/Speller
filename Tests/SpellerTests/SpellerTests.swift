@@ -10,24 +10,22 @@ import XCTest
 
 class SpellerTests: XCTestCase {
 
-    let speller = Speller()
-
     func testSpellingWorks() {
-        let spelling = self.speller.spell(phrase: "Bagpipe", withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
+        let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
 
         XCTAssertNotNil(spelling)
     }
 
     func testSpellingAllLetters() {
         let word = "Bagpipe"
-        let spelling = self.speller.spell(phrase: word, withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
+        let spelling = Speller.spell(phrase: word, withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
 
         XCTAssertEqual(spelling.count, word.characters.count)
     }
     
     func testSpellingAllLettersAccurately() {
         let phrase = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        let spelling = self.speller.spell(phrase: phrase, withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
         let control = [SpelledCharacter.Match("a", "Alfa"),
                        SpelledCharacter.Match("b", "Bravo"),
                        SpelledCharacter.Match("c", "Charlie"),
