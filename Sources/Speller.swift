@@ -22,34 +22,24 @@ public class Speller {
     public func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
         return phrase.characters.map { character -> SpelledCharacter in
             return spell(character: character,
-                         withSpellingAlphabets: [alphabet])
+                         withSpellingAlphabet: alphabet)
         }
     }
 
     // MARK: - Private methods
-    private func spell(character: Character, withSpellingAlphabets alphabets: [SpellingAlphabet]) -> SpelledCharacter {
-        if let codeWord = self.codeWord(forCharacter: character, withSpellingAlphabets: alphabets) {
+    private func spell(character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> SpelledCharacter {
+        if let codeWord = self.codeWord(forCharacter: character, withSpellingAlphabet: alphabet) {
             return SpelledCharacter.Match(character, codeWord)
         } else {
             return SpelledCharacter.Unknown(character)
         }
     }
 
-    private func codeWord(forCharacter character: Character, withSpellingAlphabets alphabets: [SpellingAlphabet]) -> CodeWordCollection? {
-        guard let alphabetContent = alphabets.first?.content else {
-            return nil
-        }
-
-        var codeWord = alphabetContent[character]
+    private func codeWord(forCharacter character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> CodeWordCollection? {
+        var codeWord = alphabet.content[character]
 
         if (codeWord == nil) {
-            codeWord = alphabetContent[Character("\(character)".uppercased())]
-        }
-
-        if (codeWord == nil) {
-            let fallbackAlphabets = Array(alphabets.dropFirst())
-            codeWord = self.codeWord(forCharacter: character,
-                                     withSpellingAlphabets: fallbackAlphabets)
+            codeWord = alphabet.content[Character("\(character)".uppercased())]
         }
 
         return codeWord
