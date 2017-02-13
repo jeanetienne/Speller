@@ -46,13 +46,16 @@ public class Speller {
     }
 
     private static func describeUnknownCharacters(inSpelling spelling: [SpelledCharacter]) -> [SpelledCharacter] {
-        guard let characterDescriptor = CharacterDescriptor(.Emoji) else {
-            return spelling
+        let characterDescriptors = [CharacterDescriptor(.Latin), CharacterDescriptor(.Emoji)].flatMap { $0 }
+
+        var spellingWithDescriptions = spelling
+        for characterDescriptor in characterDescriptors {
+            spellingWithDescriptions = spellingWithDescriptions.map { spelledCharacter -> SpelledCharacter in
+                describe(spelledCharacter: spelledCharacter, withCharacterDescriptor: characterDescriptor)
+            }
         }
 
-        return spelling.map { spelledCharacter -> SpelledCharacter in
-            describe(spelledCharacter: spelledCharacter, withCharacterDescriptor: characterDescriptor)
-        }
+        return spellingWithDescriptions
     }
 
     private static func describe(spelledCharacter: SpelledCharacter,
