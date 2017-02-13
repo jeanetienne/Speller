@@ -18,6 +18,8 @@ internal class CharacterDescriptor {
 
         case Emoji
 
+        case Latin
+
     }
 
     private var data: CharacterDescriptorData!
