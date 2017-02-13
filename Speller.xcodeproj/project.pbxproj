@@ -695,7 +695,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS";
 				PRODUCT_NAME = Speller;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -717,7 +717,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS";
 				PRODUCT_NAME = Speller;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -732,7 +732,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-iOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -746,7 +746,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-iOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -765,7 +765,7 @@
 				INFOPLIST_FILE = Configs/Speller.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-watchOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -787,7 +787,7 @@
 				INFOPLIST_FILE = Configs/Speller.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-watchOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -810,7 +810,7 @@
 				INFOPLIST_FILE = Configs/Speller.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -832,7 +832,7 @@
 				INFOPLIST_FILE = Configs/Speller.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -858,7 +858,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -881,7 +881,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -899,7 +899,7 @@
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-macOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
@@ -915,7 +915,7 @@
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-macOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -929,7 +929,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-tvOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
@@ -943,7 +943,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-tvOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
