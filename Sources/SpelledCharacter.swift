@@ -19,6 +19,8 @@ public enum SpelledCharacter {
 
     case Match(Character, CodeWordCollection)
 
+    case Description(Character, String)
+
     case Unknown(Character)
 
 }
@@ -29,6 +31,8 @@ extension SpelledCharacter: Equatable {
         switch (lhs, rhs) {
         case (let .Match(lhsCharacter, lhsCodeWordCollection), let .Match(rhsCharacter, rhsCodeWordCollection)):
             return lhsCharacter == rhsCharacter && lhsCodeWordCollection == rhsCodeWordCollection
+        case (let .Description(lhsCharacter, lhsDescription), let .Description(rhsCharacter, rhsDescription)):
+            return lhsCharacter == rhsCharacter && lhsDescription == rhsDescription
         case (let .Unknown(lhsCharacter), let .Unknown(rhsCharacter)):
             return lhsCharacter == rhsCharacter
         default:
@@ -44,6 +48,8 @@ extension SpelledCharacter: CustomDebugStringConvertible {
         switch self {
         case .Match(let character, let codeWordCollection):
             return "\(character): \(codeWordCollection.mainCodeWord)"
+        case .Description(let character, let description):
+            return "\(character): \(description)"
         case .Unknown(let character):
             return "\(character): unknown code word"
         }
