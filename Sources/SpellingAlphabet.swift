@@ -21,27 +21,23 @@ public enum SpellingAlphabet {
     case French
 
     var content: SpellingAlphabetContent {
-        return self.loadContent()
-    }
-
-    // MARK: - Private helpers
-    private func loadContent() -> SpellingAlphabetContent {
         switch self {
         case .InternationalRadiotelephony:
-            return self.loadInternationalRadiotelephony()
+            return self.internationalRadiotelephony()
 
         case .USFinancial:
-            return self.loadUSFinancial()
+            return self.usFinancial()
 
         case .LAPD:
-            return self.loadLAPD()
+            return self.lapd()
 
         case .French:
-            return self.loadFrench()
+            return self.french()
         }
     }
 
-    private func loadInternationalRadiotelephony() -> SpellingAlphabetContent {
+    // MARK: - Private helpers
+    private func internationalRadiotelephony() -> SpellingAlphabetContent {
         return ["A": "Alfa",        "B": "Bravo",
                 "C": "Charlie",     "D": "Delta",
                 "E": "Echo",        "F": "Foxtrot",
@@ -62,7 +58,7 @@ public enum SpellingAlphabet {
                 "9": "Novenine",    "0": "Nadazero"]
     }
 
-    private func loadUSFinancial() -> SpellingAlphabetContent {
+    private func usFinancial() -> SpellingAlphabetContent {
         return ["A": "Adam",    "B": "Bob",
                 "C": "Carol",   "D": "David",
                 "E": "Eddie",   "F": "Frank",
@@ -78,7 +74,7 @@ public enum SpellingAlphabet {
                 "Y": "Yogi",    "Z": "Zachary"]
     }
 
-    private func loadLAPD() -> SpellingAlphabetContent {
+    private func lapd() -> SpellingAlphabetContent {
         return ["A": "Adam",    "B": "Boy",
                 "C": "Charles", "D": "David",
                 "E": "Edward",  "F": "Frank",
@@ -94,7 +90,7 @@ public enum SpellingAlphabet {
                 "Y": "Young",   "Z": "Zebra"]
     }
 
-    private func loadFrench() -> SpellingAlphabetContent {
+    private func french() -> SpellingAlphabetContent {
         return ["A": "Anatole",     "B": "Berthe",
                 "C": "Célestin",    "D": "Désiré",
                 "E": "Eugène",      "F": "François",
