@@ -16,17 +16,30 @@ When you're on the phone trying to spell a difficult word, or when you want to s
 Speller spells out words for you using any of the provided spelling alphabets. At the moment you can choose among the following spelling alphabets:
 
 - International Radiotelephony
-- International Radiotelephony (Numbers)
 - US Financial
 - LAPD
+- Czech
+- Danish
+- Dutch
+- Finnish
 - French
+- German
+- Italian
+- Norwegian
+- Portuguese
+- PortugueseBrazilian
+- Slovene
+- Spanish
+- Swedish
+- Turkish
 
-The following are not spelling alphabets *per se* but help provide a minimum description of other characters:
+If a letter is not found in the spelling alphabet, a minimum description of the character is provided, based on:
 
+- Emoji description
 - Basic Latin
 - Latin 1 Supplement
 - Latin Extended A
-- Latin Extended B 
+- Latin Extended B
 
 The most famous spelling alphabet is probably the `InternationalRadiotelephony`, also know as the NATO alphabet.
 
