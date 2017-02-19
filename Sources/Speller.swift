@@ -36,13 +36,27 @@ public class Speller {
     }
 
     private static func codeWord(forCharacter character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> CodeWordCollection? {
-        var codeWord = alphabet.content[character]
-
-        if (codeWord == nil) {
-            codeWord = alphabet.content[Character("\(character)".uppercased())]
+        if let codeWord = alphabet.content[character] {
+            return codeWord
         }
 
-        return codeWord
+        let candidates = [
+            "\(character)".uppercased(),
+            "\(character)".folding(options: .diacriticInsensitive, locale: nil),
+            "\(character)".folding(options: .diacriticInsensitive, locale: nil).uppercased()
+        ]
+
+        for candidate in candidates {
+            guard candidate.index(after: candidate.startIndex) == candidate.endIndex else {
+                continue
+            }
+
+            if let codeWordCollection = alphabet.content[Character(candidate)] {
+                return codeWordCollection
+            }
+        }
+
+        return nil
     }
 
     private static func describeUnknownCharacters(inSpelling spelling: [SpelledCharacter]) -> [SpelledCharacter] {
