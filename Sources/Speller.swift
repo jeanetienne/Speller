@@ -11,64 +11,79 @@ import Foundation
 /// A `Speller` provides an interface to spell out strings using `SpellingAlphabet`s
 public class Speller {
 
-    public init() {
-        
-    }
-
     /// Spells the given string using a spelling alphabet
     ///
     /// - Parameters:
     ///   - phrase: The phrase to be spelled out
     ///   - alphabet: The spelling alphabet to be used to spell out the input phrase
     /// - Returns: An array of `SpelledCharacter`s describing each character of the input phrase
-    public func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
-        return phrase.characters.map { character -> SpelledCharacter in
+    public static func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
+        let spelling = phrase.characters.map { character -> SpelledCharacter in
             return spell(character: character,
-                         withSpellingAlphabets: fallbackAlphabets(forAlphabet: alphabet))
+                         withSpellingAlphabet: alphabet)
         }
+
+        return describeUnknownCharacters(inSpelling: spelling)
     }
 
     // MARK: - Private methods
-    private func spell(character: Character, withSpellingAlphabets alphabets: [SpellingAlphabet]) -> SpelledCharacter {
-        if let codeWord = self.codeWord(forCharacter: character, withSpellingAlphabets: alphabets) {
+    private static func spell(character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> SpelledCharacter {
+        if let codeWord = codeWord(forCharacter: character, withSpellingAlphabet: alphabet) {
             return SpelledCharacter.Match(character, codeWord)
         } else {
             return SpelledCharacter.Unknown(character)
         }
     }
 
-    private func codeWord(forCharacter character: Character, withSpellingAlphabets alphabets: [SpellingAlphabet]) -> CodeWordCollection? {
-        guard let alphabetContent = alphabets.first?.load() else {
-            return nil
+    private static func codeWord(forCharacter character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> CodeWordCollection? {
+        if let codeWord = alphabet.content[character] {
+            return codeWord
         }
 
-        var codeWord = alphabetContent[character]
+        let candidates = [
+            "\(character)".uppercased(),
+            "\(character)".folding(options: .diacriticInsensitive, locale: nil),
+            "\(character)".folding(options: .diacriticInsensitive, locale: nil).uppercased()
+        ]
 
-        if (codeWord == nil) {
-            codeWord = alphabetContent[Character("\(character)".uppercased())]
+        for candidate in candidates {
+            guard candidate.index(after: candidate.startIndex) == candidate.endIndex else {
+                continue
+            }
+
+            if let codeWordCollection = alphabet.content[Character(candidate)] {
+                return codeWordCollection
+            }
         }
 
-        if (codeWord == nil) {
-            let fallbackAlphabets = Array(alphabets.dropFirst())
-            codeWord = self.codeWord(forCharacter: character,
-                                     withSpellingAlphabets: fallbackAlphabets)
-        }
-
-        return codeWord
+        return nil
     }
-    
-    private func fallbackAlphabets(forAlphabet alphabet: SpellingAlphabet) -> [SpellingAlphabet] {
-        var alphabets = [SpellingAlphabet.BasicLatin,
-                         SpellingAlphabet.Latin1Supplement,
-                         SpellingAlphabet.LatinExtendedA,
-                         SpellingAlphabet.LatinExtendedB]
 
-        if alphabet == SpellingAlphabet.InternationalRadiotelephony {
-            alphabets.insert(SpellingAlphabet.InternationalRadiotelephonyNumbers, at: 0)
+    private static func describeUnknownCharacters(inSpelling spelling: [SpelledCharacter]) -> [SpelledCharacter] {
+        let characterDescriptors = [CharacterDescriptor(.Latin), CharacterDescriptor(.Emoji)].flatMap { $0 }
+
+        var spellingWithDescriptions = spelling
+        for characterDescriptor in characterDescriptors {
+            spellingWithDescriptions = spellingWithDescriptions.map { spelledCharacter -> SpelledCharacter in
+                describe(spelledCharacter: spelledCharacter, withCharacterDescriptor: characterDescriptor)
+            }
         }
 
-        alphabets.insert(alphabet, at: 0)
-
-        return alphabets
+        return spellingWithDescriptions
     }
+
+    private static func describe(spelledCharacter: SpelledCharacter,
+                                 withCharacterDescriptor characterDescriptor: CharacterDescriptor) -> SpelledCharacter {
+        switch spelledCharacter {
+        case let .Unknown(unknownCharacter):
+            if let description = characterDescriptor.description("\(unknownCharacter)") {
+                return SpelledCharacter.Description(unknownCharacter, description)
+            } else {
+                return spelledCharacter
+            }
+        default:
+            return spelledCharacter
+        }
+    }
+
 }

@@ -18,8 +18,12 @@ public final class CodeWordCollection {
         return codeWords[0]
     }
 
-    /// An array of all the code words matching a given spelled character
-    public var codeWords: [String] = []
+    /// The other code words of the collection
+    public var secondaryCodeWords: [String] {
+        return Array(codeWords.dropFirst(1))
+    }
+
+    fileprivate var codeWords: [String] = []
 
     init(codeWord: String) {
         codeWords = [codeWord]
@@ -61,4 +65,12 @@ extension CodeWordCollection: ExpressibleByArrayLiteral {
         self.init(codeWords: elements)
     }
     
+}
+
+extension CodeWordCollection: CustomDebugStringConvertible {
+
+    public var debugDescription: String {
+        return codeWords.debugDescription
+    }
+
 }

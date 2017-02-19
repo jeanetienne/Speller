@@ -7,6 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479969011E51BF8000E627C5 /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479969001E51BF8000E627C5 /* BundleTests.swift */; };
+		479969021E51BF8000E627C5 /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479969001E51BF8000E627C5 /* BundleTests.swift */; };
+		479969031E51BF8000E627C5 /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479969001E51BF8000E627C5 /* BundleTests.swift */; };
+		479969051E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		479969061E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		479969071E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		479969081E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		479969091E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		4799690A1E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		4799690B1E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		47BB5C7E1E596C69003D685E /* SpelledCharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */; };
+		47BB5C7F1E596C69003D685E /* SpelledCharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */; };
+		47BB5C801E596C69003D685E /* SpelledCharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */; };
+		47C61A5A1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
+		47C61A5B1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
+		47C61A5C1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
+		47C61A5D1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
+		47C61A5E1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
+		47C61A5F1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
+		47C61A601E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
+		47C61A851E50768C0021CDC7 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47692A471E502B590021CF9D /* PropertyListLoader.swift */; };
+		47C61A861E50768D0021CDC7 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47692A471E502B590021CF9D /* PropertyListLoader.swift */; };
+		47C61A871E50768D0021CDC7 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47692A471E502B590021CF9D /* PropertyListLoader.swift */; };
+		47C61A881E50768E0021CDC7 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47692A471E502B590021CF9D /* PropertyListLoader.swift */; };
+		47C61A891E50768F0021CDC7 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47692A471E502B590021CF9D /* PropertyListLoader.swift */; };
+		47C61A8A1E50768F0021CDC7 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47692A471E502B590021CF9D /* PropertyListLoader.swift */; };
+		47C61A8B1E5076900021CDC7 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47692A471E502B590021CF9D /* PropertyListLoader.swift */; };
+		47C61A8D1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A8C1E5076DB0021CDC7 /* CharacterDescriptorTests.swift */; };
+		47C61A8E1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A8C1E5076DB0021CDC7 /* CharacterDescriptorTests.swift */; };
+		47C61A8F1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A8C1E5076DB0021CDC7 /* CharacterDescriptorTests.swift */; };
+		47C61A941E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
+		47C61A951E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
+		47C61A961E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
+		47C61A971E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
+		47C61A981E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
+		47C61A991E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
+		47C61A9A1E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
+		47C61AA21E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
+		47C61AA31E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
+		47C61AA41E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
+		47C61AA51E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
+		47C61AA61E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
+		47C61AA71E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
+		47C61AA81E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
 		52D6D9871BEFF229002C0205 /* Speller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Speller.framework */; };
 		DD7502881C68FEDE006590AF /* Speller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Speller.framework */; };
 		DD7502921C690C7A006590AF /* Speller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Speller.framework */; };
@@ -71,6 +115,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47692A471E502B590021CF9D /* PropertyListLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListLoader.swift; sourceTree = "<group>"; };
+		479969001E51BF8000E627C5 /* BundleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleTests.swift; sourceTree = "<group>"; };
+		479969041E51E4F300E627C5 /* latin-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "latin-data.plist"; sourceTree = "<group>"; };
+		47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpelledCharacterTests.swift; sourceTree = "<group>"; };
+		47C61A591E5075390021CDC7 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		47C61A8C1E5076DB0021CDC7 /* CharacterDescriptorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDescriptorTests.swift; sourceTree = "<group>"; };
+		47C61A911E5076F00021CDC7 /* emoji-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "emoji-data.plist"; sourceTree = "<group>"; };
+		47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDescriptor.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* Speller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Speller-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speller-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* Speller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +196,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47C61A901E5076F00021CDC7 /* CharacterDescription */ = {
+			isa = PBXGroup;
+			children = (
+				47C61A911E5076F00021CDC7 /* emoji-data.plist */,
+				479969041E51E4F300E627C5 /* latin-data.plist */,
+			);
+			path = CharacterDescription;
+			sourceTree = "<group>";
+		};
 		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
@@ -180,10 +241,14 @@
 		F77ACFE41DE58C0F00143FA9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F77ACFE51DE58C0F00143FA9 /* Speller.swift */,
+				47C61A591E5075390021CDC7 /* Bundle.swift */,
+				47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */,
 				F70D59A01DE58CEE00FD5E66 /* CodeWordCollection.swift */,
+				47692A471E502B590021CF9D /* PropertyListLoader.swift */,
 				F70D59A11DE58CEE00FD5E66 /* SpelledCharacter.swift */,
+				F77ACFE51DE58C0F00143FA9 /* Speller.swift */,
 				F70D59A21DE58CEE00FD5E66 /* SpellingAlphabet.swift */,
+				47C61A901E5076F00021CDC7 /* CharacterDescription */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -199,6 +264,9 @@
 		F7E3DEC91DE5AC73005B550A /* SpellerTests */ = {
 			isa = PBXGroup;
 			children = (
+				479969001E51BF8000E627C5 /* BundleTests.swift */,
+				47C61A8C1E5076DB0021CDC7 /* CharacterDescriptorTests.swift */,
+				47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */,
 				F7E3DECA1DE5AC73005B550A /* SpellerTests.swift */,
 				F7E3DECB1DE5AC73005B550A /* SpellingAlphabetTests.swift */,
 			);
@@ -433,6 +501,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C61A941E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969051E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +510,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C61A981E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969091E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +519,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C61A961E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969071E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +528,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C61A971E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969081E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +537,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C61A951E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969061E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +546,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C61A991E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				4799690A1E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +555,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C61A9A1E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				4799690B1E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,9 +568,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70D59AB1DE58CEE00FD5E66 /* SpellingAlphabet.swift in Sources */,
+				47C61A851E50768C0021CDC7 /* PropertyListLoader.swift in Sources */,
 				F70D59A71DE58CEE00FD5E66 /* SpelledCharacter.swift in Sources */,
 				F70D59A31DE58CEE00FD5E66 /* CodeWordCollection.swift in Sources */,
+				47C61A5A1E5075390021CDC7 /* Bundle.swift in Sources */,
 				F77ACFE81DE58C0F00143FA9 /* Speller.swift in Sources */,
+				47C61AA21E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,10 +582,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E3DECC1DE5AC73005B550A /* SpellerTests.swift in Sources */,
+				47C61A5E1E5075390021CDC7 /* Bundle.swift in Sources */,
+				47C61A8D1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */,
+				47BB5C7E1E596C69003D685E /* SpelledCharacterTests.swift in Sources */,
 				F70D59BE1DE58E2400FD5E66 /* SpellingAlphabet.swift in Sources */,
+				47C61A891E50768F0021CDC7 /* PropertyListLoader.swift in Sources */,
 				F7E3DECF1DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
 				F70D59BB1DE58E2400FD5E66 /* Speller.swift in Sources */,
+				479969011E51BF8000E627C5 /* BundleTests.swift in Sources */,
 				F70D59BC1DE58E2400FD5E66 /* CodeWordCollection.swift in Sources */,
+				47C61AA61E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */,
 				F70D59BD1DE58E2400FD5E66 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,9 +601,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70D59AD1DE58CEE00FD5E66 /* SpellingAlphabet.swift in Sources */,
+				47C61A871E50768D0021CDC7 /* PropertyListLoader.swift in Sources */,
 				F70D59A91DE58CEE00FD5E66 /* SpelledCharacter.swift in Sources */,
 				F70D59A51DE58CEE00FD5E66 /* CodeWordCollection.swift in Sources */,
+				47C61A5C1E5075390021CDC7 /* Bundle.swift in Sources */,
 				F77ACFEB1DE58C1500143FA9 /* Speller.swift in Sources */,
+				47C61AA41E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,9 +615,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70D59AE1DE58CEE00FD5E66 /* SpellingAlphabet.swift in Sources */,
+				47C61A881E50768E0021CDC7 /* PropertyListLoader.swift in Sources */,
 				F70D59AA1DE58CEE00FD5E66 /* SpelledCharacter.swift in Sources */,
 				F70D59A61DE58CEE00FD5E66 /* CodeWordCollection.swift in Sources */,
+				47C61A5D1E5075390021CDC7 /* Bundle.swift in Sources */,
 				F77ACFEC1DE58C1500143FA9 /* Speller.swift in Sources */,
+				47C61AA51E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,9 +629,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70D59AC1DE58CEE00FD5E66 /* SpellingAlphabet.swift in Sources */,
+				47C61A861E50768D0021CDC7 /* PropertyListLoader.swift in Sources */,
 				F70D59A81DE58CEE00FD5E66 /* SpelledCharacter.swift in Sources */,
 				F70D59A41DE58CEE00FD5E66 /* CodeWordCollection.swift in Sources */,
+				47C61A5B1E5075390021CDC7 /* Bundle.swift in Sources */,
 				F77ACFEA1DE58C1400143FA9 /* Speller.swift in Sources */,
+				47C61AA31E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,10 +643,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E3DECD1DE5AC73005B550A /* SpellerTests.swift in Sources */,
+				47C61A5F1E5075390021CDC7 /* Bundle.swift in Sources */,
+				47C61A8E1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */,
+				47BB5C7F1E596C69003D685E /* SpelledCharacterTests.swift in Sources */,
 				F70D59BA1DE58E2300FD5E66 /* SpellingAlphabet.swift in Sources */,
+				47C61A8A1E50768F0021CDC7 /* PropertyListLoader.swift in Sources */,
 				F7E3DED01DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
 				F70D59B71DE58E2300FD5E66 /* Speller.swift in Sources */,
+				479969021E51BF8000E627C5 /* BundleTests.swift in Sources */,
 				F70D59B81DE58E2300FD5E66 /* CodeWordCollection.swift in Sources */,
+				47C61AA71E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */,
 				F70D59B91DE58E2300FD5E66 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,10 +662,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E3DECE1DE5AC73005B550A /* SpellerTests.swift in Sources */,
+				47C61A601E5075390021CDC7 /* Bundle.swift in Sources */,
+				47C61A8F1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */,
+				47BB5C801E596C69003D685E /* SpelledCharacterTests.swift in Sources */,
 				F70D59B61DE58E2300FD5E66 /* SpellingAlphabet.swift in Sources */,
+				47C61A8B1E5076900021CDC7 /* PropertyListLoader.swift in Sources */,
 				F7E3DED11DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
 				F70D59B31DE58E2300FD5E66 /* Speller.swift in Sources */,
+				479969031E51BF8000E627C5 /* BundleTests.swift in Sources */,
 				F70D59B41DE58E2300FD5E66 /* CodeWordCollection.swift in Sources */,
+				47C61AA81E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */,
 				F70D59B51DE58E2300FD5E66 /* SpelledCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,7 +807,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS";
 				PRODUCT_NAME = Speller;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -717,7 +829,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS";
 				PRODUCT_NAME = Speller;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -732,7 +844,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-iOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -746,7 +858,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-iOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -765,7 +877,7 @@
 				INFOPLIST_FILE = Configs/Speller.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-watchOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -787,7 +899,7 @@
 				INFOPLIST_FILE = Configs/Speller.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-watchOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -810,7 +922,7 @@
 				INFOPLIST_FILE = Configs/Speller.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -832,7 +944,7 @@
 				INFOPLIST_FILE = Configs/Speller.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -858,7 +970,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -881,7 +993,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS";
 				PRODUCT_NAME = Speller;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -899,7 +1011,7 @@
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-macOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
@@ -915,7 +1027,7 @@
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-macOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -929,7 +1041,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-tvOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
@@ -943,7 +1055,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Speller.Speller-tvOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

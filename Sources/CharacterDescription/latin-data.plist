@@ -1,0 +1,6831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> </key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0020</string>
+		</array>
+		<key>description</key>
+		<string>Space</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>!</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0021</string>
+		</array>
+		<key>description</key>
+		<string>Exclamation mark</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>&quot;</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0022</string>
+		</array>
+		<key>description</key>
+		<string>Quotation mark</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>#</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0023</string>
+		</array>
+		<key>description</key>
+		<string>Number sign, Hashtag, Octothorpe, Sharp</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>$</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0024</string>
+		</array>
+		<key>description</key>
+		<string>Dollar sign</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>%</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0025</string>
+		</array>
+		<key>description</key>
+		<string>Percent sign</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>&amp;</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0026</string>
+		</array>
+		<key>description</key>
+		<string>Ampersand</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>&apos;</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0027</string>
+		</array>
+		<key>description</key>
+		<string>Apostrophe</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>(</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0028</string>
+		</array>
+		<key>description</key>
+		<string>Left parenthesis</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>)</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0029</string>
+		</array>
+		<key>description</key>
+		<string>Right parenthesis</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>*</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>002A</string>
+		</array>
+		<key>description</key>
+		<string>Asterisk</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>+</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>002B</string>
+		</array>
+		<key>description</key>
+		<string>Plus sign</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>,</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>002C</string>
+		</array>
+		<key>description</key>
+		<string>Comma</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>-</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>002D</string>
+		</array>
+		<key>description</key>
+		<string>Hyphen-minus</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>.</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>002E</string>
+		</array>
+		<key>description</key>
+		<string>Full stop</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>/</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>002F</string>
+		</array>
+		<key>description</key>
+		<string>Slash (Solidus)</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>0</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00AD</string>
+		</array>
+		<key>description</key>
+		<string>Soft hyphen</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0031</string>
+		</array>
+		<key>description</key>
+		<string>Digit One</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0032</string>
+		</array>
+		<key>description</key>
+		<string>Digit Two</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0033</string>
+		</array>
+		<key>description</key>
+		<string>Digit Three</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0034</string>
+		</array>
+		<key>description</key>
+		<string>Digit Four</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0035</string>
+		</array>
+		<key>description</key>
+		<string>Digit Five</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0036</string>
+		</array>
+		<key>description</key>
+		<string>Digit Six</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0037</string>
+		</array>
+		<key>description</key>
+		<string>Digit Seven</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0038</string>
+		</array>
+		<key>description</key>
+		<string>Digit Eight</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0039</string>
+		</array>
+		<key>description</key>
+		<string>Digit Nine</string>
+		<key>subcategory</key>
+		<string>ASCII Digits</string>
+	</dict>
+	<key>:</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>003A</string>
+		</array>
+		<key>description</key>
+		<string>Colon</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>;</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>003B</string>
+		</array>
+		<key>description</key>
+		<string>Semicolon</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>&lt;</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>003C</string>
+		</array>
+		<key>description</key>
+		<string>Less-than sign</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>=</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>003D</string>
+		</array>
+		<key>description</key>
+		<string>Equal sign</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>&gt;</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>003E</string>
+		</array>
+		<key>description</key>
+		<string>Greater-than sign</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>?</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>003F</string>
+		</array>
+		<key>description</key>
+		<string>Question mark</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>@</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0040</string>
+		</array>
+		<key>description</key>
+		<string>At sign</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>A</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0041</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>B</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0042</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter B</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>C</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0043</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter C</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>D</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0044</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter D</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>E</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0045</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>F</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0046</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter F</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>G</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0047</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>H</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0048</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter H</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>I</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0049</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>J</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>004A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter J</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>K</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>004B</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter K</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>L</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>004C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter L</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>M</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>004D</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter M</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>N</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>004E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>O</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>004F</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>P</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0050</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter P</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>Q</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0051</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Q</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>R</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0052</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter R</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>S</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0053</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter S</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>T</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0054</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter T</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>U</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0055</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>V</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0056</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter V</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>W</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0057</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter W</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>X</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0058</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter X</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>Y</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0059</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Y</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>Z</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>005A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Z</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Uppercase</string>
+	</dict>
+	<key>[</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>005B</string>
+		</array>
+		<key>description</key>
+		<string>Left Square Bracket</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>\</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>005C</string>
+		</array>
+		<key>description</key>
+		<string>Backslash</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>]</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>005D</string>
+		</array>
+		<key>description</key>
+		<string>Right Square Bracket</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>^</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>005E</string>
+		</array>
+		<key>description</key>
+		<string>Circumflex accent</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>_</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>005F</string>
+		</array>
+		<key>description</key>
+		<string>Low line</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>`</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0060</string>
+		</array>
+		<key>description</key>
+		<string>Grave accent</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>a</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0061</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>b</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0062</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter B</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>c</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0063</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter C</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>d</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0064</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter D</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>e</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0065</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>f</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0066</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter F</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>g</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0067</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter G</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>h</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0068</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter H</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>i</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0069</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>j</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>006A</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter J</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>k</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>006B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter K</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>l</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>006C</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter L</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>m</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>006D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter M</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>n</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>006E</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>o</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>006F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>p</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0070</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter P</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>q</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0071</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Q</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>r</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0072</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter R</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>s</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0073</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter S</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>t</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0074</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter T</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>u</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0075</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>v</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0076</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter V</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>w</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0077</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter W</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>x</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0078</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter X</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>y</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>0079</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Y</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>z</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>007A</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Z</string>
+		<key>subcategory</key>
+		<string>Latin Alphabet: Lowercase</string>
+	</dict>
+	<key>{</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>007B</string>
+		</array>
+		<key>description</key>
+		<string>Left Curly Bracket</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>|</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>007C</string>
+		</array>
+		<key>description</key>
+		<string>Vertical bar</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>}</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>007D</string>
+		</array>
+		<key>description</key>
+		<string>Right Curly Bracket</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>~</key>
+	<dict>
+		<key>category</key>
+		<string>Basic latin</string>
+		<key>code-points</key>
+		<array>
+			<string>007E</string>
+		</array>
+		<key>description</key>
+		<string>Tilde</string>
+		<key>subcategory</key>
+		<string>ASCII Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¡</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A1</string>
+		</array>
+		<key>description</key>
+		<string>Inverted Exclamation Mark</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¢</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A2</string>
+		</array>
+		<key>description</key>
+		<string>Cent sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>£</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A3</string>
+		</array>
+		<key>description</key>
+		<string>Pound sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¤</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A4</string>
+		</array>
+		<key>description</key>
+		<string>Currency sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¥</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A5</string>
+		</array>
+		<key>description</key>
+		<string>Yen sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¦</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A6</string>
+		</array>
+		<key>description</key>
+		<string>Broken bar</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>§</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A7</string>
+		</array>
+		<key>description</key>
+		<string>Section sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¨</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A8</string>
+		</array>
+		<key>description</key>
+		<string>Diaeresis (Umlaut)</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>©</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00A9</string>
+		</array>
+		<key>description</key>
+		<string>Copyright sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>ª</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00AA</string>
+		</array>
+		<key>description</key>
+		<string>Feminine Ordinal Indicator</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>«</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00AB</string>
+		</array>
+		<key>description</key>
+		<string>Left-pointing double angle quotation mark</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¬</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00AC</string>
+		</array>
+		<key>description</key>
+		<string>Not sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>®</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00AE</string>
+		</array>
+		<key>description</key>
+		<string>Registered sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¯</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00AF</string>
+		</array>
+		<key>description</key>
+		<string>Macron</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>°</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B0</string>
+		</array>
+		<key>description</key>
+		<string>Degree symbol</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>±</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B1</string>
+		</array>
+		<key>description</key>
+		<string>Plus-minus sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>²</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B2</string>
+		</array>
+		<key>description</key>
+		<string>Superscript two</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>³</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B3</string>
+		</array>
+		<key>description</key>
+		<string>Superscript three</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>´</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B4</string>
+		</array>
+		<key>description</key>
+		<string>Acute accent</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>µ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B5</string>
+		</array>
+		<key>description</key>
+		<string>Micro sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¶</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B6</string>
+		</array>
+		<key>description</key>
+		<string>Pilcrow sign</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>·</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B7</string>
+		</array>
+		<key>description</key>
+		<string>Middle dot</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¸</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B8</string>
+		</array>
+		<key>description</key>
+		<string>Cedilla</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¹</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00B9</string>
+		</array>
+		<key>description</key>
+		<string>Superscript one</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>º</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00BA</string>
+		</array>
+		<key>description</key>
+		<string>Masculine ordinal indicator</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>»</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00BB</string>
+		</array>
+		<key>description</key>
+		<string>Right-pointing double angle quotation mark</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¼</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00BC</string>
+		</array>
+		<key>description</key>
+		<string>Vulgar fraction one quarter</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>½</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00BD</string>
+		</array>
+		<key>description</key>
+		<string>Vulgar fraction one half</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¾</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00BE</string>
+		</array>
+		<key>description</key>
+		<string>Vulgar fraction three quarters</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>¿</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00BF</string>
+		</array>
+		<key>description</key>
+		<string>Inverted Question Mark</string>
+		<key>subcategory</key>
+		<string>Latin-1 Punctuation &amp; Symbols</string>
+	</dict>
+	<key>À</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C0</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Á</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C1</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Â</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C2</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ã</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C3</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with tilde</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ä</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C4</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Å</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C5</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with ring above</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Æ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C6</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Æ</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ç</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C7</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter C with cedilla</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>È</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C8</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>É</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00C9</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ê</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00CA</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ë</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00CB</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ì</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00CC</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Í</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00CD</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Î</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00CE</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ï</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00CF</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ð</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D0</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Eth</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ñ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D1</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N with tilde</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ò</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D2</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ó</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D3</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ô</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D4</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Õ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D5</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with tilde</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ö</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D6</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>×</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D7</string>
+		</array>
+		<key>description</key>
+		<string>Multiplication sign</string>
+		<key>subcategory</key>
+		<string>Math</string>
+	</dict>
+	<key>Ø</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D8</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with stroke</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ù</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00D9</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ú</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00DA</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Û</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00DB</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ü</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00DC</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ý</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00DD</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Y with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Þ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00DE</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Thorn</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ß</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00DF</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter sharp S</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>à</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E0</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>á</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E1</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>â</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E2</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ã</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E3</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with tilde</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ä</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E4</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>å</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E5</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with ring above</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>æ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E6</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Æ</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ç</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E7</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter C with cedilla</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>è</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E8</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>é</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00E9</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ê</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00EA</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ë</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00EB</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ì</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00EC</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>í</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00ED</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>î</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00EE</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ï</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00EF</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ð</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F0</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Eth</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ñ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F1</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N with tilde</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ò</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F2</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ó</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F3</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ô</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F4</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>õ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F5</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with tilde</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ö</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F6</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>÷</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F7</string>
+		</array>
+		<key>description</key>
+		<string>Division sign</string>
+		<key>subcategory</key>
+		<string>Math</string>
+	</dict>
+	<key>ø</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F8</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with stroke</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ù</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00F9</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with grave</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ú</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00FA</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>û</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00FB</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with circumflex</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ü</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00FC</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ý</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00FD</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Y with acute</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>þ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00FE</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Thorn</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>ÿ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin-1 Supplement</string>
+		<key>code-points</key>
+		<array>
+			<string>00FF</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Y with diaeresis</string>
+		<key>subcategory</key>
+		<string>Letters</string>
+	</dict>
+	<key>Ā</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0100</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ā</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0101</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ă</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0102</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ă</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0103</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ą</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0104</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with ogonek</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ą</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0105</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with ogonek</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ć</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0106</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter C with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ć</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0107</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter C with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0108</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter C with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0109</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter C with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ċ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>010A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter C with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ċ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>010B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter C with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Č</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>010C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter C with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>č</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>010D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter C with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ď</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>010E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter D with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ď</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>010F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter D with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Đ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0110</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter D with stroke</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>đ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0111</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter D with stroke</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ē</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0112</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ē</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0113</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĕ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0114</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĕ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0115</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ė</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0116</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ė</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0117</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ę</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0118</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with ogonek</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ę</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0119</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with ogonek</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ě</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>011A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ě</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>011B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĝ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>011C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĝ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>011D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter G with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ğ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>011E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ğ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>011F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter G with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ġ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0120</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ġ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0121</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter G with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ģ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0122</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ģ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0123</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter G with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0124</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter H with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0125</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter H with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ħ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0126</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter H with stroke</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ħ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0127</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter H with stroke</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĩ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0128</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with tilde</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĩ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0129</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with tilde</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ī</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>012A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ī</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>012B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>012C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>012D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Į</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>012E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with ogonek</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>į</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>012F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with ogonek</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>İ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0130</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ı</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0131</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter dotless I</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĳ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0132</string>
+		</array>
+		<key>description</key>
+		<string>Latin Capital Ligature IJ</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĳ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0133</string>
+		</array>
+		<key>description</key>
+		<string>Latin Small Ligature IJ</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĵ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0134</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter J with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĵ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0135</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter J with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ķ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0136</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter K with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ķ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0137</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter K with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĸ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0138</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Kra</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ĺ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0139</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter L with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ĺ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>013A</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter L with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ļ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>013B</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter L with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ļ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>013C</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter L with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ľ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>013D</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter L with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ľ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>013E</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter L with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŀ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>013F</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter L with middle dot</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŀ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0140</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter L with middle dot</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ł</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0141</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter L with stroke</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ł</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0142</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter L with stroke</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ń</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0143</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ń</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0144</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ņ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0145</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ņ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0146</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ň</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0147</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ň</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0148</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0149</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N preceded by apostrophe[1]</string>
+		<key>subcategory</key>
+		<string>Deprecated</string>
+	</dict>
+	<key>Ŋ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>014A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Eng</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŋ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>014B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Eng</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ō</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>014C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ō</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>014D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŏ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>014E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŏ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>014F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ő</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0150</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with double acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ő</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0151</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with double acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Œ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0152</string>
+		</array>
+		<key>description</key>
+		<string>Latin Capital Ligature OE</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>œ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0153</string>
+		</array>
+		<key>description</key>
+		<string>Latin Small Ligature OE</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŕ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0154</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter R with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŕ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0155</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter R with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŗ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0156</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter R with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŗ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0157</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter R with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ř</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0158</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter R with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ř</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0159</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter R with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ś</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>015A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter S with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ś</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>015B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter S with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŝ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>015C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter S with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŝ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>015D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter S with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ş</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>015E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter S with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ş</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>015F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter S with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Š</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0160</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter S with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>š</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0161</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter S with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ţ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0162</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter T with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ţ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0163</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter T with cedilla</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ť</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0164</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter T with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ť</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0165</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter T with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŧ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0166</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter T with stroke</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŧ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0167</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter T with stroke</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ũ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0168</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with tilde</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ũ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0169</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with tilde</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ū</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>016A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ū</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>016B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with macron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>016C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>016D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with breve</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ů</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>016E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with ring above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ů</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>016F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with ring above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ű</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0170</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with double acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ű</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0171</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with double acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ų</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0172</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with ogonek</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ų</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0173</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with ogonek</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŵ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0174</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter W with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŵ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0175</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter W with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ŷ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0176</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Y with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ŷ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0177</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Y with circumflex</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ÿ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0178</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Y with diaeresis</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ź</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>0179</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Z with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ź</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>017A</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Z with acute</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ż</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>017B</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Z with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ż</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>017C</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Z with dot above</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>Ž</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>017D</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Z with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ž</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>017E</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Z with caron</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ſ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-A</string>
+		<key>code-points</key>
+		<array>
+			<string>017F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter long S</string>
+		<key>subcategory</key>
+		<string>European Latin</string>
+	</dict>
+	<key>ƀ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0180</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter B with stroke</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɓ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0181</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter B with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƃ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0182</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter B with top bar</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƃ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0183</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter B with top bar</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƅ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0184</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Tone Six</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƅ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0185</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Tone Six</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɔ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0186</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Open O</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƈ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0187</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter C with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƈ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0188</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter C with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɖ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0189</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter African D</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɗ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>018A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter D with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƌ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>018B</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter D with top bar</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƌ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>018C</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter D with top bar</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƍ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>018D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Turned Delta</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ǝ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>018E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Reversed E</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ə</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>018F</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Schwa</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɛ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0190</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Open E</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƒ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0191</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter F with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƒ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0192</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter F with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɠ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0193</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɣ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0194</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Gamma</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƕ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0195</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter HV</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɩ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0196</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Iota</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɨ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0197</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with stroke</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƙ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0198</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter K with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƙ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0199</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter K with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƚ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>019A</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter L with bar</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƛ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>019B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Lambda with stroke</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɯ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>019C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Turned M</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɲ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>019D</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N with left hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƞ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>019E</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N with long right leg</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ɵ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>019F</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with middle tilde</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ơ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A0</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with horn</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ơ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A1</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with horn</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƣ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A2</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter OI (= Latin capital letter Gha)</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƣ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A3</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter OI (= Latin small letter Gha)</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A4</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter P with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A5</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter P with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ʀ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A6</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter YR</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƨ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A7</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Tone Two</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƨ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A8</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Tone Two</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ʃ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01A9</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Esh</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƪ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01AA</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter Reversed Esh Loop</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƫ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01AB</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter T with palatal hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01AC</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter T with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01AD</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter T with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ʈ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01AE</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter T with retroflex hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ư</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01AF</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with horn</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ư</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B0</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with horn</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ʊ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B1</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Upsilon</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ʋ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B2</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter V with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƴ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B3</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Y with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƴ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B4</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Y with hook</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƶ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B5</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Z with stroke</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƶ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B6</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Z with stroke</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ʒ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B7</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Ezh</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƹ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B8</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Ezh reversed</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƹ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01B9</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Ezh reversed</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƺ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01BA</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Ezh with tail</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƻ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01BB</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter Two with stroke</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>Ƽ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01BC</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Tone Five</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƽ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01BD</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Tone Five</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƾ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01BE</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter Inverted Glottal Stop with stroke</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ƿ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01BF</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter Wynn</string>
+		<key>subcategory</key>
+		<string>Non-European &amp; historic Latin</string>
+	</dict>
+	<key>ǀ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C0</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter Dental Click</string>
+		<key>subcategory</key>
+		<string>African clicks</string>
+	</dict>
+	<key>ǁ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C1</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter Lateral Click</string>
+		<key>subcategory</key>
+		<string>African clicks</string>
+	</dict>
+	<key>ǂ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C2</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter Alveolar Click</string>
+		<key>subcategory</key>
+		<string>African clicks</string>
+	</dict>
+	<key>ǃ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C3</string>
+		</array>
+		<key>description</key>
+		<string>Latin Letter Retroflex Click</string>
+		<key>subcategory</key>
+		<string>African clicks</string>
+	</dict>
+	<key>Ǆ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C4</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter DZ with caron</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>ǅ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C5</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter D with small letter Z with caron</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>ǆ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C6</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter DZ with caron</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>Ǉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C7</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter LJ</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>ǈ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C8</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter L with small letter J</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>ǉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01C9</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter LJ</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>Ǌ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01CA</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter NJ</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>ǋ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01CB</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N with small letter J</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>ǌ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01CC</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter NJ</string>
+		<key>subcategory</key>
+		<string>Croatian</string>
+	</dict>
+	<key>Ǎ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01CD</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǎ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01CE</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>Ǐ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01CF</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǐ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D0</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>Ǒ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D1</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǒ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D2</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>Ǔ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D3</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǔ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D4</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>Ǖ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D5</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with diaeresis and macron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǖ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D6</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with diaeresis and macron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>Ǘ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D7</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with diaeresis and acute</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǘ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D8</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with diaeresis and acute</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>Ǚ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01D9</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with diaeresis and caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǚ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01DA</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with diaeresis and caron</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>Ǜ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01DB</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with diaeresis and grave</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǜ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01DC</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with diaeresis and grave</string>
+		<key>subcategory</key>
+		<string>Pinyin</string>
+	</dict>
+	<key>ǝ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01DD</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Turned E</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǟ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01DE</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with diaeresis and macron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǟ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01DF</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with diaeresis and macron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǡ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E0</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with dot above and macron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǡ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E1</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with dot above and macron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǣ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E2</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Æ with macron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǣ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E3</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Æ with macron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E4</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G with stroke</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E5</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter G with stroke</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǧ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E6</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G with caron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǧ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E7</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter G with caron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǩ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E8</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter K with caron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǩ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01E9</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter K with caron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǫ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01EA</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with ogonek</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǫ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01EB</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with ogonek</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01EC</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with ogonek and macron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01ED</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with ogonek and macron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǯ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01EE</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Ezh with caron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǯ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01EF</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Ezh with caron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǰ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F0</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter J with caron</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǳ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F1</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter DZ</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǲ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F2</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter D with small letter Z</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǳ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F3</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter DZ</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǵ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F4</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter G with acute</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǵ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F5</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter G with acute</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ƕ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F6</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Hwair</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ƿ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F7</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Wynn</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǹ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F8</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N with grave</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǹ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01F9</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N with grave</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǻ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01FA</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with ring above and acute</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǻ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01FB</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with ring above and acute</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǽ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01FC</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Æ with acute</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǽ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01FD</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Æ with acute</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ǿ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01FE</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with stroke and acute</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>ǿ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>01FF</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with stroke and acute</string>
+		<key>subcategory</key>
+		<string>Phonetic &amp; historic letters</string>
+	</dict>
+	<key>Ȁ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0200</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȁ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0201</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȃ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0202</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȃ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0203</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȅ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0204</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȅ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0205</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȇ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0206</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȇ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0207</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0208</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0209</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȋ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>020A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter I with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȋ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>020B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter I with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȍ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>020C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȍ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>020D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȏ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>020E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȏ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>020F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȑ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0210</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter R with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȑ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0211</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter R with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȓ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0212</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter R with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȓ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0213</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter R with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȕ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0214</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȕ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0215</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with double grave</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ȗ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0216</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>ȗ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0217</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter U with inverted breve</string>
+		<key>subcategory</key>
+		<string>Slovenian &amp; Croatian</string>
+	</dict>
+	<key>Ș</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0218</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter S with comma below</string>
+		<key>subcategory</key>
+		<string>Romanian</string>
+	</dict>
+	<key>ș</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0219</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter S with comma below</string>
+		<key>subcategory</key>
+		<string>Romanian</string>
+	</dict>
+	<key>Ț</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>021A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter T with comma below</string>
+		<key>subcategory</key>
+		<string>Romanian</string>
+	</dict>
+	<key>ț</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>021B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter T with comma below</string>
+		<key>subcategory</key>
+		<string>Romanian</string>
+	</dict>
+	<key>Ȝ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>021C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Yogh</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȝ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>021D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Yogh</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ȟ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>021E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter H with caron</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȟ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>021F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter H with caron</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ƞ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0220</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter N with long right leg</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȡ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0221</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter D with curl</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ȣ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0222</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter OU</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȣ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0223</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter OU</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ȥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0224</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Z with hook</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0225</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Z with hook</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ȧ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0226</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with dot above</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȧ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0227</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter A with dot above</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ȩ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0228</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with cedilla</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȩ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0229</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with cedilla</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ȫ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>022A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with diaeresis and macron</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>ȫ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>022B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with diaeresis and macron</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>Ȭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>022C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with tilde and macron</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>ȭ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>022D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with tilde and macron</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>Ȯ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>022E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with dot above</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>ȯ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>022F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with dot above</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>Ȱ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0230</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter O with dot above and macron</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>ȱ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0231</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter O with dot above and macron</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>Ȳ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0232</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Y with macron</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>ȳ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0233</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Y with macron</string>
+		<key>subcategory</key>
+		<string>Livonian</string>
+	</dict>
+	<key>ȴ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0234</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter L with curl</string>
+		<key>subcategory</key>
+		<string>Sinology</string>
+	</dict>
+	<key>ȵ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0235</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter N with curl</string>
+		<key>subcategory</key>
+		<string>Sinology</string>
+	</dict>
+	<key>ȶ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0236</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter T with curl</string>
+		<key>subcategory</key>
+		<string>Sinology</string>
+	</dict>
+	<key>ȷ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0237</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Dotless J</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȸ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0238</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter DB Digraph</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȹ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0239</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter QP Digraph</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ⱥ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>023A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter A with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ȼ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>023B</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter C with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȼ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>023C</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter C with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ƚ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>023D</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter L with bar</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ⱦ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>023E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter T with diagonal stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ȿ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>023F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter S with swash tail</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ɀ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0240</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Z with swash tail</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ɂ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0241</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Glottal Stop</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ɂ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0242</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Glottal Stop</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ƀ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0243</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter B with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ʉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0244</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter U bar</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ʌ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0245</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Turned V</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ɇ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0246</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter E with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ɇ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0247</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter E with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ɉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0248</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter J with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ɉ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>0249</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter J with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ɋ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>024A</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Q with hook tail</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ɋ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>024B</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Q with hook tail</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ɍ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>024C</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter R with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ɍ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>024D</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter R with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>Ɏ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>024E</string>
+		</array>
+		<key>description</key>
+		<string>Latin capital letter Y with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+	<key>ɏ</key>
+	<dict>
+		<key>category</key>
+		<string>Latin Extended-B</string>
+		<key>code-points</key>
+		<array>
+			<string>024F</string>
+		</array>
+		<key>description</key>
+		<string>Latin small letter Y with stroke</string>
+		<key>subcategory</key>
+		<string>Miscellaneous</string>
+	</dict>
+</dict>
+</plist>

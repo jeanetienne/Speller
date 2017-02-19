@@ -11,13 +11,17 @@ import Foundation
 /// A `SpelledCharacter` represents a character and its associated information 
 /// when used to spell a phrase
 ///
-/// - Match: used when the character could be found in the target spelling 
+/// - Match: used when the character could be found in the target spelling
 /// alphabet, and one or more code words were found
-/// - Unknown: used when the character could not be found in the target spelling 
+/// - Description: used when the character could not be found in the target spelling
+/// alphabet, but a description could be found for the character
+/// - Unknown: used when the character could not be found in the target spelling
 /// alphabet
 public enum SpelledCharacter {
 
     case Match(Character, CodeWordCollection)
+
+    case Description(Character, String)
 
     case Unknown(Character)
 
@@ -29,6 +33,8 @@ extension SpelledCharacter: Equatable {
         switch (lhs, rhs) {
         case (let .Match(lhsCharacter, lhsCodeWordCollection), let .Match(rhsCharacter, rhsCodeWordCollection)):
             return lhsCharacter == rhsCharacter && lhsCodeWordCollection == rhsCodeWordCollection
+        case (let .Description(lhsCharacter, lhsDescription), let .Description(rhsCharacter, rhsDescription)):
+            return lhsCharacter == rhsCharacter && lhsDescription == rhsDescription
         case (let .Unknown(lhsCharacter), let .Unknown(rhsCharacter)):
             return lhsCharacter == rhsCharacter
         default:
@@ -43,7 +49,12 @@ extension SpelledCharacter: CustomDebugStringConvertible {
     public var debugDescription: String {
         switch self {
         case .Match(let character, let codeWordCollection):
-            return "\(character): \(codeWordCollection.mainCodeWord)"
+            let codeWordsDebugDescription = codeWordCollection.secondaryCodeWords.reduce(codeWordCollection.mainCodeWord, { (partial, codeWord) -> String in
+                return partial + " or " + codeWord
+            })
+            return "\(character): \(codeWordsDebugDescription)"
+        case .Description(let character, let description):
+            return "\(character): \(description)"
         case .Unknown(let character):
             return "\(character): unknown code word"
         }
