@@ -49,7 +49,10 @@ extension SpelledCharacter: CustomDebugStringConvertible {
     public var debugDescription: String {
         switch self {
         case .Match(let character, let codeWordCollection):
-            return "\(character): \(codeWordCollection.mainCodeWord)"
+            let codeWordsDebugDescription = codeWordCollection.secondaryCodeWords.reduce(codeWordCollection.mainCodeWord, { (partial, codeWord) -> String in
+                return partial + " or " + codeWord
+            })
+            return "\(character): \(codeWordsDebugDescription)"
         case .Description(let character, let description):
             return "\(character): \(description)"
         case .Unknown(let character):
