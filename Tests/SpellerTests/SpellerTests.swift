@@ -11,21 +11,21 @@ import XCTest
 class SpellerTests: XCTestCase {
 
     func testSpellingWorks() {
-        let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
+        let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: .InternationalRadiotelephony)
 
         XCTAssertNotNil(spelling)
     }
 
     func testSpellingAllLetters() {
         let word = "Bagpipe"
-        let spelling = Speller.spell(phrase: word, withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
+        let spelling = Speller.spell(phrase: word, withSpellingAlphabet: .InternationalRadiotelephony)
 
         XCTAssertEqual(spelling.count, word.characters.count)
     }
     
     func testSpellingAllLettersAccurately() {
         let phrase = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .InternationalRadiotelephony)
         let control = [SpelledCharacter.Match("a", "Alfa"),
                        SpelledCharacter.Match("b", "Bravo"),
                        SpelledCharacter.Match("c", "Charlie"),
@@ -80,6 +80,34 @@ class SpellerTests: XCTestCase {
                        SpelledCharacter.Match("Z", "Zulu")]
 
         XCTAssertEqual(spelling, control, "Spelling the latin alphabet with the International Radiotelephoney spelling alphabet has failed")
+    }
+
+
+    func testDescribesUnknownCharacters() {
+        let phrase = "ABC 🦆🦎🦈 !@#$%^&*()"
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .InternationalRadiotelephony)
+
+        let control = [SpelledCharacter.Match("A", "Alfa"),
+                       SpelledCharacter.Match("B", "Bravo"),
+                       SpelledCharacter.Match("C", "Charlie"),
+                       SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Description("🦆", "Duck"),
+                       SpelledCharacter.Description("🦎", "Lizard"),
+                       SpelledCharacter.Description("🦈", "Shark"),
+                       SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Description("!", "Exclamation mark"),
+                       SpelledCharacter.Description("@", "At sign"),
+                       SpelledCharacter.Description("#", "Number sign, Hashtag, Octothorpe, Sharp"),
+                       SpelledCharacter.Description("$", "Dollar sign"),
+                       SpelledCharacter.Description("%", "Percent sign"),
+                       SpelledCharacter.Description("^", "Circumflex accent"),
+                       SpelledCharacter.Description("&", "Ampersand"),
+                       SpelledCharacter.Description("*", "Asterisk"),
+                       SpelledCharacter.Description("(", "Left parenthesis"),
+                       SpelledCharacter.Description(")", "Right parenthesis")
+                       ]
+
+        XCTAssertEqual(spelling, control, "Spelling with description of unknown characters has failed")
     }
 
 }

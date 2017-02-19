@@ -17,6 +17,9 @@
 		479969091E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
 		4799690A1E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
 		4799690B1E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		47BB5C7E1E596C69003D685E /* SpelledCharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */; };
+		47BB5C7F1E596C69003D685E /* SpelledCharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */; };
+		47BB5C801E596C69003D685E /* SpelledCharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */; };
 		47C61A5A1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
 		47C61A5B1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
 		47C61A5C1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
@@ -115,6 +118,7 @@
 		47692A471E502B590021CF9D /* PropertyListLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListLoader.swift; sourceTree = "<group>"; };
 		479969001E51BF8000E627C5 /* BundleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleTests.swift; sourceTree = "<group>"; };
 		479969041E51E4F300E627C5 /* latin-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "latin-data.plist"; sourceTree = "<group>"; };
+		47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpelledCharacterTests.swift; sourceTree = "<group>"; };
 		47C61A591E5075390021CDC7 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		47C61A8C1E5076DB0021CDC7 /* CharacterDescriptorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDescriptorTests.swift; sourceTree = "<group>"; };
 		47C61A911E5076F00021CDC7 /* emoji-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "emoji-data.plist"; sourceTree = "<group>"; };
@@ -262,6 +266,7 @@
 			children = (
 				479969001E51BF8000E627C5 /* BundleTests.swift */,
 				47C61A8C1E5076DB0021CDC7 /* CharacterDescriptorTests.swift */,
+				47BB5C7D1E596C69003D685E /* SpelledCharacterTests.swift */,
 				F7E3DECA1DE5AC73005B550A /* SpellerTests.swift */,
 				F7E3DECB1DE5AC73005B550A /* SpellingAlphabetTests.swift */,
 			);
@@ -579,6 +584,7 @@
 				F7E3DECC1DE5AC73005B550A /* SpellerTests.swift in Sources */,
 				47C61A5E1E5075390021CDC7 /* Bundle.swift in Sources */,
 				47C61A8D1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */,
+				47BB5C7E1E596C69003D685E /* SpelledCharacterTests.swift in Sources */,
 				F70D59BE1DE58E2400FD5E66 /* SpellingAlphabet.swift in Sources */,
 				47C61A891E50768F0021CDC7 /* PropertyListLoader.swift in Sources */,
 				F7E3DECF1DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
@@ -639,6 +645,7 @@
 				F7E3DECD1DE5AC73005B550A /* SpellerTests.swift in Sources */,
 				47C61A5F1E5075390021CDC7 /* Bundle.swift in Sources */,
 				47C61A8E1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */,
+				47BB5C7F1E596C69003D685E /* SpelledCharacterTests.swift in Sources */,
 				F70D59BA1DE58E2300FD5E66 /* SpellingAlphabet.swift in Sources */,
 				47C61A8A1E50768F0021CDC7 /* PropertyListLoader.swift in Sources */,
 				F7E3DED01DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
@@ -657,6 +664,7 @@
 				F7E3DECE1DE5AC73005B550A /* SpellerTests.swift in Sources */,
 				47C61A601E5075390021CDC7 /* Bundle.swift in Sources */,
 				47C61A8F1E5076DB0021CDC7 /* CharacterDescriptorTests.swift in Sources */,
+				47BB5C801E596C69003D685E /* SpelledCharacterTests.swift in Sources */,
 				F70D59B61DE58E2300FD5E66 /* SpellingAlphabet.swift in Sources */,
 				47C61A8B1E5076900021CDC7 /* PropertyListLoader.swift in Sources */,
 				F7E3DED11DE5AC73005B550A /* SpellingAlphabetTests.swift in Sources */,
