@@ -207,7 +207,31 @@ class SpellerTests: XCTestCase {
 
         XCTAssertEqual(spelling, control, "German spelling is wrong")
     }
+    
+    func testSpellingGermanInFinnish() {
+        let phrase = "Möbelträgerfüße"
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .Finnish)
+        let control = [
+            SpelledCharacter.Match("M", "Matti"),
+            SpelledCharacter.Match("ö", "Öljy"),
+            SpelledCharacter.Match("b", "Bertta"),
+            SpelledCharacter.Match("e", "Eemeli"),
+            SpelledCharacter.Match("l", "Lauri"),
+            SpelledCharacter.Match("t", "Tyyne"),
+            SpelledCharacter.Match("r", "Risto"),
+            SpelledCharacter.Match("ä", "Äiti"),
+            SpelledCharacter.Match("g", "Gideon"),
+            SpelledCharacter.Match("e", "Eemeli"),
+            SpelledCharacter.Match("r", "Risto"),
+            SpelledCharacter.Match("f", "Faarao"),
+            SpelledCharacter.Match("ü", "Urho"),
+            SpelledCharacter.Description("ß", "Latin small letter sharp S"),
+            SpelledCharacter.Match("e", "Eemeli")
+        ]
 
+        XCTAssertEqual(spelling, control, "Finnish spelling of German word is wrong")
+    }
+    
     func testSpellingItalian() {
         let phrase = "Xilofono"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .Italian)
