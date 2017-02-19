@@ -44,20 +44,16 @@ If a letter is not found in the spelling alphabet, a minimum description of the 
 The most famous spelling alphabet is probably the `InternationalRadiotelephony`, also know as the NATO alphabet.
 
 ## Usage
-Use a the `Speller` class to spell a word, by providing it a spelling alphabet:
+Use the `Speller` class to spell a word, using one of the spelling alphabets:
 
 ```swift
-  let speller = Speller()
-  speller.spell(phrase: "Bagpipe", 
-  withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
+  Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: .InternationalRadiotelephony)
 ```
 
 The returned value is an array of spelled characters with their corresponding codewords:
 
 ```swift
-  let speller = Speller()
-  let spelling = speller.spell(phrase: "Bagpipe", 
-                 withSpellingAlphabet: SpellingAlphabet.InternationalRadiotelephony)
+  let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: .InternationalRadiotelephony)
   print(spelling)
   // [B: Bravo, a: Alfa, g: Golf, p: Papa, i: India, p: Papa, e: Echo]
 ```
