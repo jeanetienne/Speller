@@ -10,6 +10,13 @@
 		479969011E51BF8000E627C5 /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479969001E51BF8000E627C5 /* BundleTests.swift */; };
 		479969021E51BF8000E627C5 /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479969001E51BF8000E627C5 /* BundleTests.swift */; };
 		479969031E51BF8000E627C5 /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479969001E51BF8000E627C5 /* BundleTests.swift */; };
+		479969051E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		479969061E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		479969071E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		479969081E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		479969091E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		4799690A1E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
+		4799690B1E51E4F300E627C5 /* latin-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479969041E51E4F300E627C5 /* latin-data.plist */; };
 		47C61A5A1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
 		47C61A5B1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
 		47C61A5C1E5075390021CDC7 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A591E5075390021CDC7 /* Bundle.swift */; };
@@ -34,13 +41,6 @@
 		47C61A981E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
 		47C61A991E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
 		47C61A9A1E5076F00021CDC7 /* emoji-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A911E5076F00021CDC7 /* emoji-data.plist */; };
-		47C61A9B1E5076F00021CDC7 /* emoji-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A921E5076F00021CDC7 /* emoji-metadata.plist */; };
-		47C61A9C1E5076F00021CDC7 /* emoji-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A921E5076F00021CDC7 /* emoji-metadata.plist */; };
-		47C61A9D1E5076F00021CDC7 /* emoji-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A921E5076F00021CDC7 /* emoji-metadata.plist */; };
-		47C61A9E1E5076F00021CDC7 /* emoji-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A921E5076F00021CDC7 /* emoji-metadata.plist */; };
-		47C61A9F1E5076F00021CDC7 /* emoji-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A921E5076F00021CDC7 /* emoji-metadata.plist */; };
-		47C61AA01E5076F00021CDC7 /* emoji-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A921E5076F00021CDC7 /* emoji-metadata.plist */; };
-		47C61AA11E5076F00021CDC7 /* emoji-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47C61A921E5076F00021CDC7 /* emoji-metadata.plist */; };
 		47C61AA21E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
 		47C61AA31E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
 		47C61AA41E5076F00021CDC7 /* CharacterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */; };
@@ -114,10 +114,10 @@
 /* Begin PBXFileReference section */
 		47692A471E502B590021CF9D /* PropertyListLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListLoader.swift; sourceTree = "<group>"; };
 		479969001E51BF8000E627C5 /* BundleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleTests.swift; sourceTree = "<group>"; };
+		479969041E51E4F300E627C5 /* latin-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "latin-data.plist"; sourceTree = "<group>"; };
 		47C61A591E5075390021CDC7 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		47C61A8C1E5076DB0021CDC7 /* CharacterDescriptorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDescriptorTests.swift; sourceTree = "<group>"; };
 		47C61A911E5076F00021CDC7 /* emoji-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "emoji-data.plist"; sourceTree = "<group>"; };
-		47C61A921E5076F00021CDC7 /* emoji-metadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "emoji-metadata.plist"; sourceTree = "<group>"; };
 		47C61A931E5076F00021CDC7 /* CharacterDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDescriptor.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* Speller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Speller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Speller-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speller-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,7 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				47C61A911E5076F00021CDC7 /* emoji-data.plist */,
-				47C61A921E5076F00021CDC7 /* emoji-metadata.plist */,
+				479969041E51E4F300E627C5 /* latin-data.plist */,
 			);
 			path = CharacterDescription;
 			sourceTree = "<group>";
@@ -496,8 +496,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C61A9B1E5076F00021CDC7 /* emoji-metadata.plist in Resources */,
 				47C61A941E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969051E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,8 +505,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C61A9F1E5076F00021CDC7 /* emoji-metadata.plist in Resources */,
 				47C61A981E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969091E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,8 +514,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C61A9D1E5076F00021CDC7 /* emoji-metadata.plist in Resources */,
 				47C61A961E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969071E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,8 +523,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C61A9E1E5076F00021CDC7 /* emoji-metadata.plist in Resources */,
 				47C61A971E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969081E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,8 +532,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C61A9C1E5076F00021CDC7 /* emoji-metadata.plist in Resources */,
 				47C61A951E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				479969061E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,8 +541,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C61AA01E5076F00021CDC7 /* emoji-metadata.plist in Resources */,
 				47C61A991E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				4799690A1E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,8 +550,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C61AA11E5076F00021CDC7 /* emoji-metadata.plist in Resources */,
 				47C61A9A1E5076F00021CDC7 /* emoji-data.plist in Resources */,
+				4799690B1E51E4F300E627C5 /* latin-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
