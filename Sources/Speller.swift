@@ -19,7 +19,7 @@ public class Speller {
     /// - Returns: An array of `SpelledCharacter`s describing each character of the input phrase
     public static func spell(phrase: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> [SpelledCharacter] {
         let spelling = phrase.characters.map { character -> SpelledCharacter in
-            return spell(character: character,
+            return spell(character: "\(character)",
                          withSpellingAlphabet: alphabet)
         }
 
@@ -27,7 +27,7 @@ public class Speller {
     }
 
     // MARK: - Private methods
-    private static func spell(character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> SpelledCharacter {
+    private static func spell(character: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> SpelledCharacter {
         if let codeWord = codeWord(forCharacter: character, withSpellingAlphabet: alphabet) {
             return SpelledCharacter.Match(character, codeWord)
         } else {
@@ -35,15 +35,15 @@ public class Speller {
         }
     }
 
-    private static func codeWord(forCharacter character: Character, withSpellingAlphabet alphabet: SpellingAlphabet) -> CodeWordCollection? {
+    private static func codeWord(forCharacter character: String, withSpellingAlphabet alphabet: SpellingAlphabet) -> CodeWordCollection? {
         if let codeWord = alphabet.content[character] {
             return codeWord
         }
 
         let candidates = [
-            "\(character)".uppercased(),
-            "\(character)".folding(options: .diacriticInsensitive, locale: nil),
-            "\(character)".folding(options: .diacriticInsensitive, locale: nil).uppercased()
+            character.uppercased(),
+            character.folding(options: .diacriticInsensitive, locale: nil),
+            character.folding(options: .diacriticInsensitive, locale: nil).uppercased()
         ]
 
         for candidate in candidates {
@@ -51,7 +51,7 @@ public class Speller {
                 continue
             }
 
-            if let codeWordCollection = alphabet.content[Character(candidate)] {
+            if let codeWordCollection = alphabet.content[candidate] {
                 return codeWordCollection
             }
         }

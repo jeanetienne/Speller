@@ -19,11 +19,11 @@ import Foundation
 /// alphabet
 public enum SpelledCharacter {
 
-    case Match(Character, CodeWordCollection)
+    case Match(String, CodeWordCollection)
 
-    case Description(Character, String)
+    case Description(String, String)
 
-    case Unknown(Character)
+    case Unknown(String)
 
 }
 
