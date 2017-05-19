@@ -430,7 +430,25 @@ class SpellerTests: XCTestCase {
         
         XCTAssertEqual(spelling, control, "Turkish spelling is wrong")
     }
-
+    
+    func testSpellingPGPWordList() {
+        let phrase = "E582 94F2 E9A2 2748 6E8B"
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .PGPWordList)
+        let control = [
+            SpelledCharacter.Match("E5", "topmost"),
+            SpelledCharacter.Match("82", "Istanbul"),
+            SpelledCharacter.Match("94", "Pluto"),
+            SpelledCharacter.Match("F2", "vagabond"),
+            SpelledCharacter.Match("E9", "treadmill"),
+            SpelledCharacter.Match("A2", "Pacific"),
+            SpelledCharacter.Match("27", "brackish"),
+            SpelledCharacter.Match("48", "dictator"),
+            SpelledCharacter.Match("6E", "goldfish"), 
+            SpelledCharacter.Match("8B", "Medusa")        ]
+        
+        XCTAssertEqual(spelling, control, "PGP Word List spelling is wrong")
+    }
+    
     func testDescribesUnknownCharacters() {
         let phrase = "ABC 🦆🦎🦈 !@#$%^&*()"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .InternationalRadiotelephony)

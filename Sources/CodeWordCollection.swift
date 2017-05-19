@@ -23,7 +23,7 @@ public final class CodeWordCollection {
         return Array(codeWords.dropFirst(1))
     }
 
-    fileprivate var codeWords: [String] = []
+    var codeWords: [String] = []
 
     init(codeWord: String) {
         codeWords = [codeWord]
