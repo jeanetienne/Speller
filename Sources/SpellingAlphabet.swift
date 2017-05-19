@@ -85,7 +85,50 @@ public enum SpellingAlphabet {
         }
     }
 
-    // MARK: - Private helpers
+    func spell(_ phrase: String) -> [SpelledCharacter] {
+        return enumerate(phrase: phrase)
+            .enumerated()
+            .map { spell(character: $1, atIndex: $0) }
+    }
+    
+    // MARK: - Private helpers - Spelling
+    private func enumerate(phrase: String) -> [String] {
+            return phrase.characters.map { "\($0)" }
+    }
+    
+    private func spell(character: String, atIndex index: Int) -> SpelledCharacter {
+        if let codeWord = codeWord(forCharacter: character) {
+                return SpelledCharacter.Match(character, codeWord)
+        } else {
+            return SpelledCharacter.Unknown(character)
+        }
+    }
+    
+    private func codeWord(forCharacter character: String) -> CodeWordCollection? {
+        if let codeWord = content[character] {
+            return codeWord
+        }
+        
+        let candidates = [
+            character.uppercased(),
+            character.folding(options: .diacriticInsensitive, locale: nil),
+            character.folding(options: .diacriticInsensitive, locale: nil).uppercased()
+        ]
+        
+        for candidate in candidates {
+            guard candidate.index(after: candidate.startIndex) == candidate.endIndex else {
+                continue
+            }
+            
+            if let codeWordCollection = content[candidate] {
+                return codeWordCollection
+            }
+        }
+        
+        return nil
+    }
+
+    // MARK: - Private helpers - Content
     private func internationalRadiotelephony() -> SpellingAlphabetContent {
         return ["A": "Alfa",        "B": "Bravo",
                 "C": "Charlie",     "D": "Delta",
