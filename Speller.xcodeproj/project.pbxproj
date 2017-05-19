@@ -449,6 +449,7 @@
 					};
 					52D6D9851BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N44EJ7YB22;
 						LastSwiftMigration = 0800;
 					};
 					52D6D9E11BEFFF6E002C0205 = {
@@ -469,6 +470,7 @@
 					};
 					DD75028C1C690C7A006590AF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N44EJ7YB22;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -844,6 +846,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS-Tests";
@@ -858,6 +861,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-iOS-Tests";
@@ -1041,6 +1045,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS-Tests";
@@ -1055,6 +1060,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = Configs/SpellerTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Speller-tvOS-Tests";
