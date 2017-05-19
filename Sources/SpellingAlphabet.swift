@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal typealias SpellingAlphabetContent = [String: CodeWordCollection]
+typealias SpellingAlphabetContent = [String: CodeWordCollection]
 
 public enum SpellingAlphabet {
 

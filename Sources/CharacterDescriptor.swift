@@ -12,7 +12,7 @@ fileprivate typealias CharacterDescriptorData = [String: [String: Any]]
 
 fileprivate let DescriptionKey: String = "description"
 
-internal class CharacterDescriptor {
+class CharacterDescriptor {
 
     enum CharacterSet: String {
 
@@ -39,7 +39,7 @@ internal class CharacterDescriptor {
 }
 
 // MARK: - Property list management
-fileprivate extension CharacterDescriptor {
+private extension CharacterDescriptor {
 
     enum PropertyListType: String {
 
