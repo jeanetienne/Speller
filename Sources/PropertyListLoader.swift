@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal class PropertyListLoader {
+class PropertyListLoader {
 
     static func load<T>(atPath path: String, storage: inout T) throws {
         var baseFormat = PropertyListSerialization.PropertyListFormat.xml
@@ -24,7 +24,7 @@ internal class PropertyListLoader {
         }
     }
 
-    internal enum PropertyListLoaderError: Error {
+    enum PropertyListLoaderError: Error {
 
         case DeserializationError
         
