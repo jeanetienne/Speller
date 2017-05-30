@@ -315,7 +315,6 @@
 				52D6D9781BEFF229002C0205 /* Frameworks */,
 				52D6D9791BEFF229002C0205 /* Headers */,
 				52D6D97A1BEFF229002C0205 /* Resources */,
-				F7D0E70F1ECEC09200BD67B9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -352,7 +351,6 @@
 				52D6D9DE1BEFFF6E002C0205 /* Frameworks */,
 				52D6D9DF1BEFFF6E002C0205 /* Headers */,
 				52D6D9E01BEFFF6E002C0205 /* Resources */,
-				F7D0E7111ECEC0CF00BD67B9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -371,7 +369,6 @@
 				52D6D9EC1BEFFFBE002C0205 /* Frameworks */,
 				52D6D9ED1BEFFFBE002C0205 /* Headers */,
 				52D6D9EE1BEFFFBE002C0205 /* Resources */,
-				F7D0E7121ECEC0D300BD67B9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -390,7 +387,6 @@
 				52D6DA0B1BF000BD002C0205 /* Frameworks */,
 				52D6DA0C1BF000BD002C0205 /* Headers */,
 				52D6DA0D1BF000BD002C0205 /* Resources */,
-				F7D0E7101ECEC0C900BD67B9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -567,61 +563,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		F7D0E70F1ECEC09200BD67B9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "agvtool next-version -all";
-		};
-		F7D0E7101ECEC0C900BD67B9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "agvtool next-version -all";
-		};
-		F7D0E7111ECEC0CF00BD67B9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "agvtool next-version -all";
-		};
-		F7D0E7121ECEC0D300BD67B9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "agvtool next-version -all";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52D6D9771BEFF229002C0205 /* Sources */ = {
