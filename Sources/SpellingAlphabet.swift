@@ -99,10 +99,13 @@ public enum SpellingAlphabet {
     private func enumerate(phrase: String) -> [String] {
         switch self {
         case .PGPWordList:
-            let stripNonHex = StringTransform(rawValue: "[^0123456789abcdefABCDEF] Remove; Upper")
-            return phrase
+            let stripNonHex = StringTransform(rawValue: "[^0123456789abcdefABCDEF] Remove;")
+            let sanitizedPhrase = phrase
+                .uppercased()
                 .applyingTransform(stripNonHex, reverse: false)
                 .map { $0.components(withLength: 2) } ?? phrase.components(withLength: 2)
+            
+            return sanitizedPhrase
         default:
             return phrase.characters.map { "\($0)" }
         }
@@ -133,7 +136,7 @@ public enum SpellingAlphabet {
         ]
         
         for candidate in candidates {
-            guard candidate.index(after: candidate.startIndex) == candidate.endIndex else {
+            guard !candidate.isEmpty else {
                 continue
             }
             
