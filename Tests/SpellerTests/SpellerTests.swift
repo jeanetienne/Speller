@@ -432,7 +432,7 @@ class SpellerTests: XCTestCase {
     }
     
     func testSpellingPGPWordList() {
-        let phrase = "E582 94F2 E9A2 2748 6E8B"
+        let phrase = "e582 94f2 e9a2 2748 6e8b"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .PGPWordList)
         let control = [
             SpelledCharacter.Match("E5", "topmost"),
@@ -443,10 +443,27 @@ class SpellerTests: XCTestCase {
             SpelledCharacter.Match("A2", "Pacific"),
             SpelledCharacter.Match("27", "brackish"),
             SpelledCharacter.Match("48", "dictator"),
-            SpelledCharacter.Match("6E", "goldfish"), 
-            SpelledCharacter.Match("8B", "Medusa")        ]
+            SpelledCharacter.Match("6E", "goldfish"),
+            SpelledCharacter.Match("8B", "Medusa")
+        ]
         
         XCTAssertEqual(spelling, control, "PGP Word List spelling is wrong")
+    }
+    
+    func testSpellingPGPWordListWithNoise() {
+        let phrase = " Hiding e582 in 94f2 plain e9a2 sight  "
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .PGPWordList)
+        let control = [
+            SpelledCharacter.Match("DE", "tactics"),
+            SpelledCharacter.Match("58", "everyday"),
+            SpelledCharacter.Match("29", "breakup"),
+            SpelledCharacter.Match("4F", "document"),
+            SpelledCharacter.Match("2A", "brickyard"),
+            SpelledCharacter.Match("E9", "ultimate"),
+            SpelledCharacter.Match("A2", "rebirth")
+        ]
+        
+        XCTAssertEqual(spelling, control, "PGP Word List spelling with noise is wrong")
     }
     
     func testDescribesUnknownCharacters() {
