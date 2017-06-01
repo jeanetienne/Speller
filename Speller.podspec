@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "Speller"
-  s.version          = "0.1.2"
+  s.version          = "0.1.5"
   s.summary          = "Framework to spell words using spelling alphabets"
 
   s.description      = <<-DESC
@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
   s.source_files  = "Sources/**/*"
   s.frameworks    = "Foundation"
 
-  s.ios.deployment_target       = "8.0"
-  s.osx.deployment_target       = "10.9"
-  s.watchos.deployment_target   = "2.0"
-  s.tvos.deployment_target      = "9.0"
+  s.ios.deployment_target       = "10.0"
+  s.osx.deployment_target       = "10.12"
+  s.watchos.deployment_target   = "3.0"
+  s.tvos.deployment_target      = "10.0"
 
 end
