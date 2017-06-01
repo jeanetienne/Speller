@@ -22,14 +22,13 @@ class CharacterDescriptor {
 
     }
 
-    private var data: CharacterDescriptorData!
+    private var data: CharacterDescriptorData = [:]
 
     init?(_ characterSet: CharacterSet) {
-        if let someData = loadDataPropertyList(forCharacterSet: characterSet) {
-            data = someData
-        } else {
+        guard let propertyList = try? CharacterDescriptor.loadDataPropertyList(forCharacterSet: characterSet) else {
             return nil
         }
+        data = propertyList
     }
 
     func description(_ character: String) -> String? {
@@ -50,21 +49,42 @@ private extension CharacterDescriptor {
         }
         
     }
-    
-    func loadDataPropertyList(forCharacterSet characterSet: CharacterSet) -> CharacterDescriptorData? {
-        if let propertyListPath = propertyListPath(forCharacterSet: characterSet, andType: .Data) {
-            var dictionary = CharacterDescriptorData()
-            try? PropertyListLoader.load(atPath: propertyListPath, storage: &dictionary)
-            return dictionary
-        }
 
-        return nil
+    enum CharacterDescriptorPropertyListError: Error {
+        case PropertyListPathNotFound
+    }
+    
+    static func loadDataPropertyList(forCharacterSet characterSet: CharacterSet) throws -> CharacterDescriptorData {
+        if let path = self.propertyListPath(forCharacterSet: characterSet, andType: .Data) {
+            return try PropertyListSerialization.read(at: path)
+        } else {
+            throw CharacterDescriptorPropertyListError.PropertyListPathNotFound
+        }
     }
 
-    func propertyListPath(forCharacterSet characterSet: CharacterSet,
-                                  andType type: PropertyListType) -> String? {
+    static func propertyListPath(forCharacterSet characterSet: CharacterSet,
+                                  andType type: PropertyListType) -> URL? {
         let name = characterSet.rawValue.lowercased() + "-" + type.nameForFilename()
-        return Bundle.framework.path(forResource: name, ofType: "plist")
+        return Bundle.framework.url(forResource: name, withExtension: "plist")
+    }
+    
+}
+
+extension PropertyListSerialization {
+    
+    enum PropertyListSerializationError: Error {
+        case UnexpectedPropertylistContentError
+    }
+    
+    static func read<T>(at path: URL) throws -> T {
+        let data = try Data(contentsOf: path)
+        let plist = try self.propertyList(from: data, options: [], format: nil)
+        
+        if let result = plist as? T {
+            return result
+        } else {
+            throw PropertyListSerializationError.UnexpectedPropertylistContentError
+        }
     }
     
 }
