@@ -107,7 +107,14 @@ public enum SpellingAlphabet {
             
             return sanitizedPhrase
         default:
-            return phrase.characters.map { "\($0)" }
+            var characters: [String] = []
+            phrase.enumerateSubstrings(in: phrase.startIndex..<phrase.endIndex, options: .byComposedCharacterSequences) { (string, rangeOne, rangeTwo, someBool) in
+                if let decomposedString = string {
+                    characters.append(decomposedString)
+                }
+            }
+
+            return characters
         }
     }
     

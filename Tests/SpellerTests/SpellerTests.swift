@@ -467,16 +467,61 @@ class SpellerTests: XCTestCase {
     }
     
     func testDescribesUnknownCharacters() {
-        let phrase = "ABC 🦆🦎🦈 !@#$%^&*()"
+        let phrase = "ABC Duck: 🦆, Lizard: 🦎, Shark: 🦈, Family: 👩‍👩‍👧‍👧, Flag: 🇲🇲 !@#$%^&*()"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .InternationalRadiotelephony)
 
         let control = [SpelledCharacter.Match("A", "Alfa"),
                        SpelledCharacter.Match("B", "Bravo"),
                        SpelledCharacter.Match("C", "Charlie"),
                        SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Match("D", "Delta"),
+                       SpelledCharacter.Match("u", "Uniform"),
+                       SpelledCharacter.Match("c", "Charlie"),
+                       SpelledCharacter.Match("k", "Kilo"),
+                       SpelledCharacter.Description(":", "Colon"),
+                       SpelledCharacter.Description(" ", "Space"),
                        SpelledCharacter.Description("🦆", "Duck"),
+                       SpelledCharacter.Description(",", "Comma"),
+                       SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Match("L", "Lima"),
+                       SpelledCharacter.Match("i", "India"),
+                       SpelledCharacter.Match("z", "Zulu"),
+                       SpelledCharacter.Match("a", "Alfa"),
+                       SpelledCharacter.Match("r", "Romeo"),
+                       SpelledCharacter.Match("d", "Delta"),
+                       SpelledCharacter.Description(":", "Colon"),
+                       SpelledCharacter.Description(" ", "Space"),
                        SpelledCharacter.Description("🦎", "Lizard"),
+                       SpelledCharacter.Description(",", "Comma"),
+                       SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Match("S", "Sierra"),
+                       SpelledCharacter.Match("h", "Hotel"),
+                       SpelledCharacter.Match("a", "Alfa"),
+                       SpelledCharacter.Match("r", "Romeo"),
+                       SpelledCharacter.Match("k", "Kilo"),
+                       SpelledCharacter.Description(":", "Colon"),
+                       SpelledCharacter.Description(" ", "Space"),
                        SpelledCharacter.Description("🦈", "Shark"),
+                       SpelledCharacter.Description(",", "Comma"),
+                       SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Match("F", "Foxtrot"),
+                       SpelledCharacter.Match("a", "Alfa"),
+                       SpelledCharacter.Match("m", "Mike"),
+                       SpelledCharacter.Match("i", "India"),
+                       SpelledCharacter.Match("l", "Lima"),
+                       SpelledCharacter.Match("y", "Yankee"),
+                       SpelledCharacter.Description(":", "Colon"),
+                       SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Description("👩‍👩‍👧‍👧", "Family: woman, woman, girl, girl"),
+                       SpelledCharacter.Description(",", "Comma"),
+                       SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Match("F", "Foxtrot"),
+                       SpelledCharacter.Match("l", "Lima"),
+                       SpelledCharacter.Match("a", "Alfa"),
+                       SpelledCharacter.Match("g", "Golf"),
+                       SpelledCharacter.Description(":", "Colon"),
+                       SpelledCharacter.Description(" ", "Space"),
+                       SpelledCharacter.Description("🇲🇲", "Myanmar (Burma)"),
                        SpelledCharacter.Description(" ", "Space"),
                        SpelledCharacter.Description("!", "Exclamation mark"),
                        SpelledCharacter.Description("@", "At sign"),
@@ -488,7 +533,7 @@ class SpellerTests: XCTestCase {
                        SpelledCharacter.Description("*", "Asterisk"),
                        SpelledCharacter.Description("(", "Left parenthesis"),
                        SpelledCharacter.Description(")", "Right parenthesis")
-                       ]
+        ]
 
         XCTAssertEqual(spelling, control, "Spelling with description of unknown characters has failed")
     }
