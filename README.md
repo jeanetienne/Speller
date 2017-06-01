@@ -27,11 +27,12 @@ Speller spells out words for you using any of the provided spelling alphabets. A
 - Italian
 - Norwegian
 - Portuguese
-- PortugueseBrazilian
+- Brazilian Portuguese
 - Slovene
 - Spanish
 - Swedish
 - Turkish
+- PGP Word List
 
 If a letter is not found in the spelling alphabet, a minimum description of the character is provided, based on:
 
