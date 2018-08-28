@@ -1,19 +1,19 @@
 # Travis CI config for Speller
 language: objective-c
-osx_image: xcode8.1
+osx_image: xcode9.4
 xcode_project: Speller.xcodeproj
 
 env:
   global:
   - PROJECT=Speller.xcodeproj
   - IOS_SCHEME="Speller-iOS"
-  - IOS_SDK=iphonesimulator10.1
+  - IOS_SDK=iphonesimulator11.4
   - MACOS_SCHEME="Speller-macOS"
-  - MACOS_SDK=macosx10.12
+  - MACOS_SDK=macosx10.13
   - WATCHOS_SCHEME="Speller-watchOS"
-  - WATCHOS_SDK=watchsimulator3.1
+  - WATCHOS_SDK=watchsimulator4.3
   - TVOS_SCHEME="Speller-tvOS"
-  - TVOS_SDK=appletvsimulator10.0
+  - TVOS_SDK=appletvsimulator11.4
 
   matrix:
     - DESTINATION="arch=x86_64"                             SCHEME="$MACOS_SCHEME"    SDK="$MACOS_SDK"    RUN_TESTS="YES"
