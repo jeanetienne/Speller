@@ -25,7 +25,7 @@ public class Speller {
 
     // MARK: - Private methods
     private static func describeUnknownCharacters(inSpelling spelling: [SpelledCharacter]) -> [SpelledCharacter] {
-        let characterDescriptors = [CharacterDescriptor(.Latin), CharacterDescriptor(.Emoji)].flatMap { $0 }
+        let characterDescriptors = [CharacterDescriptor(.Latin), CharacterDescriptor(.Emoji)].compactMap { $0 }
 
         var spellingWithDescriptions = spelling
         for characterDescriptor in characterDescriptors {

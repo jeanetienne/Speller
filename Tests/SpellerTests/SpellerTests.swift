@@ -20,7 +20,7 @@ class SpellerTests: XCTestCase {
         let word = "Bagpipe"
         let spelling = Speller.spell(phrase: word, withSpellingAlphabet: .InternationalRadiotelephony)
 
-        XCTAssertEqual(spelling.count, word.characters.count)
+        XCTAssertEqual(spelling.count, word.count)
     }
     
     func testSpellingAllLettersAccuratelyWithInternationalRadiotelephony() {
