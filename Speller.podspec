@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "Speller"
-  s.version          = "0.1.5"
+  s.version          = "0.1.8"
   s.summary          = "Framework to spell words using spelling alphabets"
 
   s.description      = <<-DESC
@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
     :git => "https://github.com/jeanetienne/Speller.git", 
     :tag => "#{s.version}" }
   s.source_files  = "Sources/**/*"
+  s.swift_version = "4.2"
   s.frameworks    = "Foundation"
 
   s.ios.deployment_target       = "10.0"
