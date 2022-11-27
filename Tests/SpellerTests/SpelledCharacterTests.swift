@@ -1,12 +1,10 @@
 //
-//  SpelledCharacterTests.swift
 //  Speller
-//
-//  Created by Jean-Étienne Parrot on 19/2/17.
-//  Copyright © 2017 Speller. All rights reserved.
+//  Copyright © Jean-Étienne. All rights reserved.
 //
 
 import XCTest
+@testable import Speller
 
 class SpelledCharacterTests: XCTestCase {
     

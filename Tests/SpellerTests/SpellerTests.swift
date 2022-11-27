@@ -1,12 +1,10 @@
 //
-//  SpellerTests.swift
 //  Speller
-//
-//  Created by Jean-Étienne on 8/11/16.
-//  Copyright © 2016 Jean-Étienne. All rights reserved.
+//  Copyright © Jean-Étienne. All rights reserved.
 //
 
 import XCTest
+@testable import Speller
 
 class SpellerTests: XCTestCase {
 
@@ -22,7 +20,7 @@ class SpellerTests: XCTestCase {
 
         XCTAssertEqual(spelling.count, word.count)
     }
-    
+
     func testSpellingAllLettersAccuratelyWithInternationalRadiotelephony() {
         let phrase = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .InternationalRadiotelephony)
@@ -207,7 +205,7 @@ class SpellerTests: XCTestCase {
 
         XCTAssertEqual(spelling, control, "German spelling is wrong")
     }
-    
+
     func testSpellingGermanInFinnish() {
         let phrase = "Möbelträgerfüße"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .Finnish)
@@ -231,7 +229,7 @@ class SpellerTests: XCTestCase {
 
         XCTAssertEqual(spelling, control, "Finnish spelling of German word is wrong")
     }
-    
+
     func testSpellingItalian() {
         let phrase = "Xilofono"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .Italian)
@@ -380,10 +378,10 @@ class SpellerTests: XCTestCase {
             SpelledCharacter.Match("e", "Erik"),
             SpelledCharacter.Match("l", "Ludvig")
         ]
-        
+
         XCTAssertEqual(spelling, control, "Swedish spelling is wrong")
     }
-    
+
     func testSpellingTurkish() {
         let phrase = "Istanbul, Elâzığ, Uşak, İnegöl, Düziçi"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .Turkish)
@@ -427,10 +425,10 @@ class SpellerTests: XCTestCase {
             SpelledCharacter.Match("ç", "Çanakkale"),
             SpelledCharacter.Match("i", "Isparta")
         ]
-        
+
         XCTAssertEqual(spelling, control, "Turkish spelling is wrong")
     }
-    
+
     func testSpellingPGPWordList() {
         let phrase = "e582 94f2 e9a2 2748 6e8b"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .PGPWordList)
@@ -446,10 +444,10 @@ class SpellerTests: XCTestCase {
             SpelledCharacter.Match("6E", "goldfish"),
             SpelledCharacter.Match("8B", "Medusa")
         ]
-        
+
         XCTAssertEqual(spelling, control, "PGP Word List spelling is wrong")
     }
-    
+
     func testSpellingPGPWordListWithNoise() {
         let phrase = " Hiding e582 in 94f2 plain e9a2 sight  "
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .PGPWordList)
@@ -462,10 +460,10 @@ class SpellerTests: XCTestCase {
             SpelledCharacter.Match("E9", "ultimate"),
             SpelledCharacter.Match("A2", "rebirth")
         ]
-        
+
         XCTAssertEqual(spelling, control, "PGP Word List spelling with noise is wrong")
     }
-    
+
     func testDescribesUnknownCharacters() {
         let phrase = "ABC Duck: 🦆, Lizard: 🦎, Shark: 🦈, Family: 👩‍👩‍👧‍👧, Flag: 🇲🇲 !@#$%^&*()"
         let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: .InternationalRadiotelephony)

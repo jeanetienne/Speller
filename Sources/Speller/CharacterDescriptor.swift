@@ -1,9 +1,6 @@
 //
-//  CharacterDescriptor.swift
 //  Speller
-//
-//  Created by Jean-Étienne on 20/12/16.
-//  Copyright © 2016 Speller. All rights reserved.
+//  Copyright © Speller. All rights reserved.
 //
 
 import Foundation
@@ -65,7 +62,7 @@ private extension CharacterDescriptor {
     static func propertyListPath(forCharacterSet characterSet: CharacterSet,
                                   andType type: PropertyListType) -> URL? {
         let name = characterSet.rawValue.lowercased() + "-" + type.nameForFilename()
-        return Bundle.framework.url(forResource: name, withExtension: "plist")
+        return Bundle.module.url(forResource: name, withExtension: "plist")
     }
     
 }
