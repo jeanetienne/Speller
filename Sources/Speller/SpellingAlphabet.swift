@@ -14,7 +14,7 @@ public protocol SpellingAlphabet {
 
 extension SpellingAlphabet {
 
-    static func spell(_ phrase: String) -> [SpelledCharacter] {
+    public static func spell(_ phrase: String) -> [SpelledCharacter] {
         return enumerate(phrase: phrase)
             .enumerated()
             .map { spell(character: $1, atIndex: $0) }

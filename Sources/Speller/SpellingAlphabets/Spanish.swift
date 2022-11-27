@@ -5,9 +5,9 @@
 
 import Foundation
 
-struct Spanish: SpellingAlphabet {
+public struct Spanish: SpellingAlphabet {
 
-    static var content: SpellingAlphabetContent = [
+    public static var content: SpellingAlphabetContent = [
         "A": "Antonio",  "B": "Burgos",
         "C": "Carmen",   "D": "Dolores",
         "E": "Enrique",  "F": "Francia",
