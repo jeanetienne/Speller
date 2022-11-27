@@ -16,9 +16,9 @@ import Foundation
 /// - `.unknown`: used when the character could not be found in the target
 /// spelling alphabet
 public struct SpelledCharacter {
-    let character: String
-    let position: Int
-    let spellingResult: SpellingResult
+    public let character: String
+    public let position: Int
+    public let spellingResult: SpellingResult
 }
 
 public enum SpellingResult {

@@ -536,4 +536,12 @@ class SpellerTests: XCTestCase {
         XCTAssertEqual(spelling, control, "Spelling with description of unknown characters has failed")
     }
 
+    func testPositionWorks() {
+        let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: InternationalRadiotelephony.self)
+
+        spelling.enumerated().forEach { enumerator in
+            XCTAssertEqual(enumerator.element.position, enumerator.offset)
+        }
+    }
+
 }
