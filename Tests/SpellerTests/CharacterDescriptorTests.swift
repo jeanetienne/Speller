@@ -9,12 +9,12 @@ import XCTest
 class CharacterDescriptorTests: XCTestCase {
 
     func testInitializerNotNil() {
-        XCTAssertNotNil(CharacterDescriptor(.Emoji))
+        XCTAssertNotNil(CharacterDescriptor(.emoji))
     }
 
     func testDescriptionClassicEmoji() {
-        if let characters = CharacterDescriptor(.Emoji),
-            let description = characters.description("😀") {
+        if let characters = CharacterDescriptor(.emoji),
+            let description = characters.describe("😀") {
             XCTAssertEqual(description, "Grinning face")
         } else {
             XCTAssertTrue(false)
@@ -22,8 +22,8 @@ class CharacterDescriptorTests: XCTestCase {
     }
 
     func testDescriptionEmojiVersion4() {
-        if let characters = CharacterDescriptor(.Emoji),
-            let description = characters.description("🥑") {
+        if let characters = CharacterDescriptor(.emoji),
+            let description = characters.describe("🥑") {
             XCTAssertEqual(description, "Avocado")
         } else {
             XCTAssertTrue(false)
@@ -31,8 +31,8 @@ class CharacterDescriptorTests: XCTestCase {
     }
 
     func testDescriptionProfessionEmojiVersion4() {
-        if let characters = CharacterDescriptor(.Emoji),
-            let description = characters.description("👩🏽‍✈️") {
+        if let characters = CharacterDescriptor(.emoji),
+            let description = characters.describe("👩🏽‍✈️") {
             XCTAssertEqual(description, "Woman pilot: medium skin tone")
         } else {
             XCTAssertTrue(false)
@@ -40,8 +40,8 @@ class CharacterDescriptorTests: XCTestCase {
     }
 
     func testDescriptionUnknownString() {
-        if let characters = CharacterDescriptor(.Emoji) {
-            XCTAssertNil(characters.description("ABC"))
+        if let characters = CharacterDescriptor(.emoji) {
+            XCTAssertNil(characters.describe("ABC"))
         } else {
             XCTAssertTrue(false)
         }

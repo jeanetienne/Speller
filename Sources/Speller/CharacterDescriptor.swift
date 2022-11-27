@@ -12,11 +12,8 @@ fileprivate let DescriptionKey: String = "description"
 class CharacterDescriptor {
 
     enum CharacterSet: String {
-
-        case Emoji
-
-        case Latin
-
+        case emoji
+        case latin
     }
 
     private var data: CharacterDescriptorData = [:]
@@ -28,7 +25,7 @@ class CharacterDescriptor {
         data = propertyList
     }
 
-    func description(_ character: String) -> String? {
+    func describe(_ character: String) -> String? {
         return data[character]?[DescriptionKey] as? String
     }
 
@@ -39,12 +36,11 @@ private extension CharacterDescriptor {
 
     enum PropertyListType: String {
 
-        case Data
+        case data
 
         func nameForFilename() -> String {
             return self.rawValue.lowercased()
         }
-        
     }
 
     enum CharacterDescriptorPropertyListError: Error {
@@ -52,7 +48,7 @@ private extension CharacterDescriptor {
     }
     
     static func loadDataPropertyList(forCharacterSet characterSet: CharacterSet) throws -> CharacterDescriptorData {
-        if let path = self.propertyListPath(forCharacterSet: characterSet, andType: .Data) {
+        if let path = self.propertyListPath(forCharacterSet: characterSet, andType: .data) {
             return try PropertyListSerialization.read(at: path)
         } else {
             throw CharacterDescriptorPropertyListError.PropertyListPathNotFound
@@ -70,7 +66,7 @@ private extension CharacterDescriptor {
 extension PropertyListSerialization {
     
     enum PropertyListSerializationError: Error {
-        case UnexpectedPropertylistContentError
+        case unexpectedPropertyListContentError
     }
     
     static func read<T>(at path: URL) throws -> T {
@@ -80,7 +76,7 @@ extension PropertyListSerialization {
         if let result = plist as? T {
             return result
         } else {
-            throw PropertyListSerializationError.UnexpectedPropertylistContentError
+            throw PropertyListSerializationError.unexpectedPropertyListContentError
         }
     }
     

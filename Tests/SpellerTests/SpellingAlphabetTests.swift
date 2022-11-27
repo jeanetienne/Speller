@@ -9,7 +9,7 @@ import XCTest
 class SpellingAlphabetTests: XCTestCase {
 
     func testInternationalRadiotelephony() {
-        let content = SpellingAlphabet.InternationalRadiotelephony.content
+        let content = InternationalRadiotelephony.content
         let control: SpellingAlphabetContent =
             ["A": "Alfa",        "B": "Bravo",
              "C": "Charlie",     "D": "Delta",
@@ -34,7 +34,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testUSFinancial() {
-        let content = SpellingAlphabet.USFinancial.content
+        let content = USFinancial.content
         let control: SpellingAlphabetContent =
             ["A": "Adam",    "B": "Bob",
              "C": "Carol",   "D": "David",
@@ -54,7 +54,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testLAPD() {
-        let content = SpellingAlphabet.LAPD.content
+        let content = LAPD.content
         let control: SpellingAlphabetContent =
             ["A": "Adam",    "B": "Boy",
              "C": "Charles", "D": "David",
@@ -74,7 +74,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testCzech() {
-        let content = SpellingAlphabet.Czech.content
+        let content = Czech.content
         let control: SpellingAlphabetContent =
             ["A": "Adam",      "B": "Božena",
              "C": "Cyril",     "D": "David",
@@ -94,7 +94,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testDanish() {
-        let content = SpellingAlphabet.Danish.content
+        let content = Danish.content
         let control: SpellingAlphabetContent =
             ["A": "Anna",    "Å": "Aase",
              "Æ": "Ægir",    "B": "Bernhard",
@@ -116,7 +116,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testDutch() {
-        let content = SpellingAlphabet.Dutch.content
+        let content = Dutch.content
         let control: SpellingAlphabetContent =
             ["A": "Anton",    "B": "Bernard",
              "C": "Cornelis", "D": "Dirk",
@@ -137,7 +137,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testFinnish() {
-        let content = SpellingAlphabet.Finnish.content
+        let content = Finnish.content
         let control: SpellingAlphabetContent =
             ["A": "Aarne",   "Ä": "Äiti",
              "Å": "Åke",     "B": "Bertta",
@@ -159,7 +159,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testFrench() {
-        let content = SpellingAlphabet.French.content
+        let content = French.content
         let control: SpellingAlphabetContent =
             ["A": "Anatole",     "B": "Berthe",
              "C": "Célestin",    "D": "Désiré",
@@ -179,7 +179,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testGerman() {
-        let content = SpellingAlphabet.German.content
+        let content = German.content
         let control: SpellingAlphabetContent =
             ["A": "Anton",                 "Ä": "Ärger",
              "B": "Berta",                 "C": "Cäsar",
@@ -201,7 +201,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testItalian() {
-        let content = SpellingAlphabet.Italian.content
+        let content = Italian.content
         let control: SpellingAlphabetContent =
             ["A": "Ancona",          "B": "Bologna",
              "C": "Como",            "D": "Domodossola",
@@ -221,7 +221,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testNorwegian() {
-        let content = SpellingAlphabet.Norwegian.content
+        let content = Norwegian.content
         let control: SpellingAlphabetContent =
             ["A": "Anna",     "Å": "Åse",
              "Æ": "Ærlig",    "B": "Bernhard",
@@ -243,7 +243,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testPortuguese() {
-        let content = SpellingAlphabet.Portuguese.content
+        let content = Portuguese.content
         let control: SpellingAlphabetContent =
             ["A": "Aveiro",   "B": "Braga",
              "C": "Coimbra",  "D": "Dafundo",
@@ -263,7 +263,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testPortugueseBrazilian() {
-        let content = SpellingAlphabet.PortugueseBrazilian.content
+        let content = PortugueseBrazilian.content
         let control: SpellingAlphabetContent =
             ["A": "Amor",     "B": "Bandeira",
              "C": "Cobra",    "D": "Dado",
@@ -283,7 +283,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testSlovene() {
-        let content = SpellingAlphabet.Slovene.content
+        let content = Slovene.content
         let control: SpellingAlphabetContent =
             ["A": "Ankaran",   "B": "Bled",
              "C": "Celje",     "Č": "Čatež",
@@ -305,7 +305,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testSpanish() {
-        let content = SpellingAlphabet.Spanish.content
+        let content = Spanish.content
         let control: SpellingAlphabetContent =
             ["A": "Antonio",  "B": "Burgos",
              "C": "Carmen",   "D": "Dolores",
@@ -326,7 +326,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
 
     func testSwedish() {
-        let content = SpellingAlphabet.Swedish.content
+        let content = Swedish.content
         let control: SpellingAlphabetContent =
             ["A": "Adam",    "Ä": "Ärlig",
              "Å": "Åke",     "B": "Bertil",
@@ -348,7 +348,7 @@ class SpellingAlphabetTests: XCTestCase {
     }
     
     func testTurkish() {
-        let content = SpellingAlphabet.Turkish.content
+        let content = Turkish.content
         let control: SpellingAlphabetContent =
             ["A": "Adana",      "B": "Bolu",
              "C": "Ceyhan",     "Ç": "Çanakkale",

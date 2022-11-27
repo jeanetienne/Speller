@@ -6,55 +6,54 @@
 import Foundation
 
 /// A `SpelledCharacter` represents a character and its associated information 
-/// when used to spell a phrase
+/// when used to spell a phrase.
 ///
-/// - Match: used when the character could be found in the target spelling
+/// The `SpellingResult` represent the type of spelling that was found.
+/// - `.match`: used when the character could be found in the target spelling
 /// alphabet, and one or more code words were found
-/// - Description: used when the character could not be found in the target spelling
-/// alphabet, but a description could be found for the character
-/// - Unknown: used when the character could not be found in the target spelling
-/// alphabet
-public enum SpelledCharacter {
+/// - `.basicDescription`: used when the character could not be found in the
+/// target spelling alphabet, but a description could be found for the character
+/// - `.unknown`: used when the character could not be found in the target
+/// spelling alphabet
+public struct SpelledCharacter {
+    let character: String
+    let position: Int
+    let spellingResult: SpellingResult
+}
 
-    case Match(String, CodeWordCollection)
-
-    case Description(String, String)
-
-    case Unknown(String)
-
+public enum SpellingResult {
+    case match(CodeWordCollection)
+    case basicDescription(String)
+    case unknown
 }
 
 extension SpelledCharacter: Equatable {
 
     public static func ==(lhs: SpelledCharacter, rhs: SpelledCharacter) -> Bool {
-        switch (lhs, rhs) {
-        case (let .Match(lhsCharacter, lhsCodeWordCollection), let .Match(rhsCharacter, rhsCodeWordCollection)):
-            return lhsCharacter == rhsCharacter && lhsCodeWordCollection == rhsCodeWordCollection
-        case (let .Description(lhsCharacter, lhsDescription), let .Description(rhsCharacter, rhsDescription)):
-            return lhsCharacter == rhsCharacter && lhsDescription == rhsDescription
-        case (let .Unknown(lhsCharacter), let .Unknown(rhsCharacter)):
-            return lhsCharacter == rhsCharacter
-        default:
-            return false
-        }
+        /// Purposefully ignoring the position, as we may want to compare
+        /// spelled characters from different phrases, or from different
+        /// positions in the same phrase.
+        return lhs.character == rhs.character && lhs.spellingResult == rhs.spellingResult
     }
 
 }
 
+extension SpellingResult: Equatable {}
+
 extension SpelledCharacter: CustomDebugStringConvertible {
 
     public var debugDescription: String {
-        switch self {
-        case .Match(let character, let codeWordCollection):
+        switch spellingResult {
+        case .match(let codeWordCollection):
             let codeWordsDebugDescription = codeWordCollection.secondaryCodeWords.reduce(codeWordCollection.mainCodeWord, { (partial, codeWord) -> String in
                 return partial + " or " + codeWord
             })
-            return "\(character): \(codeWordsDebugDescription)"
-        case .Description(let character, let description):
-            return "\(character): \(description)"
-        case .Unknown(let character):
-            return "\(character): unknown code word"
+            return "\(character) (at \(position)): \(codeWordsDebugDescription)"
+        case .basicDescription(let description):
+            return "\(character) (at \(position)): \(description)"
+        case .unknown:
+            return "\(character) (at \(position)): unknown code word"
         }
     }
-    
+
 }

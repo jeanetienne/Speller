@@ -9,51 +9,51 @@ import XCTest
 class SpelledCharacterTests: XCTestCase {
     
     func testEqualMatch() {
-        let alphaOne = SpelledCharacter.Match("A", "Alpha")
-        let alphaTwo = SpelledCharacter.Match("A", "Alpha")
+        let alphaOne = SpelledCharacter(character: "A", position: 0, spellingResult: .match("Alpha"))
+        let alphaTwo = SpelledCharacter(character: "A", position: 0, spellingResult: .match("Alpha"))
 
         XCTAssertEqual(alphaOne, alphaTwo)
     }
     
     func testUnequalMatch() {
-        let alphaOne = SpelledCharacter.Match("A", "Alpha")
-        let bravoOne = SpelledCharacter.Match("B", "Bravo")
+        let alphaOne = SpelledCharacter(character: "A", position: 0, spellingResult: .match("Alpha"))
+        let bravoOne = SpelledCharacter(character: "B", position: 0, spellingResult: .match("Bravo"))
 
         XCTAssertNotEqual(alphaOne, bravoOne)
     }
 
     func testEqualDescription() {
-        let redCarOne = SpelledCharacter.Description("🚘", "Red car")
-        let redCarTwo = SpelledCharacter.Description("🚘", "Red car")
+        let redCarOne = SpelledCharacter(character: "🚘", position: 0, spellingResult: .basicDescription("Red car"))
+        let redCarTwo = SpelledCharacter(character: "🚘", position: 0, spellingResult: .basicDescription("Red car"))
 
         XCTAssertEqual(redCarOne, redCarTwo)
     }
 
     func testUnequalDescription() {
-        let carOne = SpelledCharacter.Description("🚘", "Red car")
-        let cabTwo = SpelledCharacter.Description("🚖", "Yellow cab")
+        let carOne = SpelledCharacter(character: "🚘", position: 0, spellingResult: .basicDescription("Red car"))
+        let cabTwo = SpelledCharacter(character: "🚖", position: 0, spellingResult: .basicDescription("Yellow cab"))
 
         XCTAssertNotEqual(carOne, cabTwo)
     }
     
     func testEqualUnknown() {
-        let unknownOne = SpelledCharacter.Unknown("Â")
-        let unknownTwo = SpelledCharacter.Unknown("Â")
+        let unknownOne = SpelledCharacter(character: "Â", position: 0, spellingResult: .unknown)
+        let unknownTwo = SpelledCharacter(character: "Â", position: 0, spellingResult: .unknown)
 
         XCTAssertEqual(unknownOne, unknownTwo)
     }
 
     func testUnequalUnknown() {
-        let unknownOne = SpelledCharacter.Unknown("Ē")
-        let unknownTwo = SpelledCharacter.Unknown("Â")
+        let unknownOne = SpelledCharacter(character: "Ē", position: 0, spellingResult: .unknown)
+        let unknownTwo = SpelledCharacter(character: "Â", position: 0, spellingResult: .unknown)
 
         XCTAssertNotEqual(unknownOne, unknownTwo)
     }
 
     func testUnequalDifferentCases() {
-        let alphaOne = SpelledCharacter.Match("A", "Alpha")
-        let redCarOne = SpelledCharacter.Description("🚘", "Red car")
-        let unknownOne = SpelledCharacter.Unknown("Â")
+        let alphaOne = SpelledCharacter(character: "A", position: 0, spellingResult: .match("Alpha"))
+        let redCarOne = SpelledCharacter(character: "🚘", position: 0, spellingResult: .basicDescription("Red car"))
+        let unknownOne = SpelledCharacter(character: "Â", position: 0, spellingResult: .unknown)
 
         XCTAssertNotEqual(alphaOne, redCarOne)
         XCTAssertNotEqual(unknownOne, redCarOne)
