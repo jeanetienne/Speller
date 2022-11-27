@@ -5,9 +5,9 @@
 
 import Foundation
 
-struct PGPWordList: SpellingAlphabet {
+public struct PGPWordList: SpellingAlphabet {
 
-    static var content: SpellingAlphabetContent = [
+    public static var content: SpellingAlphabetContent = [
         "00": ["aardvark", "adroitness"],
         "01": ["absurd", "adviser"],
         "02": ["accrue", "aftermath"],
@@ -266,7 +266,7 @@ struct PGPWordList: SpellingAlphabet {
         "FF": ["Zulu", "Yucatan"]
     ]
 
-    static func spell(_ phrase: String) -> [SpelledCharacter] {
+    public static func spell(_ phrase: String) -> [SpelledCharacter] {
         return enumerate(phrase: phrase)
             .enumerated()
             .map { spell(character: $1, atIndex: $0) }
