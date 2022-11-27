@@ -1,9 +1,6 @@
 //
-//  CodeWordCollection.swift
 //  Speller
-//
-//  Created by Jean-Étienne on 13/11/16.
-//  Copyright © 2016 Jean-Étienne. All rights reserved.
+//  Copyright © Jean-Étienne. All rights reserved.
 //
 
 import Foundation
