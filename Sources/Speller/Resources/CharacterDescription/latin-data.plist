@@ -216,12 +216,12 @@
 		<string>Latin-1 Supplement</string>
 		<key>code-points</key>
 		<array>
-			<string>00AD</string>
+			<string>0030</string>
 		</array>
 		<key>description</key>
-		<string>Soft hyphen</string>
+		<string>Digit Zero</string>
 		<key>subcategory</key>
-		<string>Latin-1 Punctuation &amp; Symbols</string>
+		<string>ASCII Digits</string>
 	</dict>
 	<key>1</key>
 	<dict>
