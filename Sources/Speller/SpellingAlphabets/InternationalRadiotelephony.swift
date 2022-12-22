@@ -7,7 +7,7 @@ import Foundation
 
 public struct InternationalRadiotelephony: SpellingAlphabet {
 
-    public static var content: SpellingAlphabetContent = [
+    public static var mainContent: SpellingAlphabetContent = [
         "A": "Alfa",        "B": "Bravo",
         "C": "Charlie",     "D": "Delta",
         "E": "Echo",        "F": "Foxtrot",
@@ -21,6 +21,9 @@ public struct InternationalRadiotelephony: SpellingAlphabet {
         "U": "Uniform",     "V": "Victor",
         "W": "Whiskey",     "X": "X-ray",
         "Y": "Yankee",      "Z": "Zulu",
+    ]
+
+    public static var numbersContent: SpellingAlphabetContent = [
         "1": "Unaone",      "2": "Bissotwo",
         "3": "Terrathree",  "4": "Kartefour",
         "5": "Pantafive",   "6": "Soxisix",

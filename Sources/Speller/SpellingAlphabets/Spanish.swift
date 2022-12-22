@@ -7,7 +7,7 @@ import Foundation
 
 public struct Spanish: SpellingAlphabet {
 
-    public static var content: SpellingAlphabetContent = [
+    public static var mainContent: SpellingAlphabetContent = [
         "A": "Antonio",  "B": "Burgos",
         "C": "Carmen",   "D": "Dolores",
         "E": "Enrique",  "F": "Francia",
@@ -23,5 +23,7 @@ public struct Spanish: SpellingAlphabet {
         "X": "Xilófono", "Y": "Yegua",
         "Z": "Zaragoza"
     ]
+
+    public static var numbersContent: SpellingAlphabetContent = [:]
 
 }
