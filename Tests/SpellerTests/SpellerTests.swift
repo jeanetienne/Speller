@@ -9,21 +9,21 @@ import XCTest
 class SpellerTests: XCTestCase {
 
     func testSpellingWorks() {
-        let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: InternationalRadiotelephony.self)
+        let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: InternationalRadiotelephony.self, useSpellingAlphabetNumbers: true)
 
         XCTAssertNotNil(spelling)
     }
 
     func testSpellingAllLetters() {
         let word = "Bagpipe"
-        let spelling = Speller.spell(phrase: word, withSpellingAlphabet: InternationalRadiotelephony.self)
+        let spelling = Speller.spell(phrase: word, withSpellingAlphabet: InternationalRadiotelephony.self, useSpellingAlphabetNumbers: true)
 
         XCTAssertEqual(spelling.count, word.count)
     }
 
     func testSpellingAllLettersAccuratelyWithInternationalRadiotelephony() {
         let phrase = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: InternationalRadiotelephony.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: InternationalRadiotelephony.self, useSpellingAlphabetNumbers: true)
         let control = [SpelledCharacter(character: "a", position: 0, spellingResult: .match("Alfa")),
                        SpelledCharacter(character: "b", position: 0, spellingResult: .match("Bravo")),
                        SpelledCharacter(character: "c", position: 0, spellingResult: .match("Charlie")),
@@ -75,14 +75,59 @@ class SpellerTests: XCTestCase {
                        SpelledCharacter(character: "W", position: 0, spellingResult: .match("Whiskey")),
                        SpelledCharacter(character: "X", position: 0, spellingResult: .match("X-ray")),
                        SpelledCharacter(character: "Y", position: 0, spellingResult: .match("Yankee")),
-                       SpelledCharacter(character: "Z", position: 0, spellingResult: .match("Zulu"))]
+                       SpelledCharacter(character: "Z", position: 0, spellingResult: .match("Zulu"))
+        ]
 
-        XCTAssertEqual(spelling, control, "Spelling the latin alphabet with the International Radiotelephoney spelling alphabet has failed")
+        XCTAssertEqual(spelling, control, "Spelling the latin alphabet with the International Radiotelephony spelling alphabet has failed")
+    }
+
+    func testSpellingWithInternationalRadiotelephonyWithNumbers() {
+        let phrase = "ABCD1234567890"
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: InternationalRadiotelephony.self, useSpellingAlphabetNumbers: true)
+        let control = [SpelledCharacter(character: "A", position: 0, spellingResult: .match("Alfa")),
+                       SpelledCharacter(character: "B", position: 0, spellingResult: .match("Bravo")),
+                       SpelledCharacter(character: "C", position: 0, spellingResult: .match("Charlie")),
+                       SpelledCharacter(character: "D", position: 0, spellingResult: .match("Delta")),
+                       SpelledCharacter(character: "1", position: 0, spellingResult: .match("Unaone")),
+                       SpelledCharacter(character: "2", position: 0, spellingResult: .match("Bissotwo")),
+                       SpelledCharacter(character: "3", position: 0, spellingResult: .match("Terrathree")),
+                       SpelledCharacter(character: "4", position: 0, spellingResult: .match("Kartefour")),
+                       SpelledCharacter(character: "5", position: 0, spellingResult: .match("Pantafive")),
+                       SpelledCharacter(character: "6", position: 0, spellingResult: .match("Soxisix")),
+                       SpelledCharacter(character: "7", position: 0, spellingResult: .match("Setteseven")),
+                       SpelledCharacter(character: "8", position: 0, spellingResult: .match("Oktoeight")),
+                       SpelledCharacter(character: "9", position: 0, spellingResult: .match("Novenine")),
+                       SpelledCharacter(character: "0", position: 0, spellingResult: .match("Nadazero"))
+        ]
+
+        XCTAssertEqual(spelling, control, "Spelling numbers with the International Radiotelephony spelling alphabet has failed")
+    }
+
+    func testSpellingWithInternationalRadiotelephonyWithoutNumbers() {
+        let phrase = "ABCD1234567890"
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: InternationalRadiotelephony.self, useSpellingAlphabetNumbers: false)
+        let control = [SpelledCharacter(character: "A", position: 0, spellingResult: .match("Alfa")),
+                       SpelledCharacter(character: "B", position: 0, spellingResult: .match("Bravo")),
+                       SpelledCharacter(character: "C", position: 0, spellingResult: .match("Charlie")),
+                       SpelledCharacter(character: "D", position: 0, spellingResult: .match("Delta")),
+                       SpelledCharacter(character: "1", position: 0, spellingResult: .basicDescription("Digit One")),
+                       SpelledCharacter(character: "2", position: 0, spellingResult: .basicDescription("Digit Two")),
+                       SpelledCharacter(character: "3", position: 0, spellingResult: .basicDescription("Digit Three")),
+                       SpelledCharacter(character: "4", position: 0, spellingResult: .basicDescription("Digit Four")),
+                       SpelledCharacter(character: "5", position: 0, spellingResult: .basicDescription("Digit Five")),
+                       SpelledCharacter(character: "6", position: 0, spellingResult: .basicDescription("Digit Six")),
+                       SpelledCharacter(character: "7", position: 0, spellingResult: .basicDescription("Digit Seven")),
+                       SpelledCharacter(character: "8", position: 0, spellingResult: .basicDescription("Digit Eight")),
+                       SpelledCharacter(character: "9", position: 0, spellingResult: .basicDescription("Digit Nine")),
+                       SpelledCharacter(character: "0", position: 0, spellingResult: .basicDescription("Digit Zero"))
+        ]
+
+        XCTAssertEqual(spelling, control, "Spelling numbers with the International Radiotelephony spelling alphabet has failed")
     }
 
     func testSpellingCzech() {
         let phrase = "České Budějovice"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Czech.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Czech.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "Č", position: 0, spellingResult: .match("Cyril")),
             SpelledCharacter(character: "e", position: 0, spellingResult: .match("Emil")),
@@ -107,7 +152,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingDanish() {
         let phrase = "ægir & sørenå"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Danish.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Danish.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "æ", position: 0, spellingResult: .match("Ægir")),
             SpelledCharacter(character: "g", position: 0, spellingResult: .match("Georg")),
@@ -129,7 +174,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingDutch() {
         let phrase = "Rĳksmuseum"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Dutch.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Dutch.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "R", position: 0, spellingResult: .match("Richard")),
             SpelledCharacter(character: "ĳ", position: 0, spellingResult: .match("Ĳmuiden")),
@@ -148,7 +193,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingFinnish() {
         let phrase = "öå-äiti"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Finnish.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Finnish.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "ö", position: 0, spellingResult: .match("Öljy")),
             SpelledCharacter(character: "å", position: 0, spellingResult: .match("Åke")),
@@ -162,9 +207,9 @@ class SpellerTests: XCTestCase {
         XCTAssertEqual(spelling, control, "Finnish spelling is wrong")
     }
 
-    func testSpellingFrench() {
-        let phrase = "Montpellier"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: French.self)
+    func testSpellingFrenchWithNumbers() {
+        let phrase = "Montpellier1234567890"
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: French.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "M", position: 0, spellingResult: .match("Marcel")),
             SpelledCharacter(character: "o", position: 0, spellingResult: .match("Oscar")),
@@ -176,15 +221,57 @@ class SpellerTests: XCTestCase {
             SpelledCharacter(character: "l", position: 0, spellingResult: .match("Louis")),
             SpelledCharacter(character: "i", position: 0, spellingResult: .match("Irma")),
             SpelledCharacter(character: "e", position: 0, spellingResult: .match("Eugène")),
-            SpelledCharacter(character: "r", position: 0, spellingResult: .match("Raoul"))
+            SpelledCharacter(character: "r", position: 0, spellingResult: .match("Raoul")),
+            SpelledCharacter(character: "1", position: 0, spellingResult: .basicDescription("Digit One")),
+            SpelledCharacter(character: "2", position: 0, spellingResult: .basicDescription("Digit Two")),
+            SpelledCharacter(character: "3", position: 0, spellingResult: .basicDescription("Digit Three")),
+            SpelledCharacter(character: "4", position: 0, spellingResult: .basicDescription("Digit Four")),
+            SpelledCharacter(character: "5", position: 0, spellingResult: .basicDescription("Digit Five")),
+            SpelledCharacter(character: "6", position: 0, spellingResult: .basicDescription("Digit Six")),
+            SpelledCharacter(character: "7", position: 0, spellingResult: .basicDescription("Digit Seven")),
+            SpelledCharacter(character: "8", position: 0, spellingResult: .basicDescription("Digit Eight")),
+            SpelledCharacter(character: "9", position: 0, spellingResult: .basicDescription("Digit Nine")),
+            SpelledCharacter(character: "0", position: 0, spellingResult: .basicDescription("Digit Zero"))
+
         ]
 
         XCTAssertEqual(spelling, control, "French spelling is wrong")
     }
 
+    func testSpellingFrenchWithoutNumbers() {
+        let phrase = "Montpellier1234567890"
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: French.self, useSpellingAlphabetNumbers: false)
+        let control = [
+            SpelledCharacter(character: "M", position: 0, spellingResult: .match("Marcel")),
+            SpelledCharacter(character: "o", position: 0, spellingResult: .match("Oscar")),
+            SpelledCharacter(character: "n", position: 0, spellingResult: .match("Nicolas")),
+            SpelledCharacter(character: "t", position: 0, spellingResult: .match("Thérèse")),
+            SpelledCharacter(character: "p", position: 0, spellingResult: .match("Pierre")),
+            SpelledCharacter(character: "e", position: 0, spellingResult: .match("Eugène")),
+            SpelledCharacter(character: "l", position: 0, spellingResult: .match("Louis")),
+            SpelledCharacter(character: "l", position: 0, spellingResult: .match("Louis")),
+            SpelledCharacter(character: "i", position: 0, spellingResult: .match("Irma")),
+            SpelledCharacter(character: "e", position: 0, spellingResult: .match("Eugène")),
+            SpelledCharacter(character: "r", position: 0, spellingResult: .match("Raoul")),
+            SpelledCharacter(character: "1", position: 0, spellingResult: .basicDescription("Digit One")),
+            SpelledCharacter(character: "2", position: 0, spellingResult: .basicDescription("Digit Two")),
+            SpelledCharacter(character: "3", position: 0, spellingResult: .basicDescription("Digit Three")),
+            SpelledCharacter(character: "4", position: 0, spellingResult: .basicDescription("Digit Four")),
+            SpelledCharacter(character: "5", position: 0, spellingResult: .basicDescription("Digit Five")),
+            SpelledCharacter(character: "6", position: 0, spellingResult: .basicDescription("Digit Six")),
+            SpelledCharacter(character: "7", position: 0, spellingResult: .basicDescription("Digit Seven")),
+            SpelledCharacter(character: "8", position: 0, spellingResult: .basicDescription("Digit Eight")),
+            SpelledCharacter(character: "9", position: 0, spellingResult: .basicDescription("Digit Nine")),
+            SpelledCharacter(character: "0", position: 0, spellingResult: .basicDescription("Digit Zero"))
+        ]
+
+        // The expectation is that with or without numbers, the spelling is the same since the French spelling alphabet doesn't have numbers.
+        XCTAssertEqual(spelling, control, "French spelling is wrong")
+    }
+
     func testSpellingGerman() {
         let phrase = "Möbelträgerfüße"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: German.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: German.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "M", position: 0, spellingResult: .match("Martha")),
             SpelledCharacter(character: "ö", position: 0, spellingResult: .match("Ökonom")),
@@ -208,7 +295,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingGermanInFinnish() {
         let phrase = "Möbelträgerfüße"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Finnish.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Finnish.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "M", position: 0, spellingResult: .match("Matti")),
             SpelledCharacter(character: "ö", position: 0, spellingResult: .match("Öljy")),
@@ -232,7 +319,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingItalian() {
         let phrase = "Xilofono"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Italian.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Italian.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "X", position: 0, spellingResult: .match(["Xeres", "Xilofono"])),
             SpelledCharacter(character: "i", position: 0, spellingResult: .match("Imola")),
@@ -249,7 +336,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingNorwegian() {
         let phrase = "åse, ærlig & østen"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Norwegian.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Norwegian.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "å", position: 0, spellingResult: .match("Åse")),
             SpelledCharacter(character: "s", position: 0, spellingResult: .match("Sigrid")),
@@ -276,7 +363,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingPortuguese() {
         let phrase = "Lisboa"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Portuguese.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Portuguese.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "L", position: 0, spellingResult: .match("Lisboa")),
             SpelledCharacter(character: "i", position: 0, spellingResult: .match("Itália")),
@@ -291,7 +378,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingPortugueseBrazilian() {
         let phrase = "Rio de Janeiro"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: PortugueseBrazilian.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: PortugueseBrazilian.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "R", position: 0, spellingResult: .match("Raiz")),
             SpelledCharacter(character: "i", position: 0, spellingResult: .match("Índio")),
@@ -314,7 +401,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingSlovene() {
         let phrase = "Ajdovščina & Tržič"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Slovene.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Slovene.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "A", position: 0, spellingResult: .match("Ankaran")),
             SpelledCharacter(character: "j", position: 0, spellingResult: .match("Jadran")),
@@ -341,7 +428,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingSpanish() {
         let phrase = "Bañar"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Spanish.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Spanish.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "B", position: 0, spellingResult: .match("Burgos")),
             SpelledCharacter(character: "a", position: 0, spellingResult: .match("Antonio")),
@@ -355,7 +442,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingSwedish() {
         let phrase = "Åmål, Höganäs & übel"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Swedish.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Swedish.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "Å", position: 0, spellingResult: .match("Åke")),
             SpelledCharacter(character: "m", position: 0, spellingResult: .match("Martin")),
@@ -384,7 +471,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingTurkish() {
         let phrase = "Istanbul, Elâzığ, Uşak, İnegöl, Düziçi"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Turkish.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: Turkish.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "I", position: 0, spellingResult: .match("Isparta")),
             SpelledCharacter(character: "s", position: 0, spellingResult: .match("Sinop")),
@@ -431,7 +518,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingPGPWordList() {
         let phrase = "e582 94f2 e9a2 2748 6e8b"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: PGPWordList.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: PGPWordList.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "E5", position: 0, spellingResult: .match( "topmost")),
             SpelledCharacter(character: "82", position: 0, spellingResult: .match( "Istanbul")),
@@ -450,7 +537,7 @@ class SpellerTests: XCTestCase {
 
     func testSpellingPGPWordListWithNoise() {
         let phrase = " Hiding e582 in 94f2 plain e9a2 sight  "
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: PGPWordList.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: PGPWordList.self, useSpellingAlphabetNumbers: true)
         let control = [
             SpelledCharacter(character: "DE", position: 0, spellingResult: .match( "tactics")),
             SpelledCharacter(character: "58", position: 0, spellingResult: .match( "everyday")),
@@ -466,7 +553,7 @@ class SpellerTests: XCTestCase {
 
     func testDescribesUnknownCharacters() {
         let phrase = "ABC Duck: 🦆, Lizard: 🦎, Shark: 🦈, Family: 👩‍👩‍👧‍👧, Flag: 🇲🇲 !@#$%^&*()"
-        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: InternationalRadiotelephony.self)
+        let spelling = Speller.spell(phrase: phrase, withSpellingAlphabet: InternationalRadiotelephony.self, useSpellingAlphabetNumbers: true)
 
         let control = [SpelledCharacter(character: "A", position: 0, spellingResult: .match("Alfa")),
                        SpelledCharacter(character: "B", position: 0, spellingResult: .match("Bravo")),
@@ -519,7 +606,7 @@ class SpellerTests: XCTestCase {
                        SpelledCharacter(character: "g", position: 0, spellingResult: .match("Golf")),
                        SpelledCharacter(character: ":", position: 0, spellingResult: .basicDescription("Colon")),
                        SpelledCharacter(character: " ", position: 0, spellingResult: .basicDescription("Space")),
-                       SpelledCharacter(character: "🇲🇲", position: 0, spellingResult: .basicDescription("Myanmar (Burma)")),
+                       SpelledCharacter(character: "🇲🇲", position: 0, spellingResult: .basicDescription("Flag: Myanmar (Burma)")),
                        SpelledCharacter(character: " ", position: 0, spellingResult: .basicDescription("Space")),
                        SpelledCharacter(character: "!", position: 0, spellingResult: .basicDescription("Exclamation mark")),
                        SpelledCharacter(character: "@", position: 0, spellingResult: .basicDescription("At sign")),
@@ -537,7 +624,7 @@ class SpellerTests: XCTestCase {
     }
 
     func testPositionWorks() {
-        let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: InternationalRadiotelephony.self)
+        let spelling = Speller.spell(phrase: "Bagpipe", withSpellingAlphabet: InternationalRadiotelephony.self, useSpellingAlphabetNumbers: true)
 
         spelling.enumerated().forEach { enumerator in
             XCTAssertEqual(enumerator.element.position, enumerator.offset)

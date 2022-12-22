@@ -8,16 +8,17 @@ import Foundation
 public typealias SpellingAlphabetContent = [String: CodeWordCollection]
 
 public protocol SpellingAlphabet {
-    static var content: SpellingAlphabetContent { get }
-    static func spell(_ phrase: String) -> [SpelledCharacter]
+    static var mainContent: SpellingAlphabetContent { get }
+    static var numbersContent: SpellingAlphabetContent { get }
+    static func spell(_ phrase: String, withNumbers: Bool) -> [SpelledCharacter]
 }
 
 extension SpellingAlphabet {
 
-    public static func spell(_ phrase: String) -> [SpelledCharacter] {
+    public static func spell(_ phrase: String, withNumbers: Bool) -> [SpelledCharacter] {
         return enumerate(phrase: phrase)
             .enumerated()
-            .map { spell(character: $1, atIndex: $0) }
+            .map { spell(character: $1, atIndex: $0, withNumbers: withNumbers) }
     }
 
     // MARK: - Private helpers - Spelling
@@ -32,17 +33,19 @@ extension SpellingAlphabet {
         return characters
     }
 
-    private static func spell(character: String, atIndex index: Int) -> SpelledCharacter {
-        if let codeWordCollection = codeWordCollection(forCharacter: character) {
+    private static func spell(character: String, atIndex index: Int, withNumbers: Bool) -> SpelledCharacter {
+        if let codeWordCollection = codeWordCollection(forCharacter: character, withNumbers: withNumbers) {
             return SpelledCharacter(character: character, position: index, spellingResult: .match(codeWordCollection))
         } else {
             return SpelledCharacter(character: character, position: index, spellingResult: .unknown)
         }
     }
 
-    private static func codeWordCollection(forCharacter character: String) -> CodeWordCollection? {
-        if let codeWord = content[character] {
-            return codeWord
+    private static func codeWordCollection(forCharacter character: String, withNumbers: Bool) -> CodeWordCollection? {
+        let spellingContent = withNumbers ? mainContent.merging(numbersContent, uniquingKeysWith: { lhs, _ in lhs }) : mainContent
+
+        if let codeWordCollection = spellingContent[character] {
+            return codeWordCollection
         }
 
         let candidates = [
@@ -56,7 +59,7 @@ extension SpellingAlphabet {
                 continue
             }
 
-            if let codeWordCollection = content[candidate] {
+            if let codeWordCollection = spellingContent[candidate] {
                 return codeWordCollection
             }
         }

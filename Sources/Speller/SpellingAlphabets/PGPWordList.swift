@@ -7,7 +7,7 @@ import Foundation
 
 public struct PGPWordList: SpellingAlphabet {
 
-    public static var content: SpellingAlphabetContent = [
+    public static var mainContent: SpellingAlphabetContent = [
         "00": ["aardvark", "adroitness"],
         "01": ["absurd", "adviser"],
         "02": ["accrue", "aftermath"],
@@ -266,7 +266,9 @@ public struct PGPWordList: SpellingAlphabet {
         "FF": ["Zulu", "Yucatan"]
     ]
 
-    public static func spell(_ phrase: String) -> [SpelledCharacter] {
+    public static var numbersContent: SpellingAlphabetContent = [:]
+
+    public static func spell(_ phrase: String, withNumbers: Bool) -> [SpelledCharacter] {
         return enumerate(phrase: phrase)
             .enumerated()
             .map { spell(character: $1, atIndex: $0) }
@@ -293,7 +295,7 @@ public struct PGPWordList: SpellingAlphabet {
     }
 
     private static func codeWordCollection(forCharacter character: String) -> CodeWordCollection? {
-        guard let codeWord = content[character] else { return nil }
+        guard let codeWord = mainContent[character] else { return nil }
         return codeWord
     }
 
