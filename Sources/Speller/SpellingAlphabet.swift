@@ -7,22 +7,37 @@ import Foundation
 
 public typealias SpellingAlphabetContent = [String: CodeWordCollection]
 
-public protocol SpellingAlphabet {
-    static var mainContent: SpellingAlphabetContent { get }
-    static var numbersContent: SpellingAlphabetContent { get }
-    static func spell(_ phrase: String, withNumbers: Bool) -> [SpelledCharacter]
-}
+public class SpellingAlphabet {
 
-extension SpellingAlphabet {
+    let uniqueIdentifier: String
 
-    public static func spell(_ phrase: String, withNumbers: Bool) -> [SpelledCharacter] {
+    let associatedLanguageCode: String?
+
+    let associatedRegionCode: String?
+
+    let recommendedJoinerWord: String?
+
+    let mainContent: SpellingAlphabetContent
+
+    let numbersContent: SpellingAlphabetContent
+
+    internal init(uniqueIdentifier: String, associatedLanguageCode: String? = nil, associatedRegionCode: String? = nil, recommendedJoinerWord: String? = nil, mainContent: SpellingAlphabetContent, numbersContent: SpellingAlphabetContent) {
+        self.uniqueIdentifier = uniqueIdentifier
+        self.associatedLanguageCode = associatedLanguageCode
+        self.associatedRegionCode = associatedRegionCode
+        self.recommendedJoinerWord = recommendedJoinerWord
+        self.mainContent = mainContent
+        self.numbersContent = numbersContent
+    }
+
+    public func spell(_ phrase: String, withNumbers: Bool) -> [SpelledCharacter] {
         return enumerate(phrase: phrase)
             .enumerated()
             .map { spell(character: $1, atIndex: $0, withNumbers: withNumbers) }
     }
 
     // MARK: - Private helpers - Spelling
-    private static func enumerate(phrase: String) -> [String] {
+    private func enumerate(phrase: String) -> [String] {
         var characters: [String] = []
         phrase.enumerateSubstrings(in: phrase.startIndex..<phrase.endIndex, options: .byComposedCharacterSequences) { (string, rangeOne, rangeTwo, someBool) in
             if let decomposedString = string {
@@ -33,7 +48,7 @@ extension SpellingAlphabet {
         return characters
     }
 
-    private static func spell(character: String, atIndex index: Int, withNumbers: Bool) -> SpelledCharacter {
+    private func spell(character: String, atIndex index: Int, withNumbers: Bool) -> SpelledCharacter {
         if let codeWordCollection = codeWordCollection(forCharacter: character, withNumbers: withNumbers) {
             return SpelledCharacter(character: character, position: index, spellingResult: .match(codeWordCollection))
         } else {
@@ -41,7 +56,7 @@ extension SpellingAlphabet {
         }
     }
 
-    private static func codeWordCollection(forCharacter character: String, withNumbers: Bool) -> CodeWordCollection? {
+    private func codeWordCollection(forCharacter character: String, withNumbers: Bool) -> CodeWordCollection? {
         let spellingContent = withNumbers ? mainContent.merging(numbersContent, uniquingKeysWith: { lhs, _ in lhs }) : mainContent
 
         if let codeWordCollection = spellingContent[character] {

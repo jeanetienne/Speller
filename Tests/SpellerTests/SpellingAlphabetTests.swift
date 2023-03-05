@@ -23,7 +23,7 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Uniform",     "V": "Victor",
          "W": "Whiskey",     "X": "X-ray",
          "Y": "Yankee",      "Z": "Zulu"]
-        XCTAssertEqual(InternationalRadiotelephony.mainContent, mainControl, "International Radiotelephony spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.internationalRadiotelephony.mainContent, mainControl, "International Radiotelephony spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent =
         ["1": "Unaone",      "2": "Bissotwo",
@@ -31,7 +31,7 @@ class SpellingAlphabetTests: XCTestCase {
          "5": "Pantafive",   "6": "Soxisix",
          "7": "Setteseven",  "8": "Oktoeight",
          "9": "Novenine",    "0": "Nadazero"]
-        XCTAssertEqual(InternationalRadiotelephony.numbersContent, numbersControl, "International Radiotelephony spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.internationalRadiotelephony.numbersContent, numbersControl, "International Radiotelephony spelling alphabet numbers content has changed")
     }
 
     func testUSFinancial() {
@@ -49,10 +49,10 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Uncle",   "V": "Vincent",
          "W": "William", "X": "Xavier",
          "Y": "Yogi",    "Z": "Zachary"]
-        XCTAssertEqual(USFinancial.mainContent, mainControl, "USFinancial spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.usFinancial.mainContent, mainControl, "USFinancial spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(USFinancial.numbersContent, numbersControl, "USFinancial spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.usFinancial.numbersContent, numbersControl, "USFinancial spelling alphabet numbers content has changed")
     }
 
     func testLAPD() {
@@ -70,10 +70,10 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Union",   "V": "Victor",
          "W": "William", "X": "X-ray",
          "Y": "Young",   "Z": "Zebra"]
-        XCTAssertEqual(LAPD.mainContent, mainControl, "LAPD spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.lapd.mainContent, mainControl, "LAPD spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(LAPD.numbersContent, numbersControl, "LAPD spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.lapd.numbersContent, numbersControl, "LAPD spelling alphabet numbers content has changed")
     }
 
     func testCzech() {
@@ -91,10 +91,10 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Urban",     "V": "Václav",
          "W": "Dvojité V", "X": "Xaver",
          "Y": "Ypsilon",   "Z": "Zuzana"]
-        XCTAssertEqual(Czech.mainContent, mainControl, "Czech spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.czech.mainContent, mainControl, "Czech spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Czech.numbersContent, numbersControl, "Czech spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.czech.numbersContent, numbersControl, "Czech spelling alphabet numbers content has changed")
     }
 
     func testDanish() {
@@ -114,10 +114,10 @@ class SpellingAlphabetTests: XCTestCase {
          "V": "Viggo",   "W": "William",
          "X": "Xerxes",  "Y": "Yrsa",
          "Z": "Zackarias"]
-        XCTAssertEqual(Danish.mainContent, mainControl, "Danish spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.danish.mainContent, mainControl, "Danish spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Danish.numbersContent, numbersControl, "Danish spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.danish.numbersContent, numbersControl, "Danish spelling alphabet numbers content has changed")
     }
 
     func testDutch() {
@@ -136,10 +136,10 @@ class SpellingAlphabetTests: XCTestCase {
          "W": "Willem",   "X": "Xanthippe",
          "Ĳ": "Ĳmuiden",  "Y": "Ypsilon",
          "Z": "Zaandam"]
-        XCTAssertEqual(Dutch.mainContent, mainControl, "Dutch spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.dutch.mainContent, mainControl, "Dutch spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Dutch.numbersContent, numbersControl, "Dutch spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.dutch.numbersContent, numbersControl, "Dutch spelling alphabet numbers content has changed")
     }
 
     func testFinnish() {
@@ -159,10 +159,10 @@ class SpellingAlphabetTests: XCTestCase {
          "V": "Vihtori", "W": "Wiski",
          "X": "Äksä",    "Y": "Yrjö",
          "Z": "Tseta"]
-        XCTAssertEqual(Finnish.mainContent, mainControl, "Finnish spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.finnish.mainContent, mainControl, "Finnish spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Finnish.numbersContent, numbersControl, "Finnish spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.finnish.numbersContent, numbersControl, "Finnish spelling alphabet numbers content has changed")
     }
 
     func testFrench() {
@@ -180,10 +180,10 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Ursule",      "V": "Victor",
          "W": "William",     "X": "Xavier",
          "Y": "Yvonne",      "Z": "Zoé"]
-        XCTAssertEqual(French.mainContent, mainControl, "French spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.french.mainContent, mainControl, "French spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(French.numbersContent, numbersControl, "French spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.french.numbersContent, numbersControl, "French spelling alphabet numbers content has changed")
     }
 
     func testGerman() {
@@ -203,10 +203,10 @@ class SpellingAlphabetTests: XCTestCase {
          "Ü": ["Übermut", "Übel"],     "V": "Viktor",
          "W": "Wilhelm",               "X": ["Xanthippe", "Xaver"],
          "Y": "Ypsilon",               "Z": ["Zacharias", "Zürich"]]
-        XCTAssertEqual(German.mainContent, mainControl, "German spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.german.mainContent, mainControl, "German spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(German.numbersContent, numbersControl, "German spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.german.numbersContent, numbersControl, "German spelling alphabet numbers content has changed")
     }
 
     func testItalian() {
@@ -224,10 +224,10 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Udine",           "V": "Venezia",
          "W": "Washington",      "X": ["Xeres", "Xilofono"],
          "Y": ["York", "Yacht"], "Z": "Zara"]
-        XCTAssertEqual(Italian.mainContent, mainControl, "Italian spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.italian.mainContent, mainControl, "Italian spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Italian.numbersContent, numbersControl, "Italian spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.italian.numbersContent, numbersControl, "Italian spelling alphabet numbers content has changed")
     }
 
     func testNorwegian() {
@@ -247,13 +247,13 @@ class SpellingAlphabetTests: XCTestCase {
          "V": "Enkelt-V", "W": "Dobbelt-V",
          "X": "Xerxes",   "Y": "Yngling",
          "Z": "Zakarias"]
-        XCTAssertEqual(Norwegian.mainContent, mainControl, "Norwegian spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.norwegian.mainContent, mainControl, "Norwegian spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Norwegian.numbersContent, numbersControl, "Norwegian spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.norwegian.numbersContent, numbersControl, "Norwegian spelling alphabet numbers content has changed")
     }
 
-    func testPortuguese() {
+    func testPortuguesePortugal() {
         let mainControl: SpellingAlphabetContent =
         ["A": "Aveiro",   "B": "Braga",
          "C": "Coimbra",  "D": "Dafundo",
@@ -268,13 +268,13 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Unidade",  "V": "Vidago",
          "W": "Waldemar", "X": "Xavier",
          "Y": "York",     "Z": "Zulmira"]
-        XCTAssertEqual(Portuguese.mainContent, mainControl, "Portuguese spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.portuguesePortugal.mainContent, mainControl, "Portuguese spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Portuguese.numbersContent, numbersControl, "Portuguese spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.portuguesePortugal.numbersContent, numbersControl, "Portuguese spelling alphabet numbers content has changed")
     }
 
-    func testPortugueseBrazilian() {
+    func testPortugueseBrazil() {
         let mainControl: SpellingAlphabetContent =
         ["A": "Amor",     "B": "Bandeira",
          "C": "Cobra",    "D": "Dado",
@@ -289,10 +289,10 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Uva",      "V": "Vitória",
          "W": "Wilson",   "X": "Xadrez",
          "Y": "Yolanda",  "Z": "Zebra"]
-        XCTAssertEqual(PortugueseBrazilian.mainContent, mainControl, "Portuguese (Brazilian) spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.portugueseBrazil.mainContent, mainControl, "Portuguese (Brazilian) spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(PortugueseBrazilian.numbersContent, numbersControl, "Portuguese (Brazilian) spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.portugueseBrazil.numbersContent, numbersControl, "Portuguese (Brazilian) spelling alphabet numbers content has changed")
     }
 
     func testSlovene() {
@@ -312,10 +312,10 @@ class SpellingAlphabetTests: XCTestCase {
          "W": "Dvojni V",  "X": "Iks",
          "Y": "Ipsilon",   "Z": "Zalog",
          "Ž": "Žalec"]
-        XCTAssertEqual(Slovene.mainContent, mainControl, "Slovene spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.slovene.mainContent, mainControl, "Slovene spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Slovene.numbersContent, numbersControl, "Slovene spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.slovene.numbersContent, numbersControl, "Slovene spelling alphabet numbers content has changed")
     }
 
     func testSpanish() {
@@ -334,10 +334,10 @@ class SpellingAlphabetTests: XCTestCase {
          "V": "Valencia", "W": "Washington",
          "X": "Xilófono", "Y": "Yegua",
          "Z": "Zaragoza"]
-        XCTAssertEqual(Spanish.mainContent, mainControl, "Spanish spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.spanish.mainContent, mainControl, "Spanish spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Spanish.numbersContent, numbersControl, "Spanish spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.spanish.numbersContent, numbersControl, "Spanish spelling alphabet numbers content has changed")
     }
 
     func testSwedish() {
@@ -357,10 +357,10 @@ class SpellingAlphabetTests: XCTestCase {
          "Ü": "Übel",    "V": "Viktor",
          "W": "Wilhelm", "X": "Xerxes",
          "Y": "Yngve",   "Z": "Zäta"]
-        XCTAssertEqual(Swedish.mainContent, mainControl, "Swedish spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.swedish.mainContent, mainControl, "Swedish spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Swedish.numbersContent, numbersControl, "Swedish spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.swedish.numbersContent, numbersControl, "Swedish spelling alphabet numbers content has changed")
     }
     
     func testTurkish() {
@@ -380,10 +380,10 @@ class SpellingAlphabetTests: XCTestCase {
          "U": "Uşak",       "Ü": "Ünye",
          "V": "Van",        "Y": "Yozgat",
          "Z": "Zonguldak"]
-        XCTAssertEqual(Turkish.mainContent, mainControl, "Turkish spelling alphabet main content has changed")
+        XCTAssertEqual(SpellingAlphabet.turkish.mainContent, mainControl, "Turkish spelling alphabet main content has changed")
 
         let numbersControl: SpellingAlphabetContent = [:]
-        XCTAssertEqual(Turkish.numbersContent, numbersControl, "Turkish spelling alphabet numbers content has changed")
+        XCTAssertEqual(SpellingAlphabet.turkish.numbersContent, numbersControl, "Turkish spelling alphabet numbers content has changed")
     }
 
 }
