@@ -5,7 +5,7 @@
 
 import Foundation
 
-extension SpellingAlphabet {
+public extension SpellingAlphabet {
 
     static let pgpWordList = PGPWordList(
         uniqueIdentifier: "speller.alphabet.pgp_word_list",

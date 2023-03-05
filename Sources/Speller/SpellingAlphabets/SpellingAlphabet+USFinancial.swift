@@ -5,7 +5,7 @@
 
 import Foundation
 
-extension SpellingAlphabet {
+public extension SpellingAlphabet {
 
     static let usFinancial = SpellingAlphabet(
         uniqueIdentifier: "speller.alphabet.us_financial",

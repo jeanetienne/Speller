@@ -5,7 +5,7 @@
 
 import Foundation
 
-extension SpellingAlphabet {
+public extension SpellingAlphabet {
 
     static let internationalRadiotelephony = SpellingAlphabet(
         uniqueIdentifier: "speller.alphabet.international_radiotelephony",

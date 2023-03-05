@@ -5,7 +5,7 @@
 
 import Foundation
 
-extension SpellingAlphabet {
+public extension SpellingAlphabet {
 
     static let portuguesePortugal = SpellingAlphabet(
         uniqueIdentifier: "speller.alphabet.portuguese_portugal",

@@ -5,7 +5,7 @@
 
 import Foundation
 
-extension SpellingAlphabet {
+public extension SpellingAlphabet {
 
     static let lapd = SpellingAlphabet(
         uniqueIdentifier: "speller.alphabet.lapd",

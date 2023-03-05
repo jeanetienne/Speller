@@ -5,7 +5,7 @@
 
 import Foundation
 
-extension SpellingAlphabet {
+public extension SpellingAlphabet {
 
     static let norwegian = SpellingAlphabet(
         uniqueIdentifier: "speller.alphabet.norwegian",
