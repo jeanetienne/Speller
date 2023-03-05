@@ -9,13 +9,13 @@ public typealias SpellingAlphabetContent = [String: CodeWordCollection]
 
 public class SpellingAlphabet {
 
-    let uniqueIdentifier: String
+    public let uniqueIdentifier: String
 
-    let associatedLanguageCode: String?
+    public let associatedLanguageCode: String?
 
-    let associatedRegionCode: String?
+    public let associatedRegionCode: String?
 
-    let recommendedJoinerWord: String?
+    public let recommendedJoinerWord: String?
 
     let mainContent: SpellingAlphabetContent
 
